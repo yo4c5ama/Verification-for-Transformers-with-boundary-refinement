@@ -1,0 +1,2 @@
+python main.py --verify --data=yelp --dir=model_yelp_1 --method=baf --p=2 --max_verify_length=32 --perturbed_words=1 --samples=500 --log=log_model_yelp_1_baf_2_1_500_our.txt --res=res_model_yelp_1_baf_2_1_500_our.json --double_z
+python main.py --verify --data=yelp --dir=model_yelp_1 --method=baf --p=100 --max_verify_length=32 --perturbed_words=1 --samples=500 --log=log_model_yelp_1_baf_100_1_500_our.txt --res=res_model_yelp_1_baf_100_1_500_our.json --double_z
