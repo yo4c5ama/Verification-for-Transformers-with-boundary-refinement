@@ -1,0 +1,16 @@
+Sample 0 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1: do 0.00040 
+Position 2: not 0.00045 
+Position 3: eat 0.00069 
+Position 4: here 0.00066 
+Position 5: . 0.00091 
+Position 6: terrible 0.00048 
+Position 7: . 0.00096 
+Time elapsed 89.98119044303894 
+Sample 1 
+tokens: [CLS] great anniversary dinner . just ##if ##ia ##bly recommended by our friends . lovely and decadent . we loved it [SEP] 
+length: 22 
+label: 1 

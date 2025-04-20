@@ -74,9 +74,9 @@ class Verifier:
 
         def hook_fn(module, input, output):
             self.attention_outputs.append(output)
-
-        bert_self_attention = self.target.model.bert.encoder.layer[0].attention.self
-        hook_handle = bert_self_attention.register_forward_hook(hook_fn)
+        for layer in self.target.model.bert.encoder.layer:
+            bert_self_attention = layer.attention.self
+            hook_handle = bert_self_attention.register_forward_hook(hook_fn)
 
         self.std = self.target.step([example])[-1]
 

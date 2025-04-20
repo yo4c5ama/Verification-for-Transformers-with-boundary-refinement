@@ -1,0 +1,124 @@
+Sample 0 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1: do 0.00000 
+Position 2: not 0.00000 
+Position 3: eat 0.00000 
+Position 4: here 0.00000 
+Position 5: . 0.00000 
+Position 6: terrible 0.00000 
+Position 7: . 0.00000 
+Time elapsed 1086.4578342437744 
+Sample 1 
+tokens: [CLS] diner food done at a typical diner level . [SEP] 
+length: 11 
+label: 0 
+Position 1: diner 0.00000 
+Position 2: food 0.00000 
+Position 3: done 0.00000 
+Position 4: at 0.00000 
+Position 5: a 0.00000 
+Position 6: typical 0.00000 
+Position 7: diner 0.00000 
+Position 8: level 0.00000 
+Position 9: . 0.00000 
+Time elapsed 1615.2867200374603 
+Sample 2 
+tokens: [CLS] service is slow , food is one star , place looks like a dump , please ##ee ##e buy some new chairs on the patio [SEP] 
+length: 27 
+label: 0 
+Position 1: service 0.00000 
+Position 2: is 0.00000 
+Position 3: slow 0.00000 
+Position 4: , 0.00000 
+Position 5: food 0.00000 
+Position 6: is 0.00000 
+Position 7: one 0.00000 
+Position 8: star 0.00000 
+Position 9: , 0.00000 
+Position 10: place 0.00000 
+Position 11: looks 0.00000 
+Position 12: like 0.00000 
+Position 13: a 0.00000 
+Position 14: dump 0.00000 
+Position 15: , 0.00000 
+Position 19: buy 0.00000 
+Position 20: some 0.00000 
+Position 21: new 0.00000 
+Position 22: chairs 0.00000 
+Position 23: on 0.00000 
+Position 24: the 0.00000 
+Position 25: patio 0.00000 
+Time elapsed 9679.379420995712 
+Sample 3 
+tokens: [CLS] i was hoping for a good mexican meal but instead went to los ol ##ivo ##s ! the am ##bie ##nce was ok ; the food bad . [SEP] 
+length: 30 
+label: 0 
+Position 1: i 0.00000 
+Position 2: was 0.00000 
+Position 3: hoping 0.00000 
+Position 4: for 0.00000 
+Position 5: a 0.00000 
+Position 6: good 0.00000 
+Position 7: mexican 0.00000 
+Position 8: meal 0.00000 
+Position 9: but 0.00000 
+Position 10: instead 0.00000 
+Position 11: went 0.00000 
+Position 12: to 0.00000 
+Position 13: los 0.00000 
+Position 17: ! 0.00000 
+Position 18: the 0.00000 
+Position 22: was 0.00000 
+Position 23: ok 0.00000 
+Position 24: ; 0.00000 
+Position 25: the 0.00000 
+Position 26: food 0.00000 
+Position 27: bad 0.00000 
+Position 28: . 0.00000 
+Time elapsed 11462.987384557724 
+Sample 4 
+tokens: [CLS] not worth it . . . [SEP] 
+length: 8 
+label: 0 
+Position 1: not 0.00000 
+Position 2: worth 0.00000 
+Position 3: it 0.00000 
+Position 4: . 0.00000 
+Position 5: . 0.00000 
+Position 6: . 0.00000 
+Time elapsed 750.182404756546 
+Sample 5 
+tokens: [CLS] drove by today and noticed that it ' s a grind has been replaced with dun ##kin don ##uts : ) ( sigh ) [SEP] 
+length: 26 
+label: 0 
+Position 1: drove 0.00000 
+Position 2: by 0.00000 
+Position 3: today 0.00000 
+Position 4: and 0.00000 
+Position 5: noticed 0.00000 
+Position 6: that 0.00000 
+Position 7: it 0.00000 
+Position 8: ' 0.00000 
+Position 9: s 0.00000 
+Position 10: a 0.00000 
+Position 11: grind 0.00000 
+Position 12: has 0.00000 
+Position 13: been 0.00000 
+Position 14: replaced 0.00000 
+Position 15: with 0.00000 
+Position 20: : 0.00000 
+Position 21: ) 0.00000 
+Position 22: ( 0.00000 
+Position 23: sigh 0.00000 
+Position 24: ) 0.00000 
+Time elapsed 8995.732497930527 
+Sample 6 
+tokens: [CLS] awful food with very slow service . [SEP] 
+length: 9 
+label: 0 
+Position 1: awful 0.00000 
+Position 2: food 0.00000 
+Position 3: with 0.00000 
+Position 4: very 0.00000 

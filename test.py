@@ -60,6 +60,7 @@ def scatter_plot(de_ppl, hsb_ppl, path):
 def curve_fit_plot(data, path):
     mean = np.mean(data)
     std = np.std(data)
+    print("mean:{}".format(mean))
     hist, bins = np.histogram(data, bins=50)
 
     width = 0.7 * (bins[1] - bins[0])
@@ -84,22 +85,24 @@ def curve_fit_plot(data, path):
 
 if __name__ == '__main__':
     model = "model_yelp_1"
-    propagate_method = "baf"
-    p = "2"
-    perturb_words = "1"
-    sentences_number = "500"
-    ver_method = ""
-    result = 'res_{}_{}_{}_{}_{}{}.json'.format(model,propagate_method,p,perturb_words,sentences_number,ver_method)
-    pic_path = './figure/epsilon_distribution({}_{}_{}_{}_{}{}).jpg'.format(model,propagate_method,p,perturb_words,sentences_number,ver_method)
+    p = "1"
+    ver_method = "_DBR_b"
+    # propagate_method = "baf"
+    # perturb_words = "1"
+    # sentences_number = "100"
+
+    result = './results/{}/p{}/res{}.json'.format(model,p,ver_method)
+    pic_path = './results/{}/p{}/epsilon_distribution({}).jpg'.format(model,p,ver_method)
     result_data = read_data(result)
     epsilon = []
+    min_eps = 100
     for i in result_data["examples"]:
         for j in i["bounds"]:
             epsilon.append(j["eps"])
-
+            min_eps = min(min_eps, j["eps"])
     time = 0
     for i in result_data["examples"]:
         time += float(i["time"])
-    print("avg_time_on_word:{}".format(time/len(epsilon)))
+    print("total_time:{}h, avg_time_on_word:{}, min_eps:{}".format(time/3600, time/len(epsilon), min_eps))
     curve_fit_plot(epsilon, pic_path)
     pass

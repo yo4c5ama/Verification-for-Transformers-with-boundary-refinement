@@ -1,0 +1,87 @@
+Sample 0 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1: do 2.72500 
+Position 2: not 1.06250 
+Position 3: eat 2.17625 
+Position 4: here 2.46250 
+Position 5: . 3.01750 
+Position 6: terrible 0.98563 
+Position 7: . 3.05250 
+Time elapsed 26.244399785995483 
+Sample 1 
+tokens: [CLS] great anniversary dinner . just ##if ##ia ##bly recommended by our friends . lovely and decadent . we loved it [SEP] 
+length: 22 
+label: 1 
+Position 1: great 1.26688 
+Position 2: anniversary 1.85625 
+Position 3: dinner 2.15375 
+Position 4: . 3.03250 
+Position 9: recommended 2.23250 
+Position 10: by 2.69500 
+Position 11: our 3.89000 
+Position 12: friends 2.30625 
+Position 13: . 3.33750 
+Position 14: lovely 1.86000 
+Position 15: and 3.28000 
+Position 16: decadent 1.70375 
+Position 17: . 3.44750 
+Position 18: we 3.54000 
+Position 19: loved 1.74875 
+Position 20: it 2.98000 
+Time elapsed 101.36780214309692 
+Sample 2 
+tokens: [CLS] diner food done at a typical diner level . [SEP] 
+length: 11 
+label: 0 
+Position 1: diner 0.97438 
+Position 2: food 1.09438 
+Position 3: done 1.94500 
+Position 4: at 1.57625 
+Position 5: a 1.84625 
+Position 6: typical 1.26750 
+Position 7: diner 1.29875 
+Position 8: level 1.06687 
+Position 9: . 2.15625 
+Time elapsed 35.7201566696167 
+Sample 3 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 1: this 1.99875 
+Position 2: place 3.49750 
+Position 3: serves 1.35125 
+Position 4: the 2.40250 
+Position 5: best 0.94437 
+Position 6: boba 1.59250 
+Position 7: tea 1.83250 
+Position 8: in 2.90250 
+Position 9: the 2.63500 
+Position 10: valley 1.55125 
+Position 11: . 2.51375 
+Time elapsed 45.81334471702576 
+Sample 4 
+tokens: [CLS] best torta i ' ve ever had . [SEP] 
+length: 10 
+label: 1 
+Position 1: best 0.92687 
+Position 2: torta 1.28875 
+Position 3: i 2.16500 
+Position 4: ' 2.19750 
+Position 5: ve 1.90750 
+Position 6: ever 2.14000 
+Position 7: had 2.64750 
+Position 8: . 2.81750 
+Time elapsed 27.860051155090332 
+Sample 5 
+tokens: [CLS] good food and good service . indoor was a bit dark [SEP] 
+length: 13 
+label: 1 
+Position 1: good 0.97188 
+Position 2: food 1.46000 
+Position 3: and 2.26375 
+Position 4: good 1.32500 
+Position 5: service 2.19000 
+Position 6: . 2.54875 
+Position 7: indoor 1.43750 
