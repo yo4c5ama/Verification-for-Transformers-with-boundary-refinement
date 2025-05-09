@@ -106,7 +106,7 @@ with sess.as_default():
     for batch in test_batches:
         sent = batch[0]["sent_a"]
         ret = target.step(batch)
-        attn_distribution(ret, sent)
+        # attn_distribution(ret, sent)
         acc += target.step(batch)[1] * len(batch)
     acc = float(acc / len(data_test))
     print("Accuracy: {:.3f}".format(acc))

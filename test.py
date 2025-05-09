@@ -81,28 +81,52 @@ def curve_fit_plot(data, path):
     pass
 
 
+def point(a, b):
+    plt.figure(figsize=(6, 6))
+    plt.scatter(b, a, color='blue', label='data points')  # 横轴是b，纵轴是a
 
+
+    plt.plot([min(b + a), max(b + a)], [min(b + a), max(b + a)], 'r--', label='y = x')
+
+    plt.xlabel('b (x-axis)')
+    plt.ylabel('a (y-axis)')
+    plt.title('Scatter Plot with y = x Line')
+    plt.legend()
+
+    plt.grid(True)
+    plt.axis('equal')  # 保持xy比例一致
+    plt.show()
 
 if __name__ == '__main__':
-    model = "model_yelp_1"
+    model = "model_yelp_6"
     p = "1"
-    ver_method = "_DBR_b"
+    ver_method = ""
+    our_ver_method = "_DBR_b"
     # propagate_method = "baf"
     # perturb_words = "1"
     # sentences_number = "100"
-
     result = './results/{}/p{}/res{}.json'.format(model,p,ver_method)
-    pic_path = './results/{}/p{}/epsilon_distribution({}).jpg'.format(model,p,ver_method)
-    result_data = read_data(result)
-    epsilon = []
-    min_eps = 100
-    for i in result_data["examples"]:
-        for j in i["bounds"]:
-            epsilon.append(j["eps"])
-            min_eps = min(min_eps, j["eps"])
+    our_result = './results/{}/p{}/res{}.json'.format(model,p,our_ver_method)
+    pic_path = './results/{}/p{}/epsilon_ratio_distribution({}).jpg'.format(model, p, ver_method)
+    def get_epsilon(result_path):
+        data = read_data(result_path)
+        epsilon = []
+        min_eps = 100
+        for i in data["examples"]:
+            for j in i["bounds"]:
+                epsilon.append(j["eps"])
+                min_eps = min(min_eps, j["eps"])
+        return epsilon, min_eps
+
+    epsilon, min_eps = get_epsilon(result)
+    our_epsilon, our_min_eps = get_epsilon(our_result)
+    point(our_epsilon, epsilon)
+    epsilon_ratio = [x/y for x, y in zip(our_epsilon, epsilon) ]
     time = 0
-    for i in result_data["examples"]:
-        time += float(i["time"])
-    print("total_time:{}h, avg_time_on_word:{}, min_eps:{}".format(time/3600, time/len(epsilon), min_eps))
-    curve_fit_plot(epsilon, pic_path)
+    # for i in result_data["examples"]:
+    #     time += float(i["time"])
+    # print("total_time:{}h, avg_time_on_word:{}, min_eps:{}".format(time/3600, time/len(epsilon), min_eps))
+    # print(len(epsilon))
+    print(len(epsilon_ratio))
+    curve_fit_plot(epsilon_ratio, pic_path)
     pass

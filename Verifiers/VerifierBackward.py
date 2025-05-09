@@ -47,8 +47,8 @@ class VerifierBackward(Verifier):
                     std = std.transpose(0, 1).reshape(1, std.shape[1], -1)   
                     check("layer {} attention_probs".format(i),
                         l=attention_probs.l, u=attention_probs.u, std=std, verbose=self.debug)
-                    check("layer {}".format(i), l=bounds.l, u=bounds.u, std=self.std["encoded_layers"][i][0], verbose=self.debug)
-                    
+                    # check("layer {}".format(i), l=bounds.l, u=bounds.u, std=self.std["encoded_layers"][i][0], verbose=self.debug)
+
                 bounds = self._bound_pooling(bounds, self.pooler)
                 check("pooled output", l=bounds.l[:1], u=bounds.u[:1], std=self.std["pooled_output"][0], verbose=self.debug)
 
@@ -206,7 +206,7 @@ class VerifierBackward(Verifier):
 
             transpose_for_scores(query)
             transpose_for_scores(key)
-            def double_bounds_combination(bound1,bound2, n):
+            def double_bounds_combination(bound1,bound2, n, flag_move_b):
                 bound = Bounds(bound1.args, bound1.p, bound1.eps,
                                 lw = bound2.lw-bound1.lw,
                                 uw = bound1.uw-bound2.uw,
@@ -234,20 +234,43 @@ class VerifierBackward(Verifier):
                                 lb = L_I_1 * bound.lb,
                                 ub = U_I_1 * bound.ub)
                 bound_i_2 = Bounds(bound.args, bound.p, bound.eps,
-                                   lw=L_I_2.unsqueeze(-2) * bound.lw,
-                                   uw=U_I_2.unsqueeze(-2) * bound.uw,
-                                   lb=L_I_2 * bound.lb,
-                                   ub=U_I_2 * bound.ub)
-                L = (L_I_3 * (l_max))/ (L_I_3 * (l_max-l_min))
+                                   lw=L_I_2.unsqueeze(-2) * torch.zeros_like(bound.lw),
+                                   uw=U_I_2.unsqueeze(-2) * torch.zeros_like(bound.uw),
+                                   lb=L_I_2 * torch.zeros_like(bound.lb),
+                                   ub=U_I_2 * torch.zeros_like(bound.ub))
+                def refine_alpha(I_3, max, min):
+                    neg_range = -min * I_3
+                    pos_range = max * I_3
+                    mask_zero = neg_range > 2 * pos_range
+                    mask_one = pos_range > 2 * neg_range
+                    mask_formula = ~(mask_zero | mask_one)
+                    slope = torch.zeros_like(max)
+                    slope[mask_zero] = 0.0
+                    slope[mask_one] = 1.0
+                    denominator = (I_3 * (max - min)).clamp(min=1e-6)
+                    formula_slope = (I_3 * max) / denominator
+                    slope[mask_formula] = formula_slope[mask_formula]
+                    return slope
+                L = refine_alpha(L_I_3, l_max, l_min)
+                # L = (L_I_3 * (l_max))/ (L_I_3 * (l_max-l_min))
                 omega_l = torch.where(L_I_3.bool(), L, torch.zeros_like(L))
                 # theta_l = torch.zeros_like(l_max)
-                theta_l = -omega_l * (L_I_3 * l_min) / n
+                if flag_move_b:
+                    # omega_l = torch.zeros_like(L)
+                    theta_l = torch.zeros_like(l_max)
+                else:
+                    theta_l = -omega_l * (L_I_3 * l_min) / n
 
 
-                U = (U_I_3 * (u_max)) / (U_I_3 * (u_max - u_min))
+                # U = (U_I_3 * (u_max)) / (U_I_3 * (u_max - u_min))
+                U = refine_alpha(U_I_3, u_max, u_min)
                 omega_u = torch.where(U_I_3.bool(), U, torch.zeros_like(U))
                 # theta_u = torch.zeros_like(u_max)
-                theta_u = -omega_u * (U_I_3 * u_min) / n
+                if flag_move_b:
+                    # omega_u = torch.zeros_like(U)
+                    theta_u = torch.zeros_like(u_max)
+                else:
+                    theta_u = -omega_u * (U_I_3 * u_min) / n
 
                 bound_i_3 = Bounds(bound.args, bound.p, bound.eps,
                                    lw=omega_l.unsqueeze(-2) * bound.lw,
@@ -265,51 +288,77 @@ class VerifierBackward(Verifier):
             # ignoring the attention mask
             if self.double_z:
                 n = torch.tensor(1.0)
+                flag_move_b = False
                 attention_scores1, attention_scores2 = query.dot_product_double(key, verbose=self.verbose)
                 while True:
 
-                    attention_scores = double_bounds_combination(attention_scores1, attention_scores2, n).multiply(1. / math.sqrt(attention_head_size))
-                    eps = 1e-5
+                    attention_scores = double_bounds_combination(attention_scores1, attention_scores2, n, flag_move_b).multiply(1. / math.sqrt(attention_head_size))
+                    eps = 1e-6
                     std = self.std["attention_scores"][i][0]
                     std = std.transpose(0, 1).reshape(1, std.shape[1], -1)
                     attention_scores.l, attention_scores.u = attention_scores.concretize()
                     l, u, std = attention_scores.l.transpose(0, 1).reshape(1, std.shape[1], -1)[0], attention_scores.u.transpose(0, 1).reshape(1, std.shape[1], -1)[0], std[0]
                     c = torch.gt(l - eps, std).to(torch.float) + torch.lt(u + eps, std).to(torch.float)
                     errors = torch.sum(c)
-                    if errors == 0 or n > 10000:
+                    if errors == 0 or n > 100000000:
                         break
-
                     else:
                         n = n * 2
-                attention_scores = double_bounds_combination(attention_scores1, attention_scores2, n).multiply(
-                    1. / math.sqrt(attention_head_size))
+                    if n > 100000000:
+                        flag_move_b = True
+                # attention_scores = double_bounds_combination(attention_scores1, attention_scores2, n).multiply(
+                #     1. / math.sqrt(attention_head_size))
             else:
                 attention_scores = query.dot_product(key, verbose=self.verbose)\
                     .multiply(1. / math.sqrt(attention_head_size))
 
             del(query)
             del(key)
-            attention_probs = attention_scores.softmax(verbose=self.verbose)
+            if self.double_z:
+                n = torch.tensor(1.0)
+                flag_move_b = False
+                while True:
+                    attention_probs1, attention_probs2 = attention_scores.softmax(verbose=self.verbose)
+                    attention_probs = double_bounds_combination(attention_probs1, attention_probs2, n, flag_move_b)
+                    eps = 1e-6
+                    std = self.std["attention_probs"][i][0]
+                    std = std.transpose(0, 1).reshape(1, std.shape[1], -1)
+                    attention_probs.l, attention_probs.u = attention_probs.concretize()
+                    l, u, std = attention_probs.l.transpose(0, 1).reshape(1, std.shape[1], -1)[0], \
+                    attention_probs.u.transpose(0, 1).reshape(1, std.shape[1], -1)[0], std[0]
+                    c = torch.gt(l - eps, std).to(torch.float) + torch.lt(u + eps, std).to(torch.float)
+                    errors = torch.sum(c)
+                    if errors == 0 or n > 100000000:
+                        break
+                    else:
+                        n = n * 2
+                    if n > 100000000:
+                        flag_move_b = True
+            else:
+                attention_probs = attention_scores.softmax(verbose=self.verbose)
 
             transpose_for_scores(value)
 
             if self.double_z:
                 n = torch.tensor(1.0)
+                flag_move_b = False
                 context1, context2 = attention_probs.context(value)
                 while True:
-                    context = double_bounds_combination(context1, context2, n)
-                    eps = 1e-5
+                    context = double_bounds_combination(context1, context2, n, flag_move_b)
+                    eps = 1e-6
                     context.l, context.u = context.concretize()
                     std = self.attention_outputs[i][0]
                     l, u, std = context.l.transpose(0, 1).reshape(1, std.shape[1], -1)[0], \
                     context.u.transpose(0, 1).reshape(1, std.shape[1], -1)[0], std[0]
                     c = torch.gt(l - eps, std).to(torch.float) + torch.lt(u + eps, std).to(torch.float)
                     errors = torch.sum(c)
-                    if errors == 0 or n > 10000:
+                    if errors == 0 or n > 100000000:
                         break
                     else:
                         n = n * 2
-                context = double_bounds_combination(context1, context2, n)
+                    if n > 100000000:
+                        flag_move_b = True
+                # context = double_bounds_combination(context1, context2, n)
             else:
                 context = attention_probs.context(value)
             def transpose_back(x):

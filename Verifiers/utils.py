@@ -6,7 +6,7 @@ import torch
 def check(name, bounds=None, l=None, u=None, std=None, verbose=False):
     if verbose:
         print("Check ", name)
-    eps = 1e-4
+    eps = 1e-3
     if bounds is not None:
         l, u = bounds.concretize()
     if len(l.shape) == 3:

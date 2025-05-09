@@ -5,6 +5,9 @@ import torch
 import math, time, random, copy, json, pdb
 from Verifiers.Bounds import Bounds
 from data_utils import sample
+import random
+import itertools
+import hashlib
 
 # can only accept one example in each batch
 class Verifier:
@@ -40,6 +43,9 @@ class Verifier:
         sum_avg, sum_min = 0, 0
         results = []
         for i, example in enumerate(examples):
+
+            if len(example["sent_a"]) > 100:
+                continue
             self.logger.write("Sample", i)
             res = self.verify(example)
             if self.debug: 
@@ -100,6 +106,8 @@ class Verifier:
             cnt = 0
             sum_eps, min_eps = 0, 1e30
 
+
+
             # TODO: redundant
             if self.perturbed_words == 1:
                 # warm up 
@@ -115,6 +123,8 @@ class Verifier:
                 # [CLS] and [SEP] cannot be perturbed
                 for i in range(1, length - 1):
                     # skip OOV
+                    if i > 10:
+                        break
                     if tokens[i][0] == "#" or tokens[i + 1][0] == "#":
                         continue
 
@@ -166,55 +176,70 @@ class Verifier:
                     self.warmed = True
                     print("Approximate maximum eps:", self.max_eps)
 
-                for i1 in range(1, length - 1):
-                    for i2 in range(i1 + 1, length - 1):
+                def get_random_word_pairs(tokens, num_pairs=10, exclude_special=True):
+                    sentence_key = " ".join(tokens)
+                    seed = int(hashlib.md5(sentence_key.encode()).hexdigest(), 16) % (10 ** 8)
+                    random.seed(seed)
+                    valid_tokens = [(i, t) for i, t in enumerate(tokens) if t not in ['[CLS]', '[SEP]', '[PAD]']]
+                    indices = [i for i, _ in valid_tokens]
+                    all_pairs = list(itertools.combinations(indices, 2))
+                    sampled_pairs = random.sample(all_pairs, min(num_pairs, len(all_pairs)))
+                    return sampled_pairs
+
+                pairs = get_random_word_pairs(tokens, num_pairs=10)
+                for i1, i2 in pairs:
+                # for i1 in range(1, length - 1):
+                #     for i2 in range(i1 + 1, length - 1):
                         # skip OOV
-                        if tokens[i1][0] == "#" or tokens[i1 + 1][0] == "#":
-                            continue
-                        if tokens[i2][0] == "#" or tokens[i2 + 1][0] == "#":
-                            continue                            
+                    if tokens[i1][0] == "#" or tokens[i1 + 1][0] == "#":
+                        continue
+                    if tokens[i2][0] == "#" or tokens[i2 + 1][0] == "#":
+                        continue
 
-                        cnt += 1
+                    cnt += 1
 
-                        l, r = 0, self.max_eps
-                        print("%d %d %.6f %.6f" % (i1, i2, l, r), end="")
+                    l, r = 0, self.max_eps
+                    print("%d %d %.6f %.6f" % (i1, i2, l, r), end="")
+                    safe = self.verify_safety(example, embeddings, [i1, i2], r)
+                    while safe:
+                        l = r
+                        r *= 2
+                        print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
                         safe = self.verify_safety(example, embeddings, [i1, i2], r)
-                        while safe: 
-                            l = r
-                            r *= 2
+                    if l == 0:
+                        while not safe:
+                            r /= 2
                             print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
                             safe = self.verify_safety(example, embeddings, [i1, i2], r)
-                        if l == 0:
-                            while not safe:
-                                r /= 2
-                                print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
-                                safe = self.verify_safety(example, embeddings, [i1, i2], r)
-                            l, r = r, r * 2
-                            print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
-                        for j in range(num_iters):
-                            m = (l + r) / 2
-                            if self.verify_safety(example, embeddings, [i1, i2], m):
-                                l = m
-                            else:
-                                r = m
-                            print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
-                        print()
-                        eps = l
-                        self.logger.write("Position %d %d: %s %s %.5f" % (
-                            i1, i2, tokens[i1], tokens[i2], eps))
-                        sum_eps += eps
-                        min_eps = min(min_eps, eps)
-                        result["bounds"].append({
-                            "position": (i1, i2),
-                            "eps": float(eps)
-                        })                        
+                        l, r = r, r * 2
+                        print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
+                    for j in range(num_iters):
+                        m = (l + r) / 2
+                        if self.verify_safety(example, embeddings, [i1, i2], m):
+                            l = m
+                        else:
+                            r = m
+                        print("\r%d %d %.6f %.6f" % (i1, i2, l, r), end="")
+                    print()
+                    eps = l
+                    self.logger.write("Position %d %d: %s %s %.5f" % (
+                        i1, i2, tokens[i1], tokens[i2], eps))
+                    sum_eps += eps
+                    min_eps = min(min_eps, eps)
+                    result["bounds"].append({
+                        "position": (i1, i2),
+                        "eps": float(eps)
+                    })
             else:
                 raise NotImplementedError
 
             result["time"] = time.time() - start_time
 
             self.logger.write("Time elapsed", result["time"])
-            return result, sum_eps / cnt, min_eps
+            if cnt ==0 :
+                return result, 0, 0
+            else:
+                return result, sum_eps / cnt, min_eps
 
     def verify_safety(self, example, embeddings, index, eps):
         raise NotImplementedError

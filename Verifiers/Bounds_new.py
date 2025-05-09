@@ -205,46 +205,54 @@ class Bounds:
             l_a, u_a = self.concretize()
             l_b, u_b = W.concretize()
 
-            l1, u1, mask_pos_only, mask_neg_only, mask_both, lw, lb, uw, ub = self.new()
+            def _propagate(double_z=False):
+                l1, u1, mask_pos_only, mask_neg_only, mask_both, lw, lb, uw, ub = self.new()
 
 
-            alpha_l, beta_l, gamma_l, alpha_u, beta_u, gamma_u = \
-                self.get_bounds_xy(
-                    l_a.reshape(-1),
-                    u_a.reshape(-1),
-                    l_b.reshape(-1),
-                    u_b.reshape(-1)
+                alpha_l, beta_l, gamma_l, alpha_u, beta_u, gamma_u = \
+                    self.get_bounds_xy(
+                        l_a.reshape(-1),
+                        u_a.reshape(-1),
+                        l_b.reshape(-1),
+                        u_b.reshape(-1),
+                        z = double_z
+                    )
+
+                alpha_l = alpha_l.reshape(l_a.shape)
+                beta_l = beta_l.reshape(l_a.shape)
+                gamma_l = gamma_l.reshape(l_a.shape)
+                alpha_u = alpha_u.reshape(l_a.shape)
+                beta_u = beta_u.reshape(l_a.shape)
+                gamma_u = gamma_u.reshape(l_a.shape)
+
+                self.add_linear(
+                    mask=None, w_out=lw, b_out=lb, type1="lower",
+                    k=alpha_l, x0=0, y0=gamma_l
                 )
-
-            alpha_l = alpha_l.reshape(l_a.shape)
-            beta_l = beta_l.reshape(l_a.shape)
-            gamma_l = gamma_l.reshape(l_a.shape)
-            alpha_u = alpha_u.reshape(l_a.shape)
-            beta_u = beta_u.reshape(l_a.shape)
-            gamma_u = gamma_u.reshape(l_a.shape)
-
-            self.add_linear(
-                mask=None, w_out=lw, b_out=lb, type1="lower",
-                k=alpha_l, x0=0, y0=gamma_l
-            )
-            self.add_linear(
-                mask=None, w_out=lw, b_out=lb, type1="lower",
-                k=beta_l, x0=0, y0=0, src=W
-            )
-            self.add_linear(
-                mask=None, w_out=uw, b_out=ub, type1="upper",
-                k=alpha_u, x0=0, y0=gamma_u
-            )
-            self.add_linear(
-                mask=None, w_out=uw, b_out=ub, type1="upper",
-                k=beta_u, x0=0, y0=0, src=W
-            )      
-            bounds = Bounds(
-                self.args,  self.p, self.eps,
-                lw = lw, lb = lb, uw = uw, ub = ub
-            )
-
-            return bounds
+                self.add_linear(
+                    mask=None, w_out=lw, b_out=lb, type1="lower",
+                    k=beta_l, x0=0, y0=0, src=W
+                )
+                self.add_linear(
+                    mask=None, w_out=uw, b_out=ub, type1="upper",
+                    k=alpha_u, x0=0, y0=gamma_u
+                )
+                self.add_linear(
+                    mask=None, w_out=uw, b_out=ub, type1="upper",
+                    k=beta_u, x0=0, y0=0, src=W
+                )
+                bounds = Bounds(
+                    self.args,  self.p, self.eps,
+                    lw = lw, lb = lb, uw = uw, ub = ub
+                )
+                return bounds
+            if self.double_z:
+                bounds1 = _propagate(double_z=False)
+                bounds2 = _propagate(double_z=True)
+                return bounds1, bounds2
+            else:
+                bounds = _propagate(double_z=False)
+                return bounds
 
         else:
             pos_mask = torch.gt(W, 0).to(torch.float32)

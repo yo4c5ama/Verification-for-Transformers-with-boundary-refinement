@@ -17,27 +17,7 @@ class VerifierForward(Verifier):
 
         if self.double_z:
             l, u, bounds = self.get_l_u(example, embeddings, index, eps)
-            # self.args.double_z = False
-            # l_2, u_2, bounds_2 = self.get_l_u(example, embeddings, index, eps)
-            #
-            # lw_1 = torch.norm(bounds_1.lw, p=1. / (1. - 1. / self.p) if self.p != 1 else float("inf"), dim=-2)[0][0][0]
-            # lw_2 = torch.norm(bounds_2.lw, p=1. / (1. - 1. / self.p) if self.p != 1 else float("inf"), dim=-2)[0][0][0]
-            # lb_1 = bounds_1.lb[0][0][0]
-            # lb_2 = bounds_2.lb[0][0][0]
-            # uw_1 = torch.norm(bounds_1.uw, p=1. / (1. - 1. / self.p) if self.p != 1 else float("inf"), dim=-2)[0][0][0]
-            # uw_2 = torch.norm(bounds_2.uw, p=1. / (1. - 1. / self.p) if self.p != 1 else float("inf"), dim=-2)[0][0][0]
-            # ub_1 = bounds_1.ub[0][0][0]
-            # ub_2 = bounds_2.ub[0][0][0]
-            # u_test = (ub_2 * uw_1 - ub_1 * uw_2)/(uw_1 - uw_2)
-            # u_x = (ub_2 - ub_1)/(uw_1 - uw_2)
-            # l_test = (lb_2 * lw_1 - lb_1 * lw_2)/(lw_1 - lw_2)
-            # l_x = (lb_2 - lb_1)/(lw_1 - lw_2)
-            # l = max(l_1, l_2, l_test)
-            # u = min(u_1, u_2, u_test)
-            # # l = max(l_1, l_2)
-            # # u = min(u_1, u_2)
-            # if l > u:
-            #     print("\n",l,u,"error!!!!!!","\n")
+
             self.args.double_z = True
             if example["label"] == 0:
                 safe = l > 0
