@@ -1,6 +1,8 @@
-name: tensorflow114
+name: tf114_torch113
 channels:
   - defaults
+  - conda-forge
+  - pytorch
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
@@ -112,4 +114,4 @@ dependencies:
       - werkzeug==2.2.3
       - wrapt==1.16.0
       - zipp==3.15.0
-prefix: /home/yoac/miniconda3/envs/tensorflow114
+prefix: /home/liu/miniconda3/envs/tf114_torch113
