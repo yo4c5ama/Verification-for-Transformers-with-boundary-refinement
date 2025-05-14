@@ -1,0 +1,128 @@
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 1.33000 
+Position 2: everything 1.37500 
+Position 3: works 1.41750 
+Position 4: , 1.38250 
+Position 5: but 1.38500 
+Position 6: the 1.38125 
+Position 7: average 1.38750 
+Position 8: is 1.37750 
+Position 9: higher 1.39125 
+Position 10: than 1.37750 
+Time elapsed 17.45614981651306 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 3.32750 
+Position 2: me 3.30000 
+Position 3: , 3.32250 
+Position 4: this 3.31000 
+Position 5: opera 3.28000 
+Position 6: is 3.30500 
+Position 7: n 3.25250 
+Position 8: ' 3.31000 
+Position 9: t 3.25000 
+Position 10: a 3.32000 
+Time elapsed 16.63541007041931 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+Position 1: almost 1.48250 
+Position 2: everything 1.48250 
+Position 3: else 1.47000 
+Position 4: is 1.48500 
+Position 5: wan 1.46625 
+Position 6: . 1.48500 
+Time elapsed 8.998610019683838 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 3.00500 
+Position 2: , 3.11750 
+Position 3: it 3.10500 
+Position 4: ' 3.10250 
+Position 5: s 3.11250 
+Position 6: not 2.98750 
+Position 7: nearly 3.08000 
+Position 8: as 3.08500 
+Position 9: good 3.19750 
+Position 10: as 3.08750 
+Time elapsed 16.09648323059082 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 1.73875 
+Position 2: , 1.72125 
+Position 3: mesmerizing 1.76375 
+Position 4: and 1.71750 
+Position 7: hard 1.69750 
+Position 8: to 1.71000 
+Position 9: forget 1.68875 
+Position 10: . 1.71500 
+Time elapsed 12.769227027893066 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 4.42000 
+Position 2: watched 4.40500 
+Position 3: the 4.42250 
+Position 6: insanity 4.38500 
+Position 7: of 4.40750 
+Position 8: no 4.26750 
+Position 9: such 4.40500 
+Position 10: thing 4.34750 
+Time elapsed 12.829843282699585 
+Sample 6 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+Position 3: , 2.20750 
+Time elapsed 1.591263771057129 
+Sample 7 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.56531 
+Position 6: taking 0.56906 
+Position 7: place 0.56375 
+Position 8: in 0.56406 
+Position 9: a 0.56500 
+Position 10: pristine 0.56906 
+Time elapsed 11.38697361946106 
+Sample 8 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.56531 
+Position 6: taking 0.56906 
+Position 7: place 0.56375 
+Position 8: in 0.56406 
+Position 9: a 0.56500 
+Position 10: pristine 0.56906 
+Time elapsed 11.400362730026245 
+Sample 9 
+tokens: [CLS] de niro may enjoy the same free ride from critics afforded to clint eastwood in the lazy blood ##work . [SEP] 
+length: 22 
+label: 0 
+Position 1: de 1.89625 
+Position 2: niro 1.88500 
+Position 3: may 1.90125 
+Position 4: enjoy 1.94375 
+Position 5: the 1.91125 
+Position 6: same 1.86250 
+Position 7: free 1.90875 
+Position 8: ride 1.93875 
+Position 9: from 1.90250 
+Position 10: critics 1.89625 
+Time elapsed 16.54991888999939 
+10 valid examples 
+Minimum: 2.01875 
+Average: 2.05906 

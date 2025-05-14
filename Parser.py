@@ -33,7 +33,7 @@ class Parser(object):
         parser.add_argument("--display_interval", type=int, default=50)
 
         # model
-        parser.add_argument("--num_epoches", type=int, default=3)        
+        parser.add_argument("--num_epoches", type=int, default=2)
         parser.add_argument("--batch_size", type=int, default=32)
         parser.add_argument("--max_sent_length", type=int, default=128)
         parser.add_argument("--lr", type=float, default=1e-4)
@@ -52,6 +52,7 @@ class Parser(object):
         # verification
         parser.add_argument("--samples", type=int, default=10)
         parser.add_argument("--p", type=int, default=2)
+        parser.add_argument("--k", type=int, default=2)
         parser.add_argument("--eps", type=float, default=1e-5)
         parser.add_argument("--max_eps", type=float, default=0.01)
         parser.add_argument("--verbose", action="store_true")

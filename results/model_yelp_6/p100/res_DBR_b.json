@@ -1,0 +1,788 @@
+{
+    "examples": [
+        {
+            "tokens": [
+                "[CLS]",
+                "do",
+                "not",
+                "eat",
+                "here",
+                ".",
+                "terrible",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 9.912251925925375e-07,
+                    "eps_normalized": 8.502617674821522e-06
+                },
+                {
+                    "position": 2,
+                    "eps": 1.09434131445596e-06,
+                    "eps_normalized": 9.100760507863015e-06
+                },
+                {
+                    "position": 3,
+                    "eps": 1.7213820910910727e-06,
+                    "eps_normalized": 1.3877812307327986e-05
+                },
+                {
+                    "position": 4,
+                    "eps": 1.5795230865478516e-06,
+                    "eps_normalized": 1.4509078027913347e-05
+                },
+                {
+                    "position": 5,
+                    "eps": 2.453327169860131e-06,
+                    "eps_normalized": 2.007174953178037e-05
+                },
+                {
+                    "position": 6,
+                    "eps": 9.417533988198556e-07,
+                    "eps_normalized": 4.951108621753519e-06
+                },
+                {
+                    "position": 7,
+                    "eps": 2.4247169676527847e-06,
+                    "eps_normalized": 1.7992955690715462e-05
+                }
+            ],
+            "time": 315.11277055740356
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "great",
+                "anniversary",
+                "dinner",
+                ".",
+                "just",
+                "##if",
+                "##ia",
+                "##bly",
+                "recommended",
+                "by",
+                "our",
+                "friends",
+                ".",
+                "lovely",
+                "and",
+                "decadent",
+                ".",
+                "we",
+                "loved",
+                "it",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 6.036758350091986e-06,
+                    "eps_normalized": 3.9529750210931525e-05
+                },
+                {
+                    "position": 2,
+                    "eps": 8.02040085545741e-06,
+                    "eps_normalized": 7.944599929032847e-05
+                },
+                {
+                    "position": 3,
+                    "eps": 1.0633468264131807e-05,
+                    "eps_normalized": 0.00010085727262776345
+                },
+                {
+                    "position": 4,
+                    "eps": 1.4324188668979332e-05,
+                    "eps_normalized": 0.00010397969890618697
+                },
+                {
+                    "position": 9,
+                    "eps": 1.1463165719760582e-05,
+                    "eps_normalized": 9.02030587894842e-05
+                },
+                {
+                    "position": 10,
+                    "eps": 1.3866424524167087e-05,
+                    "eps_normalized": 0.00010555051267147064
+                },
+                {
+                    "position": 11,
+                    "eps": 1.4705658031743951e-05,
+                    "eps_normalized": 0.00011879431986017153
+                },
+                {
+                    "position": 12,
+                    "eps": 1.086235079128528e-05,
+                    "eps_normalized": 8.859603258315474e-05
+                },
+                {
+                    "position": 13,
+                    "eps": 1.73664084286429e-05,
+                    "eps_normalized": 0.00012210634304210544
+                },
+                {
+                    "position": 14,
+                    "eps": 8.993149094749242e-06,
+                    "eps_normalized": 6.052956450730562e-05
+                },
+                {
+                    "position": 15,
+                    "eps": 1.7309188478975557e-05,
+                    "eps_normalized": 9.046985360328108e-05
+                },
+                {
+                    "position": 16,
+                    "eps": 7.62939453125e-06,
+                    "eps_normalized": 5.2104216592852026e-05
+                },
+                {
+                    "position": 17,
+                    "eps": 1.7833710444392636e-05,
+                    "eps_normalized": 0.0001246339234057814
+                },
+                {
+                    "position": 18,
+                    "eps": 1.466751109546749e-05,
+                    "eps_normalized": 9.680537914391607e-05
+                },
+                {
+                    "position": 19,
+                    "eps": 8.549690392101184e-06,
+                    "eps_normalized": 5.50701588508673e-05
+                },
+                {
+                    "position": 20,
+                    "eps": 1.4152527000987902e-05,
+                    "eps_normalized": 9.222244989359751e-05
+                }
+            ],
+            "time": 2181.7020316123962
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "diner",
+                "food",
+                "done",
+                "at",
+                "a",
+                "typical",
+                "diner",
+                "level",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 5.027771112509072e-05,
+                    "eps_normalized": 0.0004813586419913918
+                },
+                {
+                    "position": 2,
+                    "eps": 6.034850957803428e-05,
+                    "eps_normalized": 0.0005644863122142851
+                },
+                {
+                    "position": 3,
+                    "eps": 7.671356434002519e-05,
+                    "eps_normalized": 0.0005248559173196554
+                },
+                {
+                    "position": 4,
+                    "eps": 8.720398182049394e-05,
+                    "eps_normalized": 0.0007929227431304753
+                },
+                {
+                    "position": 5,
+                    "eps": 0.00011566161992959678,
+                    "eps_normalized": 0.0008547957404516637
+                },
+                {
+                    "position": 6,
+                    "eps": 5.096435415907763e-05,
+                    "eps_normalized": 0.0004630144976545125
+                },
+                {
+                    "position": 7,
+                    "eps": 7.881164492573589e-05,
+                    "eps_normalized": 0.0006799907423555851
+                },
+                {
+                    "position": 8,
+                    "eps": 6.83593752910383e-05,
+                    "eps_normalized": 0.0006200802745297551
+                },
+                {
+                    "position": 9,
+                    "eps": 0.0001388549862895161,
+                    "eps_normalized": 0.0009925157064571977
+                }
+            ],
+            "time": 755.5687367916107
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "this",
+                "place",
+                "serves",
+                "the",
+                "best",
+                "boba",
+                "tea",
+                "in",
+                "the",
+                "valley",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 3.164291410939768e-05,
+                    "eps_normalized": 0.00021882957662455738
+                },
+                {
+                    "position": 2,
+                    "eps": 2.9888153221691027e-05,
+                    "eps_normalized": 0.00020303955534473062
+                },
+                {
+                    "position": 3,
+                    "eps": 2.626419154694304e-05,
+                    "eps_normalized": 0.00017629447393119335
+                },
+                {
+                    "position": 4,
+                    "eps": 3.3664702641544864e-05,
+                    "eps_normalized": 0.0003287608560640365
+                },
+                {
+                    "position": 5,
+                    "eps": 2.2048950995667838e-05,
+                    "eps_normalized": 0.00013098603812977672
+                },
+                {
+                    "position": 6,
+                    "eps": 2.9983521017129533e-05,
+                    "eps_normalized": 0.00026958563830703497
+                },
+                {
+                    "position": 7,
+                    "eps": 3.234863106627017e-05,
+                    "eps_normalized": 0.00020577087707351893
+                },
+                {
+                    "position": 8,
+                    "eps": 4.6615601604571566e-05,
+                    "eps_normalized": 0.00027314250473864377
+                },
+                {
+                    "position": 9,
+                    "eps": 4.360199091024697e-05,
+                    "eps_normalized": 0.00035255556576885283
+                },
+                {
+                    "position": 10,
+                    "eps": 3.0822753615211695e-05,
+                    "eps_normalized": 0.0002576278930064291
+                },
+                {
+                    "position": 11,
+                    "eps": 5.393982064560987e-05,
+                    "eps_normalized": 0.00039598403964191675
+                }
+            ],
+            "time": 1007.131988286972
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "best",
+                "torta",
+                "i",
+                "'",
+                "ve",
+                "ever",
+                "had",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 5.05924208482611e-06,
+                    "eps_normalized": 3.368731267983094e-05
+                },
+                {
+                    "position": 2,
+                    "eps": 5.555152711167466e-06,
+                    "eps_normalized": 4.871238343184814e-05
+                },
+                {
+                    "position": 3,
+                    "eps": 8.640289706818294e-06,
+                    "eps_normalized": 7.127491699066013e-05
+                },
+                {
+                    "position": 4,
+                    "eps": 8.87393980519846e-06,
+                    "eps_normalized": 7.070395076880231e-05
+                },
+                {
+                    "position": 5,
+                    "eps": 8.468628038826864e-06,
+                    "eps_normalized": 7.230194023577496e-05
+                },
+                {
+                    "position": 6,
+                    "eps": 7.295608611457283e-06,
+                    "eps_normalized": 4.6100893086986616e-05
+                },
+                {
+                    "position": 7,
+                    "eps": 1.0280608876200859e-05,
+                    "eps_normalized": 7.760634616715834e-05
+                },
+                {
+                    "position": 8,
+                    "eps": 1.276969942409778e-05,
+                    "eps_normalized": 9.853710071183741e-05
+                }
+            ],
+            "time": 457.2761118412018
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "good",
+                "food",
+                "and",
+                "good",
+                "service",
+                ".",
+                "indoor",
+                "was",
+                "a",
+                "bit",
+                "dark",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 3.606796235544607e-05,
+                    "eps_normalized": 0.0003154106962028891
+                },
+                {
+                    "position": 2,
+                    "eps": 4.066467226948589e-05,
+                    "eps_normalized": 0.00038036814657971263
+                },
+                {
+                    "position": 3,
+                    "eps": 6.965637294342741e-05,
+                    "eps_normalized": 0.00041771322139538825
+                },
+                {
+                    "position": 4,
+                    "eps": 4.6615601604571566e-05,
+                    "eps_normalized": 0.00035685105831362307
+                },
+                {
+                    "position": 5,
+                    "eps": 5.1727296522585675e-05,
+                    "eps_normalized": 0.0004101976228412241
+                },
+                {
+                    "position": 6,
+                    "eps": 8.96453857421875e-05,
+                    "eps_normalized": 0.0007322215242311358
+                },
+                {
+                    "position": 7,
+                    "eps": 4.7912599256960675e-05,
+                    "eps_normalized": 0.0003750803880393505
+                },
+                {
+                    "position": 8,
+                    "eps": 6.500244489870965e-05,
+                    "eps_normalized": 0.0006330517935566604
+                },
+                {
+                    "position": 9,
+                    "eps": 9.788513125386089e-05,
+                    "eps_normalized": 0.0006744497804902494
+                },
+                {
+                    "position": 10,
+                    "eps": 4.501342846197076e-05,
+                    "eps_normalized": 0.0004387771768961102
+                },
+                {
+                    "position": 11,
+                    "eps": 4.917144906357862e-05,
+                    "eps_normalized": 0.00044661754509434104
+                }
+            ],
+            "time": 1055.9792358875275
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "service",
+                "is",
+                "slow",
+                ",",
+                "food",
+                "is",
+                "one",
+                "star",
+                ",",
+                "place",
+                "looks",
+                "like",
+                "a",
+                "dump",
+                ",",
+                "please",
+                "##ee",
+                "##e",
+                "buy",
+                "some",
+                "new",
+                "chairs",
+                "on",
+                "the",
+                "patio",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 3.85475141229108e-05,
+                    "eps_normalized": 0.00028292788192629814
+                },
+                {
+                    "position": 2,
+                    "eps": 5.474090721691027e-05,
+                    "eps_normalized": 0.0005113567458465695
+                },
+                {
+                    "position": 3,
+                    "eps": 3.2463074603583664e-05,
+                    "eps_normalized": 0.00020676228450611234
+                },
+                {
+                    "position": 4,
+                    "eps": 5.836486889165826e-05,
+                    "eps_normalized": 0.0005477449158206582
+                },
+                {
+                    "position": 5,
+                    "eps": 6.340027175610885e-05,
+                    "eps_normalized": 0.0005534544470719993
+                },
+                {
+                    "position": 6,
+                    "eps": 8.125304884742945e-05,
+                    "eps_normalized": 0.0007247517933137715
+                },
+                {
+                    "position": 7,
+                    "eps": 0.00010528564598644152,
+                    "eps_normalized": 0.0007871189736761153
+                },
+                {
+                    "position": 8,
+                    "eps": 4.8408506700070575e-05,
+                    "eps_normalized": 0.0004140651726629585
+                },
+                {
+                    "position": 9,
+                    "eps": 7.881164492573589e-05,
+                    "eps_normalized": 0.0005934275686740875
+                },
+                {
+                    "position": 10,
+                    "eps": 0.00010040283086709678,
+                    "eps_normalized": 0.0005922142881900072
+                },
+                {
+                    "position": 11,
+                    "eps": 5.588531348621473e-05,
+                    "eps_normalized": 0.0004976803902536631
+                },
+                {
+                    "position": 12,
+                    "eps": 7.755279511911795e-05,
+                    "eps_normalized": 0.0005997616099193692
+                },
+                {
+                    "position": 13,
+                    "eps": 0.00010780334559967741,
+                    "eps_normalized": 0.0007256423705257475
+                },
+                {
+                    "position": 14,
+                    "eps": 3.66401654900983e-05,
+                    "eps_normalized": 0.00027405828586779535
+                },
+                {
+                    "position": 15,
+                    "eps": 8.247375808423385e-05,
+                    "eps_normalized": 0.0005833730683661997
+                },
+                {
+                    "position": 19,
+                    "eps": 7.392882980639115e-05,
+                    "eps_normalized": 0.0004364244232419878
+                },
+                {
+                    "position": 20,
+                    "eps": 6.0043334087822586e-05,
+                    "eps_normalized": 0.00045086408499628305
+                },
+                {
+                    "position": 21,
+                    "eps": 5.409240839071572e-05,
+                    "eps_normalized": 0.0003607797552831471
+                },
+                {
+                    "position": 22,
+                    "eps": 6.866455078125e-05,
+                    "eps_normalized": 0.0004950206493958831
+                },
+                {
+                    "position": 23,
+                    "eps": 8.766174141783267e-05,
+                    "eps_normalized": 0.0005740242195315659
+                },
+                {
+                    "position": 24,
+                    "eps": 8.987426554085687e-05,
+                    "eps_normalized": 0.0005362879019230604
+                },
+                {
+                    "position": 25,
+                    "eps": 5.130767749506049e-05,
+                    "eps_normalized": 0.00033011892810463905
+                }
+            ],
+            "time": 4344.125133514404
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "great",
+                "food",
+                ",",
+                "good",
+                "atmosphere",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 1.930236794578377e-05,
+                    "eps_normalized": 0.00012639527267310768
+                },
+                {
+                    "position": 2,
+                    "eps": 2.3708344087935984e-05,
+                    "eps_normalized": 0.00022176248603500426
+                },
+                {
+                    "position": 3,
+                    "eps": 3.32260133291129e-05,
+                    "eps_normalized": 0.0003102046612184495
+                },
+                {
+                    "position": 4,
+                    "eps": 2.7904510716325603e-05,
+                    "eps_normalized": 0.00021361418475862592
+                },
+                {
+                    "position": 5,
+                    "eps": 2.5501251002424397e-05,
+                    "eps_normalized": 0.00021527873468585312
+                },
+                {
+                    "position": 6,
+                    "eps": 4.531860395218246e-05,
+                    "eps_normalized": 0.0003701613750308752
+                }
+            ],
+            "time": 321.10912704467773
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "love",
+                "this",
+                "suns",
+                "##hin",
+                "##y",
+                "spot",
+                "!",
+                "the",
+                "omelette",
+                "&",
+                "coffee",
+                "were",
+                "perfect",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 5.798339770990424e-06,
+                    "eps_normalized": 4.0501236071577296e-05
+                },
+                {
+                    "position": 2,
+                    "eps": 8.563994924770668e-06,
+                    "eps_normalized": 6.297780782915652e-05
+                },
+                {
+                    "position": 6,
+                    "eps": 8.049010830291081e-06,
+                    "eps_normalized": 7.043311052257195e-05
+                },
+                {
+                    "position": 7,
+                    "eps": 9.860992577159777e-06,
+                    "eps_normalized": 5.974217856419273e-05
+                },
+                {
+                    "position": 8,
+                    "eps": 1.105308547266759e-05,
+                    "eps_normalized": 7.370470848400146e-05
+                },
+                {
+                    "position": 9,
+                    "eps": 8.935928235587198e-06,
+                    "eps_normalized": 6.302456313278526e-05
+                },
+                {
+                    "position": 10,
+                    "eps": 1.0633468264131807e-05,
+                    "eps_normalized": 8.252301631728187e-05
+                },
+                {
+                    "position": 11,
+                    "eps": 9.407996913068928e-06,
+                    "eps_normalized": 6.568595563294366e-05
+                },
+                {
+                    "position": 12,
+                    "eps": 9.403228432347532e-06,
+                    "eps_normalized": 7.445848314091563e-05
+                },
+                {
+                    "position": 13,
+                    "eps": 5.636215064441785e-06,
+                    "eps_normalized": 3.436372571741231e-05
+                },
+                {
+                    "position": 14,
+                    "eps": 1.357078508590348e-05,
+                    "eps_normalized": 0.00010075547470478341
+                }
+            ],
+            "time": 1084.3344202041626
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "this",
+                "place",
+                "serves",
+                "the",
+                "best",
+                "boba",
+                "tea",
+                "in",
+                "the",
+                "valley",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 3.164291410939768e-05,
+                    "eps_normalized": 0.00021882957662455738
+                },
+                {
+                    "position": 2,
+                    "eps": 2.9888153221691027e-05,
+                    "eps_normalized": 0.00020303955534473062
+                },
+                {
+                    "position": 3,
+                    "eps": 2.626419154694304e-05,
+                    "eps_normalized": 0.00017629447393119335
+                },
+                {
+                    "position": 4,
+                    "eps": 3.3664702641544864e-05,
+                    "eps_normalized": 0.0003287608560640365
+                },
+                {
+                    "position": 5,
+                    "eps": 2.2048950995667838e-05,
+                    "eps_normalized": 0.00013098603812977672
+                },
+                {
+                    "position": 6,
+                    "eps": 2.9983521017129533e-05,
+                    "eps_normalized": 0.00026958563830703497
+                },
+                {
+                    "position": 7,
+                    "eps": 3.234863106627017e-05,
+                    "eps_normalized": 0.00020577087707351893
+                },
+                {
+                    "position": 8,
+                    "eps": 4.6615601604571566e-05,
+                    "eps_normalized": 0.00027314250473864377
+                },
+                {
+                    "position": 9,
+                    "eps": 4.360199091024697e-05,
+                    "eps_normalized": 0.00035255556576885283
+                },
+                {
+                    "position": 10,
+                    "eps": 3.0822753615211695e-05,
+                    "eps_normalized": 0.0002576278930064291
+                },
+                {
+                    "position": 11,
+                    "eps": 5.393982064560987e-05,
+                    "eps_normalized": 0.00039598403964191675
+                }
+            ],
+            "time": 1008.8637943267822
+        }
+    ],
+    "minimum": 1.9988299754913896e-05,
+    "average": 3.372699138708413e-05
+}

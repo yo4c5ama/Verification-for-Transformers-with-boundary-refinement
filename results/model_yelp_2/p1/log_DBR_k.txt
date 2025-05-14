@@ -1,0 +1,47 @@
+Sample 0 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1: do 1.24375 
+Position 2: not 1.24625 
+Position 3: eat 1.21687 
+Position 4: here 1.17500 
+Position 5: . 1.22812 
+Position 6: terrible 1.20062 
+Position 7: . 1.20125 
+Time elapsed 24.905635833740234 
+Sample 1 
+tokens: [CLS] great anniversary dinner . just ##if ##ia ##bly recommended by our friends . lovely and decadent . we loved it [SEP] 
+length: 22 
+label: 1 
+Position 1: great 2.11625 
+Position 2: anniversary 1.72875 
+Position 3: dinner 1.77000 
+Position 4: . 1.69375 
+Position 9: recommended 1.93750 
+Position 10: by 1.79000 
+Time elapsed 23.845821380615234 
+Sample 2 
+tokens: [CLS] diner food done at a typical diner level . [SEP] 
+length: 11 
+label: 0 
+Position 1: diner 0.25984 
+Position 2: food 0.26812 
+Position 3: done 0.29594 
+Position 4: at 0.27297 
+Position 5: a 0.30219 
+Position 6: typical 0.29703 
+Position 7: diner 0.27156 
+Position 8: level 0.30062 
+Position 9: . 0.29172 
+Time elapsed 41.06916952133179 
+Sample 3 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 1: this 0.87813 
+Position 2: place 1.01063 
+Position 3: serves 1.11000 
+Position 4: the 1.00312 
+Position 5: best 1.43375 
+Position 6: boba 1.06500 

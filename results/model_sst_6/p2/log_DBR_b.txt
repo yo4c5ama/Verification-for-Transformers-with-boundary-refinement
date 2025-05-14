@@ -1,0 +1,180 @@
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 0.00024 
+Position 2: everything 0.00026 
+Position 3: works 0.00027 
+Position 4: , 0.00026 
+Position 5: but 0.00026 
+Position 6: the 0.00027 
+Position 7: average 0.00027 
+Position 8: is 0.00027 
+Position 9: higher 0.00027 
+Position 10: than 0.00027 
+Position 11: in 0.00027 
+Position 12: mary 0.00026 
+Position 13: and 0.00027 
+Position 14: most 0.00027 
+Position 15: other 0.00026 
+Position 16: recent 0.00027 
+Position 17: comedies 0.00027 
+Position 18: . 0.00027 
+Time elapsed 1349.7018718719482 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 0.00145 
+Position 2: me 0.00143 
+Position 3: , 0.00149 
+Position 4: this 0.00146 
+Position 5: opera 0.00145 
+Position 6: is 0.00147 
+Position 7: n 0.00142 
+Position 8: ' 0.00151 
+Position 9: t 0.00146 
+Position 10: a 0.00149 
+Position 11: favorite 0.00146 
+Position 12: , 0.00147 
+Position 13: so 0.00147 
+Position 14: it 0.00146 
+Position 15: ' 0.00149 
+Position 16: s 0.00146 
+Position 17: a 0.00147 
+Position 18: long 0.00145 
+Position 19: time 0.00146 
+Position 20: before 0.00146 
+Position 21: the 0.00147 
+Position 22: fat 0.00145 
+Position 23: lady 0.00147 
+Position 24: sings 0.00146 
+Position 25: . 0.00147 
+Time elapsed 3261.9336874485016 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+Position 1: almost 0.00041 
+Position 2: everything 0.00041 
+Position 3: else 0.00042 
+Position 4: is 0.00042 
+Position 5: wan 0.00041 
+Position 6: . 0.00042 
+Time elapsed 202.76519966125488 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 0.00124 
+Position 2: , 0.00132 
+Position 3: it 0.00139 
+Position 4: ' 0.00137 
+Position 5: s 0.00135 
+Position 6: not 0.00127 
+Position 7: nearly 0.00135 
+Position 8: as 0.00138 
+Position 9: good 0.00140 
+Position 10: as 0.00135 
+Position 11: any 0.00133 
+Position 12: of 0.00132 
+Position 13: its 0.00133 
+Position 14: influences 0.00133 
+Position 15: . 0.00134 
+Time elapsed 1240.0694434642792 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 0.00037 
+Position 2: , 0.00036 
+Position 3: mesmerizing 0.00038 
+Position 4: and 0.00037 
+Position 7: hard 0.00036 
+Position 8: to 0.00038 
+Position 9: forget 0.00036 
+Position 10: . 0.00038 
+Time elapsed 415.54807686805725 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 0.00095 
+Position 2: watched 0.00095 
+Position 3: the 0.00097 
+Position 6: insanity 0.00096 
+Position 7: of 0.00097 
+Position 8: no 0.00096 
+Position 9: such 0.00097 
+Position 10: thing 0.00096 
+Position 11: with 0.00097 
+Position 12: mounting 0.00098 
+Position 13: disbelief 0.00096 
+Position 14: . 0.00097 
+Time elapsed 875.2095293998718 
+Sample 6 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+Position 3: , 0.00055 
+Position 11: animated 0.00055 
+Position 12: space 0.00056 
+Position 13: adventure 0.00056 
+Position 14: . 0.00056 
+Time elapsed 335.52594542503357 
+Sample 7 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.00094 
+Position 6: taking 0.00094 
+Position 7: place 0.00094 
+Position 8: in 0.00096 
+Position 9: a 0.00095 
+Position 10: pristine 0.00095 
+Position 11: movie 0.00094 
+Position 14: , 0.00095 
+Position 15: basically 0.00090 
+Position 16: . 0.00094 
+Time elapsed 795.0493314266205 
+Sample 8 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.00094 
+Position 6: taking 0.00094 
+Position 7: place 0.00094 
+Position 8: in 0.00096 
+Position 9: a 0.00095 
+Position 10: pristine 0.00095 
+Position 11: movie 0.00094 
+Position 14: , 0.00095 
+Position 15: basically 0.00090 
+Position 16: . 0.00094 
+Time elapsed 792.0171320438385 
+Sample 9 
+tokens: [CLS] de niro may enjoy the same free ride from critics afforded to clint eastwood in the lazy blood ##work . [SEP] 
+length: 22 
+label: 0 
+Position 1: de 0.00116 
+Position 2: niro 0.00117 
+Position 3: may 0.00120 
+Position 4: enjoy 0.00123 
+Position 5: the 0.00122 
+Position 6: same 0.00118 
+Position 7: free 0.00123 
+Position 8: ride 0.00124 
+Position 9: from 0.00123 
+Position 10: critics 0.00121 
+Position 11: afforded 0.00122 
+Position 12: to 0.00120 
+Position 13: clint 0.00122 
+Position 14: eastwood 0.00120 
+Position 15: in 0.00121 
+Position 16: the 0.00120 
+Position 17: lazy 0.00119 
+Position 20: . 0.00121 
+Time elapsed 1795.8003878593445 
+10 valid examples 
+Minimum: 0.00081 
+Average: 0.00085 

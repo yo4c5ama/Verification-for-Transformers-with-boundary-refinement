@@ -1,0 +1,895 @@
+{
+    "examples": [
+        {
+            "tokens": [
+                "[CLS]",
+                "not",
+                "everything",
+                "works",
+                ",",
+                "but",
+                "the",
+                "average",
+                "is",
+                "higher",
+                "than",
+                "in",
+                "mary",
+                "and",
+                "most",
+                "other",
+                "recent",
+                "comedies",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 1.3198852684581652e-05,
+                    "eps_normalized": 0.00013835054414812475
+                },
+                {
+                    "position": 2,
+                    "eps": 1.4190673937264364e-05,
+                    "eps_normalized": 0.00016444730863440782
+                },
+                {
+                    "position": 3,
+                    "eps": 1.4829635802016128e-05,
+                    "eps_normalized": 0.00013106739788781852
+                },
+                {
+                    "position": 4,
+                    "eps": 1.466751109546749e-05,
+                    "eps_normalized": 0.0001707656483631581
+                },
+                {
+                    "position": 5,
+                    "eps": 1.4619827197748236e-05,
+                    "eps_normalized": 0.00016003992641344666
+                },
+                {
+                    "position": 6,
+                    "eps": 1.4810561879130546e-05,
+                    "eps_normalized": 0.00017887167632579803
+                },
+                {
+                    "position": 7,
+                    "eps": 1.4743804968020413e-05,
+                    "eps_normalized": 0.00017046761058736593
+                },
+                {
+                    "position": 8,
+                    "eps": 1.488685575168347e-05,
+                    "eps_normalized": 0.0001638448447920382
+                },
+                {
+                    "position": 9,
+                    "eps": 1.487731969973538e-05,
+                    "eps_normalized": 0.00011765734961954877
+                },
+                {
+                    "position": 10,
+                    "eps": 1.4743804968020413e-05,
+                    "eps_normalized": 0.00016261627024505287
+                },
+                {
+                    "position": 11,
+                    "eps": 1.4705658031743951e-05,
+                    "eps_normalized": 0.00014779236516915262
+                },
+                {
+                    "position": 12,
+                    "eps": 1.466751109546749e-05,
+                    "eps_normalized": 0.00012641680950764567
+                },
+                {
+                    "position": 13,
+                    "eps": 1.4944076610845514e-05,
+                    "eps_normalized": 0.0001387162774335593
+                },
+                {
+                    "position": 14,
+                    "eps": 1.4715194993186742e-05,
+                    "eps_normalized": 0.0001357465225737542
+                },
+                {
+                    "position": 15,
+                    "eps": 1.4381408618646674e-05,
+                    "eps_normalized": 0.0001553613255964592
+                },
+                {
+                    "position": 16,
+                    "eps": 1.4743804968020413e-05,
+                    "eps_normalized": 0.0001458991609979421
+                },
+                {
+                    "position": 17,
+                    "eps": 1.4772414942854084e-05,
+                    "eps_normalized": 0.00013807554205413908
+                },
+                {
+                    "position": 18,
+                    "eps": 1.4743804968020413e-05,
+                    "eps_normalized": 0.00014110284973867238
+                }
+            ],
+            "time": 1333.9087941646576
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "for",
+                "me",
+                ",",
+                "this",
+                "opera",
+                "is",
+                "n",
+                "'",
+                "t",
+                "a",
+                "favorite",
+                ",",
+                "so",
+                "it",
+                "'",
+                "s",
+                "a",
+                "long",
+                "time",
+                "before",
+                "the",
+                "fat",
+                "lady",
+                "sings",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 8.033752237679437e-05,
+                    "eps_normalized": 0.0010873719584196806
+                },
+                {
+                    "position": 2,
+                    "eps": 7.934570021461695e-05,
+                    "eps_normalized": 0.0008153693052008748
+                },
+                {
+                    "position": 3,
+                    "eps": 8.270263788290322e-05,
+                    "eps_normalized": 0.0008751089917495847
+                },
+                {
+                    "position": 4,
+                    "eps": 8.102416904876009e-05,
+                    "eps_normalized": 0.0008574285893701017
+                },
+                {
+                    "position": 5,
+                    "eps": 8.064269786700606e-05,
+                    "eps_normalized": 0.0008232780965045094
+                },
+                {
+                    "position": 6,
+                    "eps": 8.163452002918348e-05,
+                    "eps_normalized": 0.0007400998147204518
+                },
+                {
+                    "position": 7,
+                    "eps": 7.896423630882055e-05,
+                    "eps_normalized": 0.0008814811590127647
+                },
+                {
+                    "position": 8,
+                    "eps": 8.377074846066535e-05,
+                    "eps_normalized": 0.0009481028537265956
+                },
+                {
+                    "position": 9,
+                    "eps": 8.102416904876009e-05,
+                    "eps_normalized": 0.0008843632531352341
+                },
+                {
+                    "position": 10,
+                    "eps": 8.255004649981856e-05,
+                    "eps_normalized": 0.000735732086468488
+                },
+                {
+                    "position": 11,
+                    "eps": 8.117676043184474e-05,
+                    "eps_normalized": 0.0007617783267050982
+                },
+                {
+                    "position": 12,
+                    "eps": 8.186339982785285e-05,
+                    "eps_normalized": 0.0009671029401943088
+                },
+                {
+                    "position": 13,
+                    "eps": 8.140564023051411e-05,
+                    "eps_normalized": 0.0007420980837196112
+                },
+                {
+                    "position": 14,
+                    "eps": 8.140564023051411e-05,
+                    "eps_normalized": 0.0009697917266748846
+                },
+                {
+                    "position": 15,
+                    "eps": 8.239746239269152e-05,
+                    "eps_normalized": 0.0009253431926481426
+                },
+                {
+                    "position": 16,
+                    "eps": 8.125304884742945e-05,
+                    "eps_normalized": 0.0009281484526582062
+                },
+                {
+                    "position": 17,
+                    "eps": 8.163452002918348e-05,
+                    "eps_normalized": 0.0007184100686572492
+                },
+                {
+                    "position": 18,
+                    "eps": 8.033752237679437e-05,
+                    "eps_normalized": 0.000797039014287293
+                },
+                {
+                    "position": 19,
+                    "eps": 8.125304884742945e-05,
+                    "eps_normalized": 0.0008317034225910902
+                },
+                {
+                    "position": 20,
+                    "eps": 8.102416904876009e-05,
+                    "eps_normalized": 0.0007706386386416852
+                },
+                {
+                    "position": 21,
+                    "eps": 8.163452002918348e-05,
+                    "eps_normalized": 0.0007382414769381285
+                },
+                {
+                    "position": 22,
+                    "eps": 8.04138180683367e-05,
+                    "eps_normalized": 0.0008497215458191931
+                },
+                {
+                    "position": 23,
+                    "eps": 8.178711141226813e-05,
+                    "eps_normalized": 0.0007393809501081705
+                },
+                {
+                    "position": 24,
+                    "eps": 8.079528925009072e-05,
+                    "eps_normalized": 0.000602378451731056
+                },
+                {
+                    "position": 25,
+                    "eps": 8.178711141226813e-05,
+                    "eps_normalized": 0.0007286716136150062
+                }
+            ],
+            "time": 3042.538262605667
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "almost",
+                "everything",
+                "else",
+                "is",
+                "wan",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 2.3918151782709174e-05,
+                    "eps_normalized": 0.00026338075986132026
+                },
+                {
+                    "position": 2,
+                    "eps": 2.4127959477482364e-05,
+                    "eps_normalized": 0.0002796046028379351
+                },
+                {
+                    "position": 3,
+                    "eps": 2.43949889409123e-05,
+                    "eps_normalized": 0.0003070681996177882
+                },
+                {
+                    "position": 4,
+                    "eps": 2.4471282813465223e-05,
+                    "eps_normalized": 0.0002527273609302938
+                },
+                {
+                    "position": 5,
+                    "eps": 2.4127959477482364e-05,
+                    "eps_normalized": 0.00021835402003489435
+                },
+                {
+                    "position": 6,
+                    "eps": 2.462387055857107e-05,
+                    "eps_normalized": 0.00022474410070572048
+                }
+            ],
+            "time": 175.85611653327942
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "no",
+                ",",
+                "it",
+                "'",
+                "s",
+                "not",
+                "nearly",
+                "as",
+                "good",
+                "as",
+                "any",
+                "of",
+                "its",
+                "influences",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 7.110595470294356e-05,
+                    "eps_normalized": 0.0007990179001353681
+                },
+                {
+                    "position": 2,
+                    "eps": 7.583617843920365e-05,
+                    "eps_normalized": 0.0009037790005095303
+                },
+                {
+                    "position": 3,
+                    "eps": 7.942199590615928e-05,
+                    "eps_normalized": 0.0008540418930351734
+                },
+                {
+                    "position": 4,
+                    "eps": 7.858276512706652e-05,
+                    "eps_normalized": 0.000960885954555124
+                },
+                {
+                    "position": 5,
+                    "eps": 7.751464727334678e-05,
+                    "eps_normalized": 0.0008404532563872635
+                },
+                {
+                    "position": 6,
+                    "eps": 7.312774687306955e-05,
+                    "eps_normalized": 0.0005930359475314617
+                },
+                {
+                    "position": 7,
+                    "eps": 7.728576747467741e-05,
+                    "eps_normalized": 0.000826887902803719
+                },
+                {
+                    "position": 8,
+                    "eps": 7.881164492573589e-05,
+                    "eps_normalized": 0.0007864272338338196
+                },
+                {
+                    "position": 9,
+                    "eps": 8.033752237679437e-05,
+                    "eps_normalized": 0.000738694507163018
+                },
+                {
+                    "position": 10,
+                    "eps": 7.70950282458216e-05,
+                    "eps_normalized": 0.0007066497928462923
+                },
+                {
+                    "position": 11,
+                    "eps": 7.64846772653982e-05,
+                    "eps_normalized": 0.0007670950726605952
+                },
+                {
+                    "position": 12,
+                    "eps": 7.564544648630545e-05,
+                    "eps_normalized": 0.0006649844581261277
+                },
+                {
+                    "position": 13,
+                    "eps": 7.637024100404233e-05,
+                    "eps_normalized": 0.00089075299911201
+                },
+                {
+                    "position": 14,
+                    "eps": 7.644653669558465e-05,
+                    "eps_normalized": 0.0006258214707486331
+                },
+                {
+                    "position": 15,
+                    "eps": 7.652282511116937e-05,
+                    "eps_normalized": 0.0008187550702132285
+                }
+            ],
+            "time": 1090.762279510498
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "daring",
+                ",",
+                "mesmerizing",
+                "and",
+                "exceeding",
+                "##ly",
+                "hard",
+                "to",
+                "forget",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 2.075195334327873e-05,
+                    "eps_normalized": 0.00020886067068204284
+                },
+                {
+                    "position": 2,
+                    "eps": 2.063751162495464e-05,
+                    "eps_normalized": 0.00024594791466370225
+                },
+                {
+                    "position": 3,
+                    "eps": 2.1514892068807967e-05,
+                    "eps_normalized": 0.00015175201406236738
+                },
+                {
+                    "position": 4,
+                    "eps": 2.117157055181451e-05,
+                    "eps_normalized": 0.00017854105681180954
+                },
+                {
+                    "position": 7,
+                    "eps": 2.040863000729587e-05,
+                    "eps_normalized": 0.00021667798864655197
+                },
+                {
+                    "position": 8,
+                    "eps": 2.120971657859627e-05,
+                    "eps_normalized": 0.00021155676222406328
+                },
+                {
+                    "position": 9,
+                    "eps": 2.0351410057628527e-05,
+                    "eps_normalized": 0.00022868835367262363
+                },
+                {
+                    "position": 10,
+                    "eps": 2.1457672119140625e-05,
+                    "eps_normalized": 0.00019856142171192914
+                }
+            ],
+            "time": 376.0837597846985
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "i",
+                "watched",
+                "the",
+                "brain",
+                "##less",
+                "insanity",
+                "of",
+                "no",
+                "such",
+                "thing",
+                "with",
+                "mounting",
+                "disbelief",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 5.5274962505791336e-05,
+                    "eps_normalized": 0.0005727372481487691
+                },
+                {
+                    "position": 2,
+                    "eps": 5.538940604310483e-05,
+                    "eps_normalized": 0.0006428753258660436
+                },
+                {
+                    "position": 3,
+                    "eps": 5.64193724130746e-05,
+                    "eps_normalized": 0.0006631608703173697
+                },
+                {
+                    "position": 6,
+                    "eps": 5.5618285841774195e-05,
+                    "eps_normalized": 0.0006313991034403443
+                },
+                {
+                    "position": 7,
+                    "eps": 5.6571960158180445e-05,
+                    "eps_normalized": 0.0005844640545547009
+                },
+                {
+                    "position": 8,
+                    "eps": 5.584716927842237e-05,
+                    "eps_normalized": 0.0006361881387419999
+                },
+                {
+                    "position": 9,
+                    "eps": 5.64193724130746e-05,
+                    "eps_normalized": 0.0005896869115531445
+                },
+                {
+                    "position": 10,
+                    "eps": 5.569458153331652e-05,
+                    "eps_normalized": 0.0005480939289554954
+                },
+                {
+                    "position": 11,
+                    "eps": 5.653381231240928e-05,
+                    "eps_normalized": 0.0005745630478486419
+                },
+                {
+                    "position": 12,
+                    "eps": 5.664825584972277e-05,
+                    "eps_normalized": 0.0005719445762224495
+                },
+                {
+                    "position": 13,
+                    "eps": 5.5427550250897184e-05,
+                    "eps_normalized": 0.00041817742749117315
+                },
+                {
+                    "position": 14,
+                    "eps": 5.6228636822197586e-05,
+                    "eps_normalized": 0.0004878512118011713
+                }
+            ],
+            "time": 806.6952712535858
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "za",
+                "##ny",
+                ",",
+                "ex",
+                "##uber",
+                "##antly",
+                "ir",
+                "##re",
+                "##vere",
+                "##nt",
+                "animated",
+                "space",
+                "adventure",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 3,
+                    "eps": 3.1356812542071566e-05,
+                    "eps_normalized": 0.00033179871388711035
+                },
+                {
+                    "position": 11,
+                    "eps": 3.1356812542071566e-05,
+                    "eps_normalized": 0.00026121901464648545
+                },
+                {
+                    "position": 12,
+                    "eps": 3.181457577738911e-05,
+                    "eps_normalized": 0.00031636806670576334
+                },
+                {
+                    "position": 13,
+                    "eps": 3.168106195516884e-05,
+                    "eps_normalized": 0.00029512072796933353
+                },
+                {
+                    "position": 14,
+                    "eps": 3.183364970027469e-05,
+                    "eps_normalized": 0.00027619529282674193
+                }
+            ],
+            "time": 312.93223452568054
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "loving",
+                "##ly",
+                "choreographed",
+                "blood",
+                "##shed",
+                "taking",
+                "place",
+                "in",
+                "a",
+                "pristine",
+                "movie",
+                "never",
+                "##land",
+                ",",
+                "basically",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 3,
+                    "eps": 5.115508974995464e-05,
+                    "eps_normalized": 0.0005668411613442004
+                },
+                {
+                    "position": 6,
+                    "eps": 5.107879769639112e-05,
+                    "eps_normalized": 0.0005794987664557993
+                },
+                {
+                    "position": 7,
+                    "eps": 5.115508974995464e-05,
+                    "eps_normalized": 0.0005157329724170268
+                },
+                {
+                    "position": 8,
+                    "eps": 5.191802847548388e-05,
+                    "eps_normalized": 0.0005309968255460262
+                },
+                {
+                    "position": 9,
+                    "eps": 5.157470877747983e-05,
+                    "eps_normalized": 0.0005304553778842092
+                },
+                {
+                    "position": 10,
+                    "eps": 5.1536560931708664e-05,
+                    "eps_normalized": 0.0004900460480712354
+                },
+                {
+                    "position": 11,
+                    "eps": 5.115508974995464e-05,
+                    "eps_normalized": 0.0004697984259109944
+                },
+                {
+                    "position": 14,
+                    "eps": 5.1269529649289325e-05,
+                    "eps_normalized": 0.00046247895807027817
+                },
+                {
+                    "position": 15,
+                    "eps": 4.882812572759576e-05,
+                    "eps_normalized": 0.00044599591637961566
+                },
+                {
+                    "position": 16,
+                    "eps": 5.1193237595725805e-05,
+                    "eps_normalized": 0.0005155710969120264
+                }
+            ],
+            "time": 731.965493440628
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "loving",
+                "##ly",
+                "choreographed",
+                "blood",
+                "##shed",
+                "taking",
+                "place",
+                "in",
+                "a",
+                "pristine",
+                "movie",
+                "never",
+                "##land",
+                ",",
+                "basically",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 3,
+                    "eps": 5.115508974995464e-05,
+                    "eps_normalized": 0.0005668411613442004
+                },
+                {
+                    "position": 6,
+                    "eps": 5.107879769639112e-05,
+                    "eps_normalized": 0.0005794987664557993
+                },
+                {
+                    "position": 7,
+                    "eps": 5.115508974995464e-05,
+                    "eps_normalized": 0.0005157329724170268
+                },
+                {
+                    "position": 8,
+                    "eps": 5.191802847548388e-05,
+                    "eps_normalized": 0.0005309968255460262
+                },
+                {
+                    "position": 9,
+                    "eps": 5.157470877747983e-05,
+                    "eps_normalized": 0.0005304553778842092
+                },
+                {
+                    "position": 10,
+                    "eps": 5.1536560931708664e-05,
+                    "eps_normalized": 0.0004900460480712354
+                },
+                {
+                    "position": 11,
+                    "eps": 5.115508974995464e-05,
+                    "eps_normalized": 0.0004697984259109944
+                },
+                {
+                    "position": 14,
+                    "eps": 5.1269529649289325e-05,
+                    "eps_normalized": 0.00046247895807027817
+                },
+                {
+                    "position": 15,
+                    "eps": 4.882812572759576e-05,
+                    "eps_normalized": 0.00044599591637961566
+                },
+                {
+                    "position": 16,
+                    "eps": 5.1193237595725805e-05,
+                    "eps_normalized": 0.0005155710969120264
+                }
+            ],
+            "time": 734.9336929321289
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "de",
+                "niro",
+                "may",
+                "enjoy",
+                "the",
+                "same",
+                "free",
+                "ride",
+                "from",
+                "critics",
+                "afforded",
+                "to",
+                "clint",
+                "eastwood",
+                "in",
+                "the",
+                "lazy",
+                "blood",
+                "##work",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 6.359100370900705e-05,
+                    "eps_normalized": 0.0006779845571145415
+                },
+                {
+                    "position": 2,
+                    "eps": 6.427765038097277e-05,
+                    "eps_normalized": 0.0007617888622917235
+                },
+                {
+                    "position": 3,
+                    "eps": 6.561279587913305e-05,
+                    "eps_normalized": 0.0007599056116305292
+                },
+                {
+                    "position": 4,
+                    "eps": 6.732940528308973e-05,
+                    "eps_normalized": 0.0006432165391743183
+                },
+                {
+                    "position": 5,
+                    "eps": 6.69479341013357e-05,
+                    "eps_normalized": 0.0007635168731212616
+                },
+                {
+                    "position": 6,
+                    "eps": 6.46591215627268e-05,
+                    "eps_normalized": 0.000699226395227015
+                },
+                {
+                    "position": 7,
+                    "eps": 6.717682117596269e-05,
+                    "eps_normalized": 0.0006148610846139491
+                },
+                {
+                    "position": 8,
+                    "eps": 6.813049549236894e-05,
+                    "eps_normalized": 0.0005785634275525808
+                },
+                {
+                    "position": 9,
+                    "eps": 6.717682117596269e-05,
+                    "eps_normalized": 0.0008230312378145754
+                },
+                {
+                    "position": 10,
+                    "eps": 6.622314685955644e-05,
+                    "eps_normalized": 0.0006760413525626063
+                },
+                {
+                    "position": 11,
+                    "eps": 6.668090645689517e-05,
+                    "eps_normalized": 0.0006351115298457444
+                },
+                {
+                    "position": 12,
+                    "eps": 6.580352783203125e-05,
+                    "eps_normalized": 0.0007661678828299046
+                },
+                {
+                    "position": 13,
+                    "eps": 6.668090645689517e-05,
+                    "eps_normalized": 0.0006532805855385959
+                },
+                {
+                    "position": 14,
+                    "eps": 6.572723214048892e-05,
+                    "eps_normalized": 0.0005567101179622114
+                },
+                {
+                    "position": 15,
+                    "eps": 6.65664701955393e-05,
+                    "eps_normalized": 0.000645833439193666
+                },
+                {
+                    "position": 16,
+                    "eps": 6.591797136934474e-05,
+                    "eps_normalized": 0.0007018314208835363
+                },
+                {
+                    "position": 17,
+                    "eps": 6.496429705293849e-05,
+                    "eps_normalized": 0.0005327604594640434
+                },
+                {
+                    "position": 20,
+                    "eps": 6.652832234976813e-05,
+                    "eps_normalized": 0.0006600337801501155
+                }
+            ],
+            "time": 1664.4337878227234
+        }
+    ],
+    "minimum": 4.554176412057132e-05,
+    "average": 4.73730789963156e-05
+}

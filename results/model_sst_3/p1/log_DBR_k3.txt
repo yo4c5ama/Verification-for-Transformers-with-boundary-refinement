@@ -1,0 +1,125 @@
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 1.00688 
+Position 2: everything 0.94063 
+Position 3: works 0.94063 
+Position 4: , 0.90875 
+Position 5: but 0.90125 
+Position 6: the 0.90312 
+Position 7: average 0.90312 
+Position 8: is 0.90125 
+Position 9: higher 0.91688 
+Position 10: than 0.90250 
+Time elapsed 60.98618721961975 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 1.74625 
+Position 2: me 1.74625 
+Position 3: , 1.75875 
+Position 4: this 1.74250 
+Position 5: opera 1.73875 
+Position 6: is 1.73875 
+Position 7: n 1.74625 
+Position 8: ' 1.73875 
+Position 9: t 1.74250 
+Position 10: a 1.73750 
+Time elapsed 69.83719420433044 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+Position 1: almost 0.99625 
+Position 2: everything 1.01125 
+Position 3: else 1.03125 
+Position 4: is 0.99875 
+Position 5: wan 1.01312 
+Position 6: . 0.99687 
+Time elapsed 37.75764346122742 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 2.04750 
+Position 2: , 2.00000 
+Position 3: it 1.99750 
+Position 4: ' 1.99375 
+Position 5: s 1.99250 
+Position 6: not 2.06125 
+Position 7: nearly 1.99750 
+Position 8: as 1.99500 
+Position 9: good 2.06125 
+Position 10: as 1.99750 
+Time elapsed 67.16214179992676 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 0.87375 
+Position 2: , 0.87563 
+Position 3: mesmerizing 0.92125 
+Position 4: and 0.86563 
+Position 7: hard 0.85500 
+Position 8: to 0.85688 
+Position 9: forget 0.86250 
+Position 10: . 0.85688 
+Time elapsed 53.51827931404114 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 2.76000 
+Position 2: watched 2.77250 
+Position 3: the 2.76500 
+Position 6: insanity 2.78000 
+Position 7: of 2.76750 
+Position 8: no 2.84750 
+Position 9: such 2.76750 
+Position 10: thing 2.79750 
+Time elapsed 57.17767095565796 
+Sample 6 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+Position 3: , 1.35750 
+Time elapsed 6.62341833114624 
+Sample 7 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.14578 
+Position 6: taking 0.14320 
+Position 7: place 0.14234 
+Position 8: in 0.14078 
+Position 9: a 0.14102 
+Position 10: pristine 0.14289 
+Time elapsed 50.604164361953735 
+Sample 8 
+tokens: [CLS] scotland , pa . is a strangely dr ##ab rom ##p . [SEP] 
+length: 14 
+label: 0 
+Position 1: scotland 0.11078 
+Position 2: , 0.11297 
+Position 3: pa 0.11156 
+Position 4: . 0.10883 
+Position 5: is 0.10813 
+Position 6: a 0.10898 
+Position 7: strangely 0.11234 
+Time elapsed 58.76086974143982 
+Sample 9 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.14578 
+Position 6: taking 0.14320 
+Position 7: place 0.14234 
+Position 8: in 0.14078 
+Position 9: a 0.14102 
+Position 10: pristine 0.14289 
+Time elapsed 50.154945373535156 
+10 valid examples 
+Minimum: 1.09897 
+Average: 1.10949 

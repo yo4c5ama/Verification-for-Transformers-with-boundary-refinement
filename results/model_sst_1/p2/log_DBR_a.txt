@@ -1,0 +1,1972 @@
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 0.50125 
+Position 2: everything 0.67563 
+Position 3: works 0.87125 
+Position 4: , 0.77688 
+Position 5: but 0.73312 
+Position 6: the 0.78250 
+Position 7: average 0.79125 
+Position 8: is 0.79875 
+Position 9: higher 0.83500 
+Position 10: than 0.71875 
+Position 11: in 0.74875 
+Position 12: mary 0.75375 
+Position 13: and 0.83062 
+Position 14: most 0.74437 
+Position 15: other 0.69750 
+Position 16: recent 0.82125 
+Position 17: comedies 0.81687 
+Position 18: . 0.73750 
+Time elapsed 102.27244091033936 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 1.08125 
+Position 2: me 1.01625 
+Position 3: , 1.26063 
+Position 4: this 1.18625 
+Position 5: opera 1.15875 
+Position 6: is 1.26125 
+Position 7: n 1.02500 
+Position 8: ' 1.26125 
+Position 9: t 1.06500 
+Position 10: a 1.28375 
+Position 11: favorite 1.12625 
+Position 12: , 1.27688 
+Position 13: so 1.19313 
+Position 14: it 1.21438 
+Position 15: ' 1.21563 
+Position 16: s 1.19813 
+Position 17: a 1.25688 
+Position 18: long 1.02375 
+Position 19: time 1.16625 
+Position 20: before 1.15062 
+Position 21: the 1.22250 
+Position 22: fat 1.13375 
+Position 23: lady 1.23063 
+Position 24: sings 1.19562 
+Position 25: . 1.22312 
+Time elapsed 190.73902416229248 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+Position 1: almost 0.55969 
+Position 2: everything 0.62625 
+Position 3: else 0.63906 
+Position 4: is 0.71688 
+Position 5: wan 0.59625 
+Position 6: . 0.77938 
+Time elapsed 17.37914204597473 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 0.75063 
+Position 2: , 1.02437 
+Position 3: it 1.05625 
+Position 4: ' 1.02000 
+Position 5: s 1.07250 
+Position 6: not 0.85625 
+Position 7: nearly 0.98000 
+Position 8: as 1.08375 
+Position 9: good 1.15375 
+Position 10: as 1.04625 
+Position 11: any 0.99063 
+Position 12: of 1.10938 
+Position 13: its 1.05187 
+Position 14: influences 1.02875 
+Position 15: . 1.10438 
+Time elapsed 70.69479322433472 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 0.63125 
+Position 2: , 0.62063 
+Position 3: mesmerizing 0.77250 
+Position 4: and 0.68563 
+Position 7: hard 0.57156 
+Position 8: to 0.66438 
+Position 9: forget 0.57531 
+Position 10: . 0.65812 
+Time elapsed 30.36060118675232 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 1.16000 
+Position 2: watched 1.15375 
+Position 3: the 0.47063 
+Position 6: insanity 1.23563 
+Position 7: of 0.46938 
+Position 8: no 1.17875 
+Position 9: such 0.47188 
+Position 10: thing 1.20375 
+Position 11: with 0.45656 
+Position 12: mounting 0.44656 
+Position 13: disbelief 1.22187 
+Position 14: . 0.46656 
+Time elapsed 56.2978081703186 
+Sample 6 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+Position 3: , 0.85562 
+Position 11: animated 0.80875 
+Position 12: space 0.91750 
+Position 13: adventure 0.91188 
+Position 14: . 0.83188 
+Time elapsed 23.003690719604492 
+Sample 7 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.25500 
+Position 6: taking 0.28313 
+Position 7: place 0.24672 
+Position 8: in 0.27656 
+Position 9: a 0.27891 
+Position 10: pristine 0.30484 
+Position 11: movie 0.26578 
+Position 14: , 0.28250 
+Position 15: basically 0.21781 
+Position 16: . 0.26141 
+Time elapsed 53.8403582572937 
+Sample 8 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.25500 
+Position 6: taking 0.28313 
+Position 7: place 0.24672 
+Position 8: in 0.27656 
+Position 9: a 0.27891 
+Position 10: pristine 0.30484 
+Position 11: movie 0.26578 
+Position 14: , 0.28250 
+Position 15: basically 0.21781 
+Position 16: . 0.26141 
+Time elapsed 53.99317240715027 
+Sample 9 
+tokens: [CLS] de niro may enjoy the same free ride from critics afforded to clint eastwood in the lazy blood ##work . [SEP] 
+length: 22 
+label: 0 
+Position 1: de 0.84625 
+Position 2: niro 0.85500 
+Position 3: may 0.98375 
+Position 4: enjoy 1.07875 
+Position 5: the 1.07750 
+Position 6: same 0.91625 
+Position 7: free 1.03562 
+Position 8: ride 1.16625 
+Position 9: from 1.03250 
+Position 10: critics 0.95625 
+Position 11: afforded 0.99313 
+Position 12: to 1.03375 
+Position 13: clint 1.04750 
+Position 14: eastwood 0.95250 
+Position 15: in 1.04813 
+Position 16: the 1.04875 
+Position 17: lazy 0.87375 
+Position 20: . 1.06438 
+Time elapsed 109.8379340171814 
+Sample 10 
+tokens: [CLS] a boring , win ##cing ##ly cute and nausea ##ting ##ly politically correct cartoon guaranteed to drive anyone much over age 4 screaming from the theater . [SEP] 
+length: 29 
+label: 0 
+Position 1: a 0.35313 
+Position 2: boring 0.23969 
+Position 3: , 0.41063 
+Position 7: cute 0.46938 
+Position 8: and 0.46812 
+Position 12: politically 0.41375 
+Position 13: correct 0.36000 
+Position 14: cartoon 0.32250 
+Position 15: guaranteed 0.45562 
+Position 16: to 0.36531 
+Position 17: drive 0.32750 
+Position 18: anyone 0.32563 
+Position 19: much 0.35625 
+Position 20: over 0.33125 
+Position 21: age 0.42656 
+Position 22: 4 0.37688 
+Position 23: screaming 0.26781 
+Position 24: from 0.38938 
+Position 25: the 0.38375 
+Position 26: theater 0.35719 
+Position 27: . 0.38125 
+Time elapsed 175.60105443000793 
+Sample 11 
+tokens: [CLS] an enjoyable film for the family , amusing and cute for both adults and kids . [SEP] 
+length: 18 
+label: 1 
+Position 1: an 0.39937 
+Position 2: enjoyable 0.40375 
+Position 3: film 0.40781 
+Position 4: for 0.40312 
+Position 5: the 0.40594 
+Position 6: family 0.40844 
+Position 7: , 0.40969 
+Position 8: amusing 0.40875 
+Position 9: and 0.41000 
+Position 10: cute 0.40875 
+Position 11: for 0.40312 
+Position 12: both 0.40500 
+Position 13: adults 0.40250 
+Position 14: and 0.40969 
+Position 15: kids 0.40594 
+Position 16: . 0.40312 
+Time elapsed 79.93718886375427 
+Sample 12 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 0.50125 
+Position 2: everything 0.67563 
+Position 3: works 0.87125 
+Position 4: , 0.77688 
+Position 5: but 0.73312 
+Position 6: the 0.78250 
+Position 7: average 0.79125 
+Position 8: is 0.79875 
+Position 9: higher 0.83500 
+Position 10: than 0.71875 
+Position 11: in 0.74875 
+Position 12: mary 0.75375 
+Position 13: and 0.83062 
+Position 14: most 0.74437 
+Position 15: other 0.69750 
+Position 16: recent 0.82125 
+Position 17: comedies 0.81687 
+Position 18: . 0.73750 
+Time elapsed 94.37143135070801 
+Sample 13 
+tokens: [CLS] matthew mcc ##ona ##ugh ##ey tries , and fails , to control the screen with sw ##agger ##ing mach ##ism ##o and over - the - top luna ##cy . [SEP] 
+length: 32 
+label: 0 
+Position 1: matthew 1.41625 
+Position 6: tries 1.41125 
+Position 7: , 1.55250 
+Position 8: and 1.60375 
+Position 9: fails 1.34875 
+Position 10: , 1.56125 
+Position 11: to 1.50500 
+Position 12: control 1.47125 
+Position 13: the 1.52875 
+Position 14: screen 1.49750 
+Position 15: with 1.56500 
+Position 22: and 1.56875 
+Position 23: over 1.45000 
+Position 24: - 1.52250 
+Position 25: the 1.51125 
+Position 26: - 1.51125 
+Position 27: top 1.51750 
+Position 30: . 1.50875 
+Time elapsed 190.68729948997498 
+Sample 14 
+tokens: [CLS] after that , it just gets stupid and maud ##lin . [SEP] 
+length: 13 
+label: 0 
+Position 1: after 0.39844 
+Position 2: that 0.39781 
+Position 3: , 0.40500 
+Position 4: it 0.40250 
+Position 5: just 0.39937 
+Position 6: gets 0.40312 
+Position 7: stupid 0.39344 
+Position 8: and 0.41031 
+Position 11: . 0.40250 
+Time elapsed 34.395472049713135 
+Sample 15 
+tokens: [CLS] remarkably accessible and affecting . [SEP] 
+length: 7 
+label: 1 
+Position 1: remarkably 0.72188 
+Position 2: accessible 0.68563 
+Position 3: and 0.38281 
+Position 4: affecting 0.37906 
+Position 5: . 0.72562 
+Time elapsed 13.460315942764282 
+Sample 16 
+tokens: [CLS] the film is just a big , gorgeous , mind - blowing , breath - taking mess . [SEP] 
+length: 20 
+label: 1 
+Position 1: the 0.11102 
+Position 2: film 0.11578 
+Position 3: is 0.12281 
+Position 4: just 0.10859 
+Position 5: a 0.13023 
+Position 6: big 0.12898 
+Position 7: , 0.13313 
+Position 8: gorgeous 0.16484 
+Position 9: , 0.13164 
+Position 10: mind 0.12070 
+Position 11: - 0.12352 
+Position 12: blowing 0.10820 
+Position 13: , 0.13281 
+Position 14: breath 0.15445 
+Position 15: - 0.12383 
+Position 16: taking 0.12484 
+Position 17: mess 0.07254 
+Position 18: . 0.11937 
+Time elapsed 107.83468270301819 
+Sample 17 
+tokens: [CLS] if this movie were a book , it would be a page - turner , you ca n ' t wait to see what happens next . [SEP] 
+length: 29 
+label: 1 
+Position 1: if 0.02322 
+Position 2: this 0.02480 
+Position 3: movie 0.02723 
+Position 4: were 0.02156 
+Position 5: a 0.02908 
+Position 6: book 0.02695 
+Position 7: , 0.02969 
+Position 8: it 0.02926 
+Position 9: would 0.02512 
+Position 10: be 0.02777 
+Position 11: a 0.02896 
+Position 12: page 0.03016 
+Position 13: - 0.02781 
+Position 14: turner 0.02955 
+Position 15: , 0.02949 
+Position 16: you 0.02945 
+Position 17: ca 0.02795 
+Position 18: n 0.02074 
+Position 19: ' 0.02625 
+Position 20: t 0.02279 
+Position 21: wait 0.02455 
+Position 22: to 0.02697 
+Position 23: see 0.02975 
+Position 24: what 0.02789 
+Position 25: happens 0.02504 
+Position 26: next 0.02611 
+Position 27: . 0.02723 
+Time elapsed 294.611887216568 
+Sample 18 
+tokens: [CLS] despite apparent motives to the contrary , it ends up being , like ( se ##in ##feld ' s ) revered tv show , about pretty much nothing . [SEP] 
+length: 31 
+label: 0 
+Position 1: despite 1.48375 
+Position 2: apparent 1.48500 
+Position 3: motives 1.55000 
+Position 4: to 1.57875 
+Position 5: the 1.62000 
+Position 6: contrary 1.59250 
+Position 7: , 1.63625 
+Position 8: it 1.63625 
+Position 9: ends 1.56125 
+Position 10: up 1.61500 
+Position 11: being 1.60375 
+Position 12: , 1.63500 
+Position 13: like 1.60375 
+Position 14: ( 1.59625 
+Position 18: ' 1.57375 
+Position 19: s 1.58625 
+Position 20: ) 1.56875 
+Position 21: revered 1.57875 
+Position 22: tv 1.54500 
+Position 23: show 1.57250 
+Position 24: , 1.63625 
+Position 25: about 1.59750 
+Position 26: pretty 1.61750 
+Position 27: much 1.58375 
+Position 28: nothing 1.52000 
+Position 29: . 1.60750 
+Time elapsed 248.72486567497253 
+Sample 19 
+tokens: [CLS] by the end , i was looking for something hard with which to blu ##dge ##on myself unconscious . [SEP] 
+length: 21 
+label: 0 
+Position 1: by 0.78875 
+Position 2: the 0.86313 
+Position 3: end 0.92687 
+Position 4: , 0.98500 
+Position 5: i 0.95312 
+Position 6: was 0.88625 
+Position 7: looking 0.90250 
+Position 8: for 1.00312 
+Position 9: something 0.99750 
+Position 10: hard 0.84625 
+Position 11: with 1.04500 
+Position 12: which 0.89312 
+Position 13: to 0.95000 
+Position 17: myself 0.73438 
+Position 18: unconscious 0.83188 
+Position 19: . 0.94500 
+Time elapsed 84.91233992576599 
+Sample 20 
+tokens: [CLS] but this time there ' s some mold on the gold . [SEP] 
+length: 14 
+label: 0 
+Position 1: but 0.27859 
+Position 2: this 0.29766 
+Position 3: time 0.32469 
+Position 4: there 0.30000 
+Position 5: ' 0.33437 
+Position 6: s 0.34438 
+Position 7: some 0.33750 
+Position 8: mold 0.28906 
+Position 9: on 0.33000 
+Position 10: the 0.34938 
+Position 11: gold 0.31563 
+Position 12: . 0.34375 
+Time elapsed 50.69055795669556 
+Sample 21 
+tokens: [CLS] compelling revenge thriller , though somewhat weakened by a mis ##cast leading lady . [SEP] 
+length: 16 
+label: 1 
+Position 1: compelling 0.58656 
+Position 2: revenge 0.49000 
+Position 3: thriller 0.55875 
+Position 4: , 0.54594 
+Position 5: though 0.52469 
+Position 6: somewhat 0.59031 
+Position 7: weakened 0.49844 
+Position 8: by 0.53594 
+Position 9: a 0.55594 
+Position 12: leading 0.54406 
+Position 13: lady 0.59500 
+Position 14: . 0.53656 
+Time elapsed 55.75548028945923 
+Sample 22 
+tokens: [CLS] usually when i get this much syrup , i like pancakes to go with it . [SEP] 
+length: 18 
+label: 0 
+Position 1: usually 0.01809 
+Position 2: when 0.01712 
+Position 3: i 0.01983 
+Position 4: get 0.01900 
+Position 5: this 0.02031 
+Position 6: much 0.02002 
+Position 7: syrup 0.01764 
+Position 8: , 0.02283 
+Position 9: i 0.02010 
+Position 10: like 0.02027 
+Position 11: pancakes 0.01882 
+Position 12: to 0.01986 
+Position 13: go 0.02057 
+Position 14: with 0.02203 
+Position 15: it 0.02043 
+Position 16: . 0.02000 
+Time elapsed 109.00733351707458 
+Sample 23 
+tokens: [CLS] obstacles are too easily overcome and there is n ' t much in the way of character development in the script . [SEP] 
+length: 24 
+label: 0 
+Position 1: obstacles 0.79125 
+Position 2: are 0.77125 
+Position 3: too 0.62937 
+Position 4: easily 0.89500 
+Position 5: overcome 0.87187 
+Position 6: and 1.03250 
+Position 7: there 0.84312 
+Position 8: is 0.97312 
+Position 9: n 0.67250 
+Position 10: ' 0.89562 
+Position 11: t 0.72500 
+Position 12: much 0.86437 
+Position 13: in 0.89500 
+Position 14: the 0.90875 
+Position 15: way 0.88375 
+Position 16: of 0.91312 
+Position 17: character 0.82687 
+Position 18: development 0.80125 
+Position 19: in 0.84938 
+Position 20: the 0.90625 
+Position 21: script 0.77375 
+Position 22: . 0.91688 
+Time elapsed 144.65271878242493 
+Sample 24 
+tokens: [CLS] the makers have for ##sa ##ken the entertaining elements of the original and , instead , re ##has ##h old jokes and leave any life at the doorstep . [SEP] 
+length: 31 
+label: 0 
+Position 1: the 0.95688 
+Position 2: makers 0.90625 
+Position 3: have 1.01250 
+Position 7: the 1.10125 
+Position 8: entertaining 1.22750 
+Position 9: elements 1.07125 
+Position 10: of 1.13125 
+Position 11: the 1.09250 
+Position 12: original 1.10312 
+Position 13: and 1.18250 
+Position 14: , 1.12625 
+Position 15: instead 0.77375 
+Position 16: , 1.11563 
+Position 20: old 0.96812 
+Position 21: jokes 0.96562 
+Position 22: and 1.16937 
+Position 23: leave 0.90812 
+Position 24: any 0.98625 
+Position 25: life 1.09625 
+Position 26: at 1.05250 
+Position 27: the 1.06438 
+Position 28: doorstep 0.93063 
+Position 29: . 1.06313 
+Time elapsed 205.24181389808655 
+Sample 25 
+tokens: [CLS] an earnest , heart ##ren ##ding look at the divide between religious fundamental ##ists and their gay relatives . [SEP] 
+length: 21 
+label: 1 
+Position 1: an 0.68375 
+Position 2: earnest 0.72312 
+Position 3: , 0.77125 
+Position 7: look 0.80500 
+Position 8: at 0.76250 
+Position 9: the 0.74937 
+Position 10: divide 0.70500 
+Position 11: between 0.69313 
+Position 12: religious 0.73625 
+Position 15: and 0.80437 
+Position 16: their 0.73813 
+Position 17: gay 0.67813 
+Position 18: relatives 0.68313 
+Position 19: . 0.72750 
+Time elapsed 74.9541130065918 
+Sample 26 
+tokens: [CLS] matthew mcc ##ona ##ugh ##ey tries , and fails , to control the screen with sw ##agger ##ing mach ##ism ##o and over - the - top luna ##cy . [SEP] 
+length: 32 
+label: 0 
+Position 1: matthew 1.41625 
+Position 6: tries 1.41125 
+Position 7: , 1.55250 
+Position 8: and 1.60375 
+Position 9: fails 1.34875 
+Position 10: , 1.56125 
+Position 11: to 1.50500 
+Position 12: control 1.47125 
+Position 13: the 1.52875 
+Position 14: screen 1.49750 
+Position 15: with 1.56500 
+Position 22: and 1.56875 
+Position 23: over 1.45000 
+Position 24: - 1.52250 
+Position 25: the 1.51125 
+Position 26: - 1.51125 
+Position 27: top 1.51750 
+Position 30: . 1.50875 
+Time elapsed 191.52714133262634 
+Sample 27 
+tokens: [CLS] . . . the sum of the parts equals largely a confused med ##io ##cr ##ity . [SEP] 
+length: 19 
+label: 0 
+Position 1: . 1.36375 
+Position 2: . 1.37625 
+Position 3: . 1.44500 
+Position 4: the 1.42500 
+Position 5: sum 1.43875 
+Position 6: of 1.48750 
+Position 7: the 1.45375 
+Position 8: parts 1.44625 
+Position 9: equals 1.39750 
+Position 10: largely 1.42625 
+Position 11: a 1.47125 
+Position 12: confused 1.31375 
+Position 17: . 1.45125 
+Time elapsed 70.238938331604 
+Sample 28 
+tokens: [CLS] long ##ley has constructed a remarkably coherent , horrific ##ally vivid snaps ##hot of those turbulent days . [SEP] 
+length: 20 
+label: 1 
+Position 3: has 0.62094 
+Position 4: constructed 0.62937 
+Position 5: a 0.65500 
+Position 6: remarkably 0.72938 
+Position 7: coherent 0.63563 
+Position 8: , 0.69437 
+Position 11: vivid 0.79688 
+Position 14: of 0.63906 
+Position 15: those 0.64812 
+Position 16: turbulent 0.66188 
+Position 17: days 0.63156 
+Position 18: . 0.60531 
+Time elapsed 62.00320792198181 
+Sample 29 
+tokens: [CLS] the film is just a big , gorgeous , mind - blowing , breath - taking mess . [SEP] 
+length: 20 
+label: 1 
+Position 1: the 0.11102 
+Position 2: film 0.11578 
+Position 3: is 0.12281 
+Position 4: just 0.10859 
+Position 5: a 0.13023 
+Position 6: big 0.12898 
+Position 7: , 0.13313 
+Position 8: gorgeous 0.16484 
+Position 9: , 0.13164 
+Position 10: mind 0.12070 
+Position 11: - 0.12352 
+Position 12: blowing 0.10820 
+Position 13: , 0.13281 
+Position 14: breath 0.15445 
+Position 15: - 0.12383 
+Position 16: taking 0.12484 
+Position 17: mess 0.07254 
+Position 18: . 0.11937 
+Time elapsed 107.52663731575012 
+Sample 30 
+tokens: [CLS] a pleas ##ura ##bly jack ##ed - up piece of action movie ##making . [SEP] 
+length: 16 
+label: 1 
+Position 1: a 0.37656 
+Position 7: - 0.40969 
+Position 8: up 0.43719 
+Position 9: piece 0.41844 
+Position 10: of 0.42031 
+Position 11: action 0.39312 
+Position 14: . 0.41063 
+Time elapsed 31.446093320846558 
+Sample 31 
+tokens: [CLS] a pleas ##ura ##bly jack ##ed - up piece of action movie ##making . [SEP] 
+length: 16 
+label: 1 
+Position 1: a 0.37656 
+Position 7: - 0.40969 
+Position 8: up 0.43719 
+Position 9: piece 0.41844 
+Position 10: of 0.42031 
+Position 11: action 0.39312 
+Position 14: . 0.41063 
+Time elapsed 31.33857560157776 
+Sample 32 
+tokens: [CLS] when a film is created solely because it ' s a market ##able product , soul ##less and ugly movies like this are the result . [SEP] 
+length: 28 
+label: 0 
+Position 1: when 1.44750 
+Position 2: a 1.52250 
+Position 3: film 1.56375 
+Position 4: is 1.54750 
+Position 5: created 1.54750 
+Position 6: solely 1.57875 
+Position 7: because 1.56125 
+Position 8: it 1.59375 
+Position 9: ' 1.55000 
+Position 10: s 1.57000 
+Position 11: a 1.58750 
+Position 14: product 1.47125 
+Position 15: , 1.59750 
+Position 18: and 1.58750 
+Position 19: ugly 1.35750 
+Position 20: movies 1.53375 
+Position 21: like 1.54625 
+Position 22: this 1.55750 
+Position 23: are 1.54000 
+Position 24: the 1.57250 
+Position 25: result 1.48750 
+Position 26: . 1.57000 
+Time elapsed 186.83492612838745 
+Sample 33 
+tokens: [CLS] a modest pleasure that accomplish ##es its goals with ease and confidence . [SEP] 
+length: 15 
+label: 1 
+Position 1: a 0.38469 
+Position 2: modest 0.38375 
+Position 3: pleasure 0.39281 
+Position 4: that 0.38594 
+Position 7: its 0.38750 
+Position 8: goals 0.39156 
+Position 9: with 0.39344 
+Position 10: ease 0.38875 
+Position 11: and 0.39375 
+Position 12: confidence 0.39156 
+Position 13: . 0.39000 
+Time elapsed 45.89529800415039 
+Sample 34 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+Position 3: , 0.85562 
+Position 11: animated 0.80875 
+Position 12: space 0.91750 
+Position 13: adventure 0.91188 
+Position 14: . 0.83188 
+Time elapsed 22.482487440109253 
+Sample 35 
+tokens: [CLS] occasionally funny , always very colorful and enjoy ##ably over ##bl ##own in the traditional al ##mo ##do ##var style . [SEP] 
+length: 23 
+label: 1 
+Position 1: occasionally 0.96812 
+Position 2: funny 1.11375 
+Position 3: , 1.08063 
+Position 4: always 1.08000 
+Position 5: very 1.03937 
+Position 6: colorful 1.22063 
+Position 7: and 1.12250 
+Position 13: in 1.04000 
+Position 14: the 1.05687 
+Position 15: traditional 1.13063 
+Position 20: style 1.13437 
+Position 21: . 1.03500 
+Time elapsed 73.16039514541626 
+Sample 36 
+tokens: [CLS] a pleas ##ura ##bly jack ##ed - up piece of action movie ##making . [SEP] 
+length: 16 
+label: 1 
+Position 1: a 0.37656 
+Position 7: - 0.40969 
+Position 8: up 0.43719 
+Position 9: piece 0.41844 
+Position 10: of 0.42031 
+Position 11: action 0.39312 
+Position 14: . 0.41063 
+Time elapsed 31.289886236190796 
+Sample 37 
+tokens: [CLS] merely as a technical , logistical feat , russian ark marks a cinematic milestone . [SEP] 
+length: 17 
+label: 1 
+Position 1: merely 0.94625 
+Position 2: as 0.89312 
+Position 3: a 1.02750 
+Position 4: technical 0.95938 
+Position 5: , 1.04938 
+Position 6: logistical 0.99687 
+Position 7: feat 1.10750 
+Position 8: , 1.08312 
+Position 9: russian 1.12063 
+Position 10: ark 0.98937 
+Position 11: marks 1.04875 
+Position 12: a 1.03562 
+Position 13: cinematic 1.03813 
+Position 14: milestone 1.04313 
+Position 15: . 1.01500 
+Time elapsed 70.18830394744873 
+Sample 38 
+tokens: [CLS] the movie has lots of dancing and fabulous music . [SEP] 
+length: 12 
+label: 1 
+Position 1: the 0.61563 
+Position 2: movie 0.61750 
+Position 3: has 0.67375 
+Position 4: lots 0.68500 
+Position 5: of 0.69875 
+Position 6: dancing 0.71062 
+Position 7: and 0.74875 
+Position 8: fabulous 0.79062 
+Position 9: music 0.70625 
+Position 10: . 0.69187 
+Time elapsed 36.76797151565552 
+Sample 39 
+tokens: [CLS] a blessed gift to film geek ##s and historians . [SEP] 
+length: 12 
+label: 1 
+Position 1: a 0.45063 
+Position 2: blessed 0.47063 
+Position 3: gift 0.52594 
+Position 4: to 0.45906 
+Position 5: film 0.50875 
+Position 8: and 0.56750 
+Position 9: historians 0.46125 
+Position 10: . 0.49719 
+Time elapsed 29.41137433052063 
+Sample 40 
+tokens: [CLS] superior genre storytelling , which gets under our skin simply by crossing the nuclear line . [SEP] 
+length: 18 
+label: 1 
+Position 1: superior 0.45437 
+Position 2: genre 0.44313 
+Position 3: storytelling 0.47875 
+Position 4: , 0.46906 
+Position 5: which 0.42406 
+Position 6: gets 0.47656 
+Position 7: under 0.39875 
+Position 8: our 0.50156 
+Position 9: skin 0.52094 
+Position 10: simply 0.43750 
+Position 11: by 0.43656 
+Position 12: crossing 0.41500 
+Position 13: the 0.46719 
+Position 14: nuclear 0.38938 
+Position 15: line 0.40531 
+Position 16: . 0.44813 
+Time elapsed 78.28342700004578 
+Sample 41 
+tokens: [CLS] you can feel the heat that ign ##ites this gripping tale , and the humor and humanity that root it in feeling . [SEP] 
+length: 25 
+label: 1 
+Position 1: you 1.04250 
+Position 2: can 0.99187 
+Position 3: feel 0.99875 
+Position 4: the 1.03875 
+Position 5: heat 1.08875 
+Position 6: that 1.05438 
+Position 9: this 1.04625 
+Position 10: gripping 1.12125 
+Position 11: tale 1.12875 
+Position 12: , 1.09250 
+Position 13: and 1.12563 
+Position 14: the 1.06125 
+Position 15: humor 1.11125 
+Position 16: and 1.09812 
+Position 17: humanity 1.09812 
+Position 18: that 1.00937 
+Position 19: root 0.93250 
+Position 20: it 1.04562 
+Position 21: in 1.01813 
+Position 22: feeling 1.03500 
+Position 23: . 1.04750 
+Time elapsed 144.81875348091125 
+Sample 42 
+tokens: [CLS] without september 11 , collateral damage would have been just another bad movie . [SEP] 
+length: 16 
+label: 0 
+Position 1: without 0.41094 
+Position 2: september 0.40219 
+Position 3: 11 0.42250 
+Position 4: , 0.42312 
+Position 5: collateral 0.41156 
+Position 6: damage 0.40844 
+Position 7: would 0.41469 
+Position 8: have 0.42219 
+Position 9: been 0.41031 
+Position 10: just 0.41750 
+Position 11: another 0.41281 
+Position 12: bad 0.40250 
+Position 13: movie 0.42188 
+Position 14: . 0.42156 
+Time elapsed 63.718401193618774 
+Sample 43 
+tokens: [CLS] as ##pire ##s for the pi ##qua ##nt but only really achieves a sort of ridiculous sour ##ness . [SEP] 
+length: 21 
+label: 0 
+Position 4: for 1.40250 
+Position 5: the 1.45750 
+Position 9: but 1.40125 
+Position 10: only 1.37875 
+Position 11: really 1.41875 
+Position 12: achieves 1.38875 
+Position 13: a 1.47875 
+Position 14: sort 1.38625 
+Position 15: of 1.47625 
+Position 16: ridiculous 1.33750 
+Position 19: . 1.43750 
+Time elapsed 63.396467208862305 
+Sample 44 
+tokens: [CLS] for the first two - thirds of this sparkling ##ly inventive and art ##ful , always fast and furious tale , kids will go happily along for the ride . [SEP] 
+length: 32 
+label: 1 
+Position 1: for 1.44625 
+Position 2: the 1.47625 
+Position 3: first 0.55875 
+Position 4: two 1.47625 
+Position 5: - 0.58312 
+Position 6: thirds 0.56500 
+Position 7: of 0.57031 
+Position 8: this 0.56625 
+Position 11: inventive 0.53812 
+Position 12: and 0.56656 
+Position 15: , 0.56406 
+Position 16: always 0.56250 
+Position 17: fast 0.55406 
+Position 18: and 0.57594 
+Position 19: furious 1.45000 
+Position 20: tale 0.55531 
+Position 21: , 0.57781 
+Position 22: kids 0.55031 
+Position 23: will 0.56219 
+Position 24: go 0.56250 
+Position 25: happily 0.55813 
+Position 26: along 0.58750 
+Position 27: for 0.62094 
+Position 28: the 0.59688 
+Position 29: ride 0.54750 
+Position 30: . 0.60562 
+Time elapsed 260.3434627056122 
+Sample 45 
+tokens: [CLS] a cop story that understands the medium amazingly well . [SEP] 
+length: 12 
+label: 1 
+Position 1: a 0.72500 
+Position 2: cop 0.63625 
+Position 3: story 0.75687 
+Position 4: that 0.74063 
+Position 5: understands 0.91750 
+Position 6: the 0.79688 
+Position 7: medium 0.79438 
+Position 8: amazingly 0.82875 
+Position 9: well 0.88875 
+Position 10: . 0.78688 
+Time elapsed 37.38150453567505 
+Sample 46 
+tokens: [CLS] the story bog ##s down in a mess of purpose ##less violence . [SEP] 
+length: 15 
+label: 0 
+Position 1: the 0.41406 
+Position 2: story 0.41156 
+Position 5: down 0.40813 
+Position 6: in 0.41813 
+Position 7: a 0.42125 
+Position 8: mess 0.40312 
+Position 9: of 0.41938 
+Position 12: violence 0.40469 
+Position 13: . 0.41969 
+Time elapsed 38.04519867897034 
+Sample 47 
+tokens: [CLS] pry ##or lit ##e , with half the demons , half the daring , much less talent , many fewer laughs . [SEP] 
+length: 24 
+label: 0 
+Position 5: , 0.45031 
+Position 6: with 0.47469 
+Position 7: half 0.33344 
+Position 8: the 0.45281 
+Position 9: demons 0.38969 
+Position 10: , 0.45250 
+Position 11: half 0.32969 
+Position 12: the 0.42125 
+Position 13: daring 0.46594 
+Position 14: , 0.44375 
+Position 15: much 0.39844 
+Position 16: less 0.26641 
+Position 17: talent 0.41500 
+Position 18: , 0.42094 
+Position 19: many 0.40156 
+Position 20: fewer 0.37688 
+Position 21: laughs 0.45719 
+Position 22: . 0.41938 
+Time elapsed 117.4107084274292 
+Sample 48 
+tokens: [CLS] nothing de ##base ##s a concept comedy quite like the grinding of bad ideas , and showtime is cr ##ammed full of them . [SEP] 
+length: 26 
+label: 0 
+Position 1: nothing 1.19813 
+Position 5: a 1.48375 
+Position 6: concept 1.44625 
+Position 7: comedy 1.45750 
+Position 8: quite 1.47250 
+Position 9: like 1.43500 
+Position 10: the 1.46875 
+Position 11: grinding 1.41875 
+Position 12: of 1.47500 
+Position 13: bad 1.22063 
+Position 14: ideas 1.44375 
+Position 15: , 1.48875 
+Position 16: and 1.49875 
+Position 17: showtime 1.36000 
+Position 18: is 1.42250 
+Position 21: full 1.44625 
+Position 22: of 1.47250 
+Position 23: them 1.41250 
+Position 24: . 1.46750 
+Time elapsed 145.95928859710693 
+Sample 49 
+tokens: [CLS] the story bog ##s down in a mess of purpose ##less violence . [SEP] 
+length: 15 
+label: 0 
+Position 1: the 0.41406 
+Position 2: story 0.41156 
+Position 5: down 0.40813 
+Position 6: in 0.41813 
+Position 7: a 0.42125 
+Position 8: mess 0.40312 
+Position 9: of 0.41938 
+Position 12: violence 0.40469 
+Position 13: . 0.41969 
+Time elapsed 37.72478246688843 
+Sample 50 
+tokens: [CLS] it ' s absolutely sp ##ook ##y how lil ##lard channels the sha ##gs ##ter right down to the original casey ka ##se ##m - furnished voice . [SEP] 
+length: 30 
+label: 1 
+Position 1: it 0.14875 
+Position 2: ' 0.14844 
+Position 3: s 0.16391 
+Position 4: absolutely 0.18203 
+Position 8: how 0.16688 
+Position 11: channels 0.15484 
+Position 12: the 0.17031 
+Position 16: right 0.18766 
+Position 17: down 0.13844 
+Position 18: to 0.15672 
+Position 19: the 0.16500 
+Position 20: original 0.17641 
+Position 21: casey 0.15313 
+Position 25: - 0.16359 
+Position 26: furnished 0.15781 
+Position 27: voice 0.14727 
+Position 28: . 0.16469 
+Time elapsed 161.08947324752808 
+Sample 51 
+tokens: [CLS] a pleas ##ura ##bly jack ##ed - up piece of action movie ##making . [SEP] 
+length: 16 
+label: 1 
+Position 1: a 0.37656 
+Position 7: - 0.40969 
+Position 8: up 0.43719 
+Position 9: piece 0.41844 
+Position 10: of 0.42031 
+Position 11: action 0.39312 
+Position 14: . 0.41063 
+Time elapsed 32.46092867851257 
+Sample 52 
+tokens: [CLS] for the first two - thirds of this sparkling ##ly inventive and art ##ful , always fast and furious tale , kids will go happily along for the ride . [SEP] 
+length: 32 
+label: 1 
+Position 1: for 1.44625 
+Position 2: the 1.47625 
+Position 3: first 0.55875 
+Position 4: two 1.47625 
+Position 5: - 0.58312 
+Position 6: thirds 0.56500 
+Position 7: of 0.57031 
+Position 8: this 0.56625 
+Position 11: inventive 0.53812 
+Position 12: and 0.56656 
+Position 15: , 0.56406 
+Position 16: always 0.56250 
+Position 17: fast 0.55406 
+Position 18: and 0.57594 
+Position 19: furious 1.45000 
+Position 20: tale 0.55531 
+Position 21: , 0.57781 
+Position 22: kids 0.55031 
+Position 23: will 0.56219 
+Position 24: go 0.56250 
+Position 25: happily 0.55813 
+Position 26: along 0.58750 
+Position 27: for 0.62094 
+Position 28: the 0.59688 
+Position 29: ride 0.54750 
+Position 30: . 0.60562 
+Time elapsed 263.4233646392822 
+Sample 53 
+tokens: [CLS] it ' s a pleasure to see se ##in ##feld grip ##ing about the bi ##z with buddies chris rock , garry shan ##dling and colin quinn . [SEP] 
+length: 30 
+label: 1 
+Position 1: it 0.40281 
+Position 2: ' 0.40219 
+Position 3: s 0.44313 
+Position 4: a 0.45906 
+Position 5: pleasure 0.52688 
+Position 6: to 0.45281 
+Position 7: see 0.50875 
+Position 13: about 0.46062 
+Position 14: the 0.45937 
+Position 17: with 0.49219 
+Position 18: buddies 0.39750 
+Position 19: chris 0.46219 
+Position 20: rock 0.45937 
+Position 21: , 0.46875 
+Position 22: garry 0.42687 
+Position 25: and 0.48781 
+Position 26: colin 0.40281 
+Position 27: quinn 0.40094 
+Position 28: . 0.44406 
+Time elapsed 159.81930017471313 
+Sample 54 
+tokens: [CLS] extremely boring . [SEP] 
+length: 5 
+label: 0 
+Position 1: extremely 0.49687 
+Position 2: boring 0.39125 
+Position 3: . 0.58812 
+Time elapsed 6.818169116973877 
+Sample 55 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 1.08125 
+Position 2: me 1.01625 
+Position 3: , 1.26063 
+Position 4: this 1.18625 
+Position 5: opera 1.15875 
+Position 6: is 1.26125 
+Position 7: n 1.02500 
+Position 8: ' 1.26125 
+Position 9: t 1.06500 
+Position 10: a 1.28375 
+Position 11: favorite 1.12625 
+Position 12: , 1.27688 
+Position 13: so 1.19313 
+Position 14: it 1.21438 
+Position 15: ' 1.21563 
+Position 16: s 1.19813 
+Position 17: a 1.25688 
+Position 18: long 1.02375 
+Position 19: time 1.16625 
+Position 20: before 1.15062 
+Position 21: the 1.22250 
+Position 22: fat 1.13375 
+Position 23: lady 1.23063 
+Position 24: sings 1.19562 
+Position 25: . 1.22312 
+Time elapsed 188.04596328735352 
+Sample 56 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 0.63125 
+Position 2: , 0.62063 
+Position 3: mesmerizing 0.77250 
+Position 4: and 0.68563 
+Position 7: hard 0.57156 
+Position 8: to 0.66438 
+Position 9: forget 0.57531 
+Position 10: . 0.65812 
+Time elapsed 29.69201970100403 
+Sample 57 
+tokens: [CLS] the stories here suffer from the chosen format . [SEP] 
+length: 11 
+label: 0 
+Position 1: the 0.43906 
+Position 2: stories 0.47281 
+Position 3: here 0.44156 
+Position 4: suffer 0.37594 
+Position 5: from 0.49750 
+Position 6: the 0.53062 
+Position 7: chosen 0.37594 
+Position 8: format 0.60625 
+Position 9: . 0.51531 
+Time elapsed 31.840234756469727 
+Sample 58 
+tokens: [CLS] the movie is a blast of educational energy , as bo ##un ##cy animation and catch ##y songs escort you through the entire 85 minutes . [SEP] 
+length: 28 
+label: 1 
+Position 1: the 0.57156 
+Position 2: movie 0.57187 
+Position 3: is 0.56156 
+Position 4: a 0.56187 
+Position 5: blast 0.56250 
+Position 6: of 0.55813 
+Position 7: educational 0.56313 
+Position 8: energy 0.55844 
+Position 9: , 0.55875 
+Position 10: as 0.56281 
+Position 14: animation 0.56281 
+Position 15: and 0.55719 
+Position 18: songs 0.56437 
+Position 19: escort 0.55781 
+Position 20: you 0.56406 
+Position 21: through 0.57000 
+Position 22: the 0.56187 
+Position 23: entire 0.57844 
+Position 24: 85 0.56563 
+Position 25: minutes 0.58000 
+Position 26: . 0.56094 
+Time elapsed 165.55316281318665 
+Sample 59 
+tokens: [CLS] without september 11 , collateral damage would have been just another bad movie . [SEP] 
+length: 16 
+label: 0 
+Position 1: without 0.41094 
+Position 2: september 0.40219 
+Position 3: 11 0.42250 
+Position 4: , 0.42312 
+Position 5: collateral 0.41156 
+Position 6: damage 0.40844 
+Position 7: would 0.41469 
+Position 8: have 0.42219 
+Position 9: been 0.41031 
+Position 10: just 0.41750 
+Position 11: another 0.41281 
+Position 12: bad 0.40250 
+Position 13: movie 0.42188 
+Position 14: . 0.42156 
+Time elapsed 62.72047305107117 
+Sample 60 
+tokens: [CLS] an earnest , heart ##ren ##ding look at the divide between religious fundamental ##ists and their gay relatives . [SEP] 
+length: 21 
+label: 1 
+Position 1: an 0.68375 
+Position 2: earnest 0.72312 
+Position 3: , 0.77125 
+Position 7: look 0.80500 
+Position 8: at 0.76250 
+Position 9: the 0.74937 
+Position 10: divide 0.70500 
+Position 11: between 0.69313 
+Position 12: religious 0.73625 
+Position 15: and 0.80437 
+Position 16: their 0.73813 
+Position 17: gay 0.67813 
+Position 18: relatives 0.68313 
+Position 19: . 0.72750 
+Time elapsed 75.49192786216736 
+Sample 61 
+tokens: [CLS] remarkably accessible and affecting . [SEP] 
+length: 7 
+label: 1 
+Position 1: remarkably 0.72188 
+Position 2: accessible 0.68563 
+Position 3: and 0.38281 
+Position 4: affecting 0.37906 
+Position 5: . 0.72562 
+Time elapsed 13.561717987060547 
+Sample 62 
+tokens: [CLS] the wwii drama is well plotted , visually striking and filled with enjoy ##ably complex characters who are never what they first appear . [SEP] 
+length: 26 
+label: 1 
+Position 1: the 1.29125 
+Position 2: wwii 1.29875 
+Position 3: drama 0.59000 
+Position 4: is 1.34375 
+Position 5: well 0.50687 
+Position 6: plotted 1.28500 
+Position 7: , 0.52625 
+Position 8: visually 0.51812 
+Position 9: striking 0.49500 
+Position 10: and 0.52969 
+Position 11: filled 0.51969 
+Position 12: with 0.52781 
+Position 15: complex 0.51562 
+Position 16: characters 1.32250 
+Position 17: who 0.57250 
+Position 18: are 1.31750 
+Position 19: never 1.25188 
+Position 20: what 0.60031 
+Position 21: they 1.33125 
+Position 22: first 0.54188 
+Position 23: appear 0.55656 
+Position 24: . 0.56437 
+Time elapsed 160.19787216186523 
+Sample 63 
+tokens: [CLS] the central story lacks punch . [SEP] 
+length: 8 
+label: 0 
+Position 1: the 0.41469 
+Position 2: central 0.41969 
+Position 3: story 0.40750 
+Position 4: lacks 0.73188 
+Position 5: punch 0.40562 
+Position 6: . 0.40125 
+Time elapsed 17.599092483520508 
+Sample 64 
+tokens: [CLS] slug ##gis ##hly directed by ep ##iso ##dic tv veteran joe z ##wick , it ' s a sitcom without the snap - crack ##le . [SEP] 
+length: 28 
+label: 0 
+Position 4: directed 1.52750 
+Position 5: by 1.54125 
+Position 9: tv 1.47375 
+Position 10: veteran 1.56875 
+Position 11: joe 1.53250 
+Position 14: , 1.57125 
+Position 15: it 1.55625 
+Position 16: ' 1.53125 
+Position 17: s 1.53750 
+Position 18: a 1.54875 
+Position 19: sitcom 1.45125 
+Position 20: without 1.49000 
+Position 21: the 1.55125 
+Position 22: snap 1.55750 
+Position 23: - 1.53500 
+Position 26: . 1.55750 
+Time elapsed 138.34995770454407 
+Sample 65 
+tokens: [CLS] ( it ' s ) a prison soccer movie starring charismatic tough guy vinnie jones , but it had too much spitting for me to enjoy . [SEP] 
+length: 29 
+label: 0 
+Position 1: ( 0.83750 
+Position 2: it 0.86063 
+Position 3: ' 0.93813 
+Position 4: s 0.92625 
+Position 5: ) 0.91312 
+Position 6: a 1.05313 
+Position 7: prison 0.80500 
+Position 8: soccer 0.86187 
+Position 9: movie 0.98125 
+Position 10: starring 0.90562 
+Position 11: charismatic 1.05500 
+Position 12: tough 0.89688 
+Position 13: guy 0.83438 
+Position 14: vinnie 0.89938 
+Position 15: jones 0.94313 
+Position 16: , 1.01500 
+Position 17: but 0.91312 
+Position 18: it 0.92500 
+Position 19: had 0.85500 
+Position 20: too 0.69437 
+Position 21: much 0.91438 
+Position 22: spitting 0.94500 
+Position 23: for 0.93125 
+Position 24: me 0.88500 
+Position 25: to 0.92875 
+Position 26: enjoy 1.03562 
+Position 27: . 0.96750 
+Time elapsed 220.99314212799072 
+Sample 66 
+tokens: [CLS] by the end , i was looking for something hard with which to blu ##dge ##on myself unconscious . [SEP] 
+length: 21 
+label: 0 
+Position 1: by 0.78875 
+Position 2: the 0.86313 
+Position 3: end 0.92687 
+Position 4: , 0.98500 
+Position 5: i 0.95312 
+Position 6: was 0.88625 
+Position 7: looking 0.90250 
+Position 8: for 1.00312 
+Position 9: something 0.99750 
+Position 10: hard 0.84625 
+Position 11: with 1.04500 
+Position 12: which 0.89312 
+Position 13: to 0.95000 
+Position 17: myself 0.73438 
+Position 18: unconscious 0.83188 
+Position 19: . 0.94500 
+Time elapsed 86.03569865226746 
+Sample 67 
+tokens: [CLS] the story bog ##s down in a mess of purpose ##less violence . [SEP] 
+length: 15 
+label: 0 
+Position 1: the 0.41406 
+Position 2: story 0.41156 
+Position 5: down 0.40813 
+Position 6: in 0.41813 
+Position 7: a 0.42125 
+Position 8: mess 0.40312 
+Position 9: of 0.41938 
+Position 12: violence 0.40469 
+Position 13: . 0.41969 
+Time elapsed 37.940717697143555 
+Sample 68 
+tokens: [CLS] a sports movie with action that ' s exciting on the field and a story you care about off it . [SEP] 
+length: 23 
+label: 1 
+Position 1: a 0.52438 
+Position 2: sports 0.52250 
+Position 3: movie 0.51313 
+Position 4: with 0.50281 
+Position 5: action 0.51812 
+Position 6: that 0.51031 
+Position 7: ' 0.51375 
+Position 8: s 0.50281 
+Position 9: exciting 0.50344 
+Position 10: on 0.51313 
+Position 11: the 0.50781 
+Position 12: field 0.51500 
+Position 13: and 0.50250 
+Position 14: a 0.50594 
+Position 15: story 0.51406 
+Position 16: you 0.50500 
+Position 17: care 0.52344 
+Position 18: about 0.51875 
+Position 19: off 0.46875 
+Position 20: it 0.51437 
+Position 21: . 0.51437 
+Time elapsed 129.5715937614441 
+Sample 69 
+tokens: [CLS] the stories here suffer from the chosen format . [SEP] 
+length: 11 
+label: 0 
+Position 1: the 0.43906 
+Position 2: stories 0.47281 
+Position 3: here 0.44156 
+Position 4: suffer 0.37594 
+Position 5: from 0.49750 
+Position 6: the 0.53062 
+Position 7: chosen 0.37594 
+Position 8: format 0.60625 
+Position 9: . 0.51531 
+Time elapsed 31.934941291809082 
+Sample 70 
+tokens: [CLS] merely as a technical , logistical feat , russian ark marks a cinematic milestone . [SEP] 
+length: 17 
+label: 1 
+Position 1: merely 0.94625 
+Position 2: as 0.89312 
+Position 3: a 1.02750 
+Position 4: technical 0.95938 
+Position 5: , 1.04938 
+Position 6: logistical 0.99687 
+Position 7: feat 1.10750 
+Position 8: , 1.08312 
+Position 9: russian 1.12063 
+Position 10: ark 0.98937 
+Position 11: marks 1.04875 
+Position 12: a 1.03562 
+Position 13: cinematic 1.03813 
+Position 14: milestone 1.04313 
+Position 15: . 1.01500 
+Time elapsed 71.68585872650146 
+Sample 71 
+tokens: [CLS] the irwin ##s emerge un ##sca ##thed , but the fictional footage is unconvincing and criminal ##ly badly acted . [SEP] 
+length: 22 
+label: 0 
+Position 1: the 1.07000 
+Position 4: emerge 1.18062 
+Position 8: , 1.28750 
+Position 9: but 1.13063 
+Position 10: the 1.21125 
+Position 11: fictional 1.17938 
+Position 12: footage 1.09375 
+Position 13: is 1.19938 
+Position 14: unconvincing 0.81375 
+Position 15: and 1.27813 
+Position 18: badly 0.70625 
+Position 19: acted 1.10063 
+Position 20: . 1.19187 
+Time elapsed 78.95625925064087 
+Sample 72 
+tokens: [CLS] it is a kick ##ass , dense sci - fi action thriller hybrid that delivers and then some . [SEP] 
+length: 21 
+label: 1 
+Position 1: it 0.18688 
+Position 2: is 0.19156 
+Position 3: a 0.21859 
+Position 6: , 0.23016 
+Position 7: dense 0.18859 
+Position 8: sci 0.22734 
+Position 9: - 0.21078 
+Position 10: fi 0.19094 
+Position 11: action 0.20422 
+Position 12: thriller 0.22484 
+Position 13: hybrid 0.20641 
+Position 14: that 0.20750 
+Position 15: delivers 0.25297 
+Position 16: and 0.22656 
+Position 17: then 0.18422 
+Position 18: some 0.19844 
+Position 19: . 0.20703 
+Time elapsed 100.88145637512207 
+Sample 73 
+tokens: [CLS] remarkably accessible and affecting . [SEP] 
+length: 7 
+label: 1 
+Position 1: remarkably 0.72188 
+Position 2: accessible 0.68563 
+Position 3: and 0.38281 
+Position 4: affecting 0.37906 
+Position 5: . 0.72562 
+Time elapsed 13.884400606155396 
+Sample 74 
+tokens: [CLS] a cop story that understands the medium amazingly well . [SEP] 
+length: 12 
+label: 1 
+Position 1: a 0.72500 
+Position 2: cop 0.63625 
+Position 3: story 0.75687 
+Position 4: that 0.74063 
+Position 5: understands 0.91750 
+Position 6: the 0.79688 
+Position 7: medium 0.79438 
+Position 8: amazingly 0.82875 
+Position 9: well 0.88875 
+Position 10: . 0.78688 
+Time elapsed 38.057225942611694 
+Sample 75 
+tokens: [CLS] reinforce ##s the talents of screenwriter charlie kaufman , creator of adaptation and being john mal ##kovich . [SEP] 
+length: 20 
+label: 1 
+Position 3: the 0.18609 
+Position 4: talents 0.18812 
+Position 5: of 0.19203 
+Position 6: screenwriter 0.16203 
+Position 7: charlie 0.17906 
+Position 8: kaufman 0.18750 
+Position 9: , 0.19797 
+Position 10: creator 0.17172 
+Position 11: of 0.19125 
+Position 12: adaptation 0.20344 
+Position 13: and 0.20703 
+Position 14: being 0.18812 
+Position 15: john 0.18484 
+Position 18: . 0.17922 
+Time elapsed 79.27626132965088 
+Sample 76 
+tokens: [CLS] . . . a poignant and powerful narrative that reveals that reading writing and arithmetic are not the only subjects to learn in life . [SEP] 
+length: 27 
+label: 1 
+Position 1: . 0.77312 
+Position 2: . 0.78562 
+Position 3: . 0.84250 
+Position 4: a 0.85250 
+Position 5: poignant 0.94437 
+Position 6: and 0.92188 
+Position 7: powerful 1.07187 
+Position 8: narrative 0.87313 
+Position 9: that 0.83500 
+Position 10: reveals 0.97250 
+Position 11: that 0.83625 
+Position 12: reading 0.79312 
+Position 13: writing 0.77375 
+Position 14: and 0.90812 
+Position 15: arithmetic 0.79813 
+Position 16: are 0.80875 
+Position 17: not 0.63656 
+Position 18: the 0.82313 
+Position 19: only 0.72625 
+Position 20: subjects 0.84688 
+Position 21: to 0.81000 
+Position 22: learn 0.89562 
+Position 23: in 0.82000 
+Position 24: life 0.90750 
+Position 25: . 0.83562 
+Time elapsed 187.51375770568848 
+Sample 77 
+tokens: [CLS] but this time there ' s some mold on the gold . [SEP] 
+length: 14 
+label: 0 
+Position 1: but 0.27859 
+Position 2: this 0.29766 
+Position 3: time 0.32469 
+Position 4: there 0.30000 
+Position 5: ' 0.33437 
+Position 6: s 0.34438 
+Position 7: some 0.33750 
+Position 8: mold 0.28906 
+Position 9: on 0.33000 
+Position 10: the 0.34938 
+Position 11: gold 0.31563 
+Position 12: . 0.34375 
+Time elapsed 50.528645753860474 
+Sample 78 
+tokens: [CLS] the film ' s sharp , often mischievous sense of humor will catch some off guard . . . [SEP] 
+length: 21 
+label: 1 
+Position 1: the 0.73750 
+Position 2: film 0.76562 
+Position 3: ' 0.78312 
+Position 4: s 0.77562 
+Position 5: sharp 0.96438 
+Position 6: , 0.85812 
+Position 7: often 0.85250 
+Position 8: mischievous 0.85875 
+Position 9: sense 0.77625 
+Position 10: of 0.82437 
+Position 11: humor 0.86000 
+Position 12: will 0.85312 
+Position 13: catch 0.84625 
+Position 14: some 0.79438 
+Position 15: off 0.70562 
+Position 16: guard 0.73438 
+Position 17: . 0.80937 
+Position 18: . 0.78188 
+Position 19: . 0.79188 
+Time elapsed 101.38803195953369 
+Sample 79 
+tokens: [CLS] as ##pire ##s for the pi ##qua ##nt but only really achieves a sort of ridiculous sour ##ness . [SEP] 
+length: 21 
+label: 0 
+Position 4: for 1.40250 
+Position 5: the 1.45750 
+Position 9: but 1.40125 
+Position 10: only 1.37875 
+Position 11: really 1.41875 
+Position 12: achieves 1.38875 
+Position 13: a 1.47875 
+Position 14: sort 1.38625 
+Position 15: of 1.47625 
+Position 16: ridiculous 1.33750 
+Position 19: . 1.43750 
+Time elapsed 63.55593943595886 
+Sample 80 
+tokens: [CLS] a blessed gift to film geek ##s and historians . [SEP] 
+length: 12 
+label: 1 
+Position 1: a 0.45063 
+Position 2: blessed 0.47063 
+Position 3: gift 0.52594 
+Position 4: to 0.45906 
+Position 5: film 0.50875 
+Position 8: and 0.56750 
+Position 9: historians 0.46125 
+Position 10: . 0.49719 
+Time elapsed 29.4012668132782 
+Sample 81 
+tokens: [CLS] soul is what ' s lacking in every character in this movie and , subsequently , the movie itself . [SEP] 
+length: 22 
+label: 0 
+Position 1: soul 1.11688 
+Position 2: is 1.10125 
+Position 3: what 1.16000 
+Position 4: ' 1.14562 
+Position 5: s 1.19938 
+Position 6: lacking 0.73563 
+Position 7: in 1.19438 
+Position 8: every 1.21125 
+Position 9: character 1.14313 
+Position 10: in 1.20312 
+Position 11: this 1.19625 
+Position 12: movie 1.20875 
+Position 13: and 1.29500 
+Position 14: , 1.24188 
+Position 15: subsequently 1.16562 
+Position 16: , 1.23625 
+Position 17: the 1.20312 
+Position 18: movie 1.16250 
+Position 19: itself 1.07438 
+Position 20: . 1.21063 
+Time elapsed 120.16524291038513 
+Sample 82 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 0.75063 
+Position 2: , 1.02437 
+Position 3: it 1.05625 
+Position 4: ' 1.02000 
+Position 5: s 1.07250 
+Position 6: not 0.85625 
+Position 7: nearly 0.98000 
+Position 8: as 1.08375 
+Position 9: good 1.15375 
+Position 10: as 1.04625 
+Position 11: any 0.99063 
+Position 12: of 1.10938 
+Position 13: its 1.05187 
+Position 14: influences 1.02875 
+Position 15: . 1.10438 
+Time elapsed 71.7365472316742 
+Sample 83 
+tokens: [CLS] after that , it just gets stupid and maud ##lin . [SEP] 
+length: 13 
+label: 0 
+Position 1: after 0.39844 
+Position 2: that 0.39781 
+Position 3: , 0.40500 
+Position 4: it 0.40250 
+Position 5: just 0.39937 
+Position 6: gets 0.40312 
+Position 7: stupid 0.39344 
+Position 8: and 0.41031 
+Position 11: . 0.40250 
+Time elapsed 34.65330982208252 
+Sample 84 
+tokens: [CLS] it might as well have been problem child iv . [SEP] 
+length: 12 
+label: 0 
+Position 1: it 0.86500 
+Position 2: might 0.77938 
+Position 3: as 0.92375 
+Position 4: well 1.03813 
+Position 5: have 0.95375 
+Position 6: been 0.89312 
+Position 7: problem 0.73250 
+Position 8: child 1.00188 
+Position 9: iv 0.93375 
+Position 10: . 1.01937 
+Time elapsed 37.1296923160553 
+Sample 85 
+tokens: [CLS] i hated every minute of it . [SEP] 
+length: 9 
+label: 0 
+Position 1: i 0.09484 
+Position 2: hated 0.08344 
+Position 3: every 0.10266 
+Position 4: minute 0.10234 
+Position 5: of 0.11281 
+Position 6: it 0.11172 
+Position 7: . 0.11156 
+Time elapsed 24.999300479888916 
+Sample 86 
+tokens: [CLS] well - shot but badly written tale set in a future ravaged by dragons . [SEP] 
+length: 17 
+label: 0 
+Position 1: well 0.70063 
+Position 2: - 0.59938 
+Position 3: shot 0.63687 
+Position 4: but 0.61969 
+Position 5: badly 0.38906 
+Position 6: written 0.73250 
+Position 7: tale 0.78000 
+Position 8: set 0.69875 
+Position 9: in 0.67625 
+Position 10: a 0.74625 
+Position 11: future 0.67875 
+Position 12: ravaged 0.64625 
+Position 13: by 0.66375 
+Position 14: dragons 0.61750 
+Position 15: . 0.71250 
+Time elapsed 71.1622805595398 
+Sample 87 
+tokens: [CLS] fl ##au ##nts its quirky excess ##es like a new year ' s eve drunk sporting a paper party hat . [SEP] 
+length: 23 
+label: 0 
+Position 4: its 0.47250 
+Position 5: quirky 0.46625 
+Position 8: like 0.46562 
+Position 9: a 0.46562 
+Position 10: new 0.46469 
+Position 11: year 0.46469 
+Position 12: ' 0.46812 
+Position 13: s 0.46375 
+Position 14: eve 0.50250 
+Position 15: drunk 0.48375 
+Position 16: sporting 0.49625 
+Position 17: a 0.46250 
+Position 18: paper 0.50531 
+Position 19: party 0.47313 
+Position 20: hat 0.48781 
+Position 21: . 0.46625 
+Time elapsed 98.00588178634644 
+Sample 88 
+tokens: [CLS] it ' s a pleasure to see se ##in ##feld grip ##ing about the bi ##z with buddies chris rock , garry shan ##dling and colin quinn . [SEP] 
+length: 30 
+label: 1 
+Position 1: it 0.40281 
+Position 2: ' 0.40219 
+Position 3: s 0.44313 
+Position 4: a 0.45906 
+Position 5: pleasure 0.52688 
+Position 6: to 0.45281 
+Position 7: see 0.50875 
+Position 13: about 0.46062 
+Position 14: the 0.45937 
+Position 17: with 0.49219 
+Position 18: buddies 0.39750 
+Position 19: chris 0.46219 
+Position 20: rock 0.45937 
+Position 21: , 0.46875 
+Position 22: garry 0.42687 
+Position 25: and 0.48781 
+Position 26: colin 0.40281 
+Position 27: quinn 0.40094 
+Position 28: . 0.44406 
+Time elapsed 161.22949957847595 
+Sample 89 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 1.16000 
+Position 2: watched 1.15375 
+Position 3: the 0.47063 
+Position 6: insanity 1.23563 
+Position 7: of 0.46938 
+Position 8: no 1.17875 
+Position 9: such 0.47188 
+Position 10: thing 1.20375 
+Position 11: with 0.45656 
+Position 12: mounting 0.44656 
+Position 13: disbelief 1.22187 
+Position 14: . 0.46656 
+Time elapsed 54.344900131225586 
+Sample 90 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 0.75063 
+Position 2: , 1.02437 
+Position 3: it 1.05625 
+Position 4: ' 1.02000 
+Position 5: s 1.07250 
+Position 6: not 0.85625 
+Position 7: nearly 0.98000 
+Position 8: as 1.08375 
+Position 9: good 1.15375 
+Position 10: as 1.04625 
+Position 11: any 0.99063 
+Position 12: of 1.10938 
+Position 13: its 1.05187 
+Position 14: influences 1.02875 
+Position 15: . 1.10438 
+Time elapsed 70.95010209083557 
+Sample 91 
+tokens: [CLS] pry ##or lit ##e , with half the demons , half the daring , much less talent , many fewer laughs . [SEP] 
+length: 24 
+label: 0 
+Position 5: , 0.45031 
+Position 6: with 0.47469 
+Position 7: half 0.33344 
+Position 8: the 0.45281 
+Position 9: demons 0.38969 
+Position 10: , 0.45250 
+Position 11: half 0.32969 
+Position 12: the 0.42125 
+Position 13: daring 0.46594 
+Position 14: , 0.44375 
+Position 15: much 0.39844 
+Position 16: less 0.26641 
+Position 17: talent 0.41500 
+Position 18: , 0.42094 
+Position 19: many 0.40156 
+Position 20: fewer 0.37688 
+Position 21: laughs 0.45719 
+Position 22: . 0.41938 
+Time elapsed 116.87772846221924 
+Sample 92 
+tokens: [CLS] it might as well have been problem child iv . [SEP] 
+length: 12 
+label: 0 
+Position 1: it 0.86500 
+Position 2: might 0.77938 
+Position 3: as 0.92375 
+Position 4: well 1.03813 
+Position 5: have 0.95375 
+Position 6: been 0.89312 
+Position 7: problem 0.73250 
+Position 8: child 1.00188 
+Position 9: iv 0.93375 
+Position 10: . 1.01937 
+Time elapsed 36.964820861816406 
+Sample 93 
+tokens: [CLS] it ' s a pleasure to see se ##in ##feld grip ##ing about the bi ##z with buddies chris rock , garry shan ##dling and colin quinn . [SEP] 
+length: 30 
+label: 1 
+Position 1: it 0.40281 
+Position 2: ' 0.40219 
+Position 3: s 0.44313 
+Position 4: a 0.45906 
+Position 5: pleasure 0.52688 
+Position 6: to 0.45281 
+Position 7: see 0.50875 
+Position 13: about 0.46062 
+Position 14: the 0.45937 
+Position 17: with 0.49219 
+Position 18: buddies 0.39750 
+Position 19: chris 0.46219 
+Position 20: rock 0.45937 
+Position 21: , 0.46875 
+Position 22: garry 0.42687 
+Position 25: and 0.48781 
+Position 26: colin 0.40281 
+Position 27: quinn 0.40094 
+Position 28: . 0.44406 
+Time elapsed 160.35638856887817 
+Sample 94 
+tokens: [CLS] . . . a poignant and powerful narrative that reveals that reading writing and arithmetic are not the only subjects to learn in life . [SEP] 
+length: 27 
+label: 1 
+Position 1: . 0.77312 
+Position 2: . 0.78562 
+Position 3: . 0.84250 
+Position 4: a 0.85250 
+Position 5: poignant 0.94437 
+Position 6: and 0.92188 
+Position 7: powerful 1.07187 
+Position 8: narrative 0.87313 
+Position 9: that 0.83500 
+Position 10: reveals 0.97250 
+Position 11: that 0.83625 
+Position 12: reading 0.79312 
+Position 13: writing 0.77375 
+Position 14: and 0.90812 
+Position 15: arithmetic 0.79813 
+Position 16: are 0.80875 
+Position 17: not 0.63656 
+Position 18: the 0.82313 
+Position 19: only 0.72625 
+Position 20: subjects 0.84688 
+Position 21: to 0.81000 
+Position 22: learn 0.89562 
+Position 23: in 0.82000 
+Position 24: life 0.90750 
+Position 25: . 0.83562 
+Time elapsed 189.58134245872498 
+Sample 95 
+tokens: [CLS] it may be an easy sw ##ipe to take , but this barber ##sho ##p just does n ' t make the cut . [SEP] 
+length: 26 
+label: 0 
+Position 1: it 0.20141 
+Position 2: may 0.19047 
+Position 3: be 0.22594 
+Position 4: an 0.22891 
+Position 5: easy 0.22766 
+Position 8: to 0.24031 
+Position 9: take 0.23016 
+Position 10: , 0.25016 
+Position 11: but 0.22000 
+Position 12: this 0.22891 
+Position 16: just 0.20141 
+Position 17: does 0.21422 
+Position 18: n 0.16750 
+Position 19: ' 0.21750 
+Position 20: t 0.18578 
+Position 21: make 0.22109 
+Position 22: the 0.23391 
+Position 23: cut 0.20922 
+Position 24: . 0.23969 
+Time elapsed 147.68819665908813 
+Sample 96 
+tokens: [CLS] director rob marshall went out gunn ##ing to make a great one . [SEP] 
+length: 15 
+label: 1 
+Position 1: director 0.39750 
+Position 2: rob 0.38469 
+Position 3: marshall 0.48281 
+Position 4: went 0.37250 
+Position 5: out 0.40187 
+Position 8: to 0.45219 
+Position 9: make 0.43219 
+Position 10: a 0.46187 
+Position 11: great 0.51688 
+Position 12: one 0.44063 
+Position 13: . 0.44719 
+Time elapsed 47.74306058883667 
+Sample 97 
+tokens: [CLS] once the audience figure out what ' s being said , the filmmaker ' s relative pass ##ivity will make it tough for them to really care . [SEP] 
+length: 30 
+label: 0 
+Position 1: once 0.08211 
+Position 2: the 0.09336 
+Position 3: audience 0.10086 
+Position 4: figure 0.08023 
+Position 5: out 0.09414 
+Position 6: what 0.10375 
+Position 7: ' 0.10156 
+Position 8: s 0.10742 
+Position 9: being 0.10414 
+Position 10: said 0.11336 
+Position 11: , 0.10938 
+Position 12: the 0.10383 
+Position 13: filmmaker 0.10672 
+Position 14: ' 0.09992 
+Position 15: s 0.10172 
+Position 16: relative 0.08648 
+Position 19: will 0.10633 
+Position 20: make 0.10008 
+Position 21: it 0.09969 
+Position 22: tough 0.09352 
+Position 23: for 0.09867 
+Position 24: them 0.10164 
+Position 25: to 0.09773 
+Position 26: really 0.09562 
+Position 27: care 0.09453 
+Position 28: . 0.10039 
+Time elapsed 257.39456009864807 
+Sample 98 
+tokens: [CLS] merely as a technical , logistical feat , russian ark marks a cinematic milestone . [SEP] 
+length: 17 
+label: 1 
+Position 1: merely 0.94625 
+Position 2: as 0.89312 
+Position 3: a 1.02750 
+Position 4: technical 0.95938 
+Position 5: , 1.04938 
+Position 6: logistical 0.99687 
+Position 7: feat 1.10750 
+Position 8: , 1.08312 
+Position 9: russian 1.12063 
+Position 10: ark 0.98937 
+Position 11: marks 1.04875 
+Position 12: a 1.03562 
+Position 13: cinematic 1.03813 
+Position 14: milestone 1.04313 
+Position 15: . 1.01500 
+Time elapsed 71.27168846130371 
+Sample 99 
+tokens: [CLS] at first , the sight of a blind man directing a film is hilarious , but as the film goes on , the joke wears thin . [SEP] 
+length: 29 
+label: 0 
+Position 1: at 0.80813 
+Position 2: first 0.85938 
+Position 3: , 1.00250 
+Position 4: the 0.93437 
+Position 5: sight 0.89938 
+Position 6: of 1.02188 
+Position 7: a 1.01437 
+Position 8: blind 0.70625 
+Position 9: man 0.95312 
+Position 10: directing 0.94000 
+Position 11: a 1.00500 
+Position 12: film 0.98937 
+Position 13: is 0.97438 
+Position 14: hilarious 1.04313 
+Position 15: , 1.02688 
+Position 16: but 0.88000 
+Position 17: as 0.89188 
+Position 18: the 0.92000 
+Position 19: film 0.95312 
+Position 20: goes 0.86625 
+Position 21: on 0.90562 
+Position 22: , 1.01437 
+Position 23: the 0.94563 
+Position 24: joke 0.77312 
+Position 25: wears 0.80187 
+Position 26: thin 0.62406 
+Position 27: . 0.94625 
+Time elapsed 218.3900694847107 
+100 valid examples 
+Minimum: 0.57359 
+Average: 0.69144 

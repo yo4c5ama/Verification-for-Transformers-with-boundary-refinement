@@ -10,6 +10,11 @@
 #python main.py --dir=model_sst_3_no --data=sst --num_layers=3 --layer_norm=no --train
 #python main.py --dir=model_sst_3_standard --data=sst --num_layers=3 --layer_norm=standard --train
 
-python main.py --dir=./verified_models/model_yelp_6 --data=yelp --num_layers=6 --train
+#python main.py --dir=./verified_models/model_yelp_6 --data=yelp --num_layers=6 --train
 
-#python main.py --dir=model_sst_small_1 --data=sst --num_layers=1 --hidden_size=64 --intermediate_size=128 --train
+python main.py --dir=./verified_models/model_sst_small_1 --data=sst --num_layers=1 --hidden_size=64 --intermediate_size=128 --train
+python main.py --dir=./verified_models/model_sst_small_2 --data=sst --num_layers=2 --hidden_size=64 --intermediate_size=128 --train
+python main.py --dir=./verified_models/model_sst_small_3 --data=sst --num_layers=3 --hidden_size=64 --intermediate_size=128 --train
+python main.py --dir=./verified_models/model_yelp_small_1 --data=yelp --num_layers=1 --hidden_size=64 --intermediate_size=128 --train
+python main.py --dir=./verified_models/model_yelp_small_2 --data=yelp --num_layers=2 --hidden_size=64 --intermediate_size=128 --train
+python main.py --dir=./verified_models/model_yelp_small_3 --data=yelp --num_layers=3 --hidden_size=64 --intermediate_size=128 --train

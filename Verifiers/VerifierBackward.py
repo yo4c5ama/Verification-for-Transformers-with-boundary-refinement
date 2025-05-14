@@ -45,8 +45,7 @@ class VerifierBackward(Verifier):
                         l=attention_scores.l, u=attention_scores.u, std=std, verbose=self.debug)
                     std = self.std["attention_probs"][i][0]
                     std = std.transpose(0, 1).reshape(1, std.shape[1], -1)   
-                    check("layer {} attention_probs".format(i),
-                        l=attention_probs.l, u=attention_probs.u, std=std, verbose=self.debug)
+                    # check("layer {} attention_probs".format(i),l=attention_probs.l, u=attention_probs.u, std=std, verbose=self.debug)
                     # check("layer {}".format(i), l=bounds.l, u=bounds.u, std=self.std["encoded_layers"][i][0], verbose=self.debug)
 
                 bounds = self._bound_pooling(bounds, self.pooler)
@@ -238,11 +237,11 @@ class VerifierBackward(Verifier):
                                    uw=U_I_2.unsqueeze(-2) * torch.zeros_like(bound.uw),
                                    lb=L_I_2 * torch.zeros_like(bound.lb),
                                    ub=U_I_2 * torch.zeros_like(bound.ub))
-                def refine_alpha(I_3, max, min):
+                def refine_alpha(I_3, max, min, k):
                     neg_range = -min * I_3
                     pos_range = max * I_3
-                    mask_zero = neg_range > 2 * pos_range
-                    mask_one = pos_range > 2 * neg_range
+                    mask_zero = neg_range > k * pos_range
+                    mask_one = pos_range > k * neg_range
                     mask_formula = ~(mask_zero | mask_one)
                     slope = torch.zeros_like(max)
                     slope[mask_zero] = 0.0
@@ -251,25 +250,27 @@ class VerifierBackward(Verifier):
                     formula_slope = (I_3 * max) / denominator
                     slope[mask_formula] = formula_slope[mask_formula]
                     return slope
-                L = refine_alpha(L_I_3, l_max, l_min)
-                # L = (L_I_3 * (l_max))/ (L_I_3 * (l_max-l_min))
+                # L = refine_alpha(L_I_3, l_max, l_min, self.k)
+                L = (L_I_3 * (l_max))/ (L_I_3 * (l_max-l_min))
                 omega_l = torch.where(L_I_3.bool(), L, torch.zeros_like(L))
                 # theta_l = torch.zeros_like(l_max)
                 if flag_move_b:
                     # omega_l = torch.zeros_like(L)
                     theta_l = torch.zeros_like(l_max)
                 else:
+                    # theta_l = torch.zeros_like(l_max)
                     theta_l = -omega_l * (L_I_3 * l_min) / n
 
 
-                # U = (U_I_3 * (u_max)) / (U_I_3 * (u_max - u_min))
-                U = refine_alpha(U_I_3, u_max, u_min)
+                U = (U_I_3 * (u_max)) / (U_I_3 * (u_max - u_min))
+                # U = refine_alpha(U_I_3, u_max, u_min, self.k)
                 omega_u = torch.where(U_I_3.bool(), U, torch.zeros_like(U))
                 # theta_u = torch.zeros_like(u_max)
                 if flag_move_b:
                     # omega_u = torch.zeros_like(U)
                     theta_u = torch.zeros_like(u_max)
                 else:
+                    # theta_u = torch.zeros_like(u_max)
                     theta_u = -omega_u * (U_I_3 * u_min) / n
 
                 bound_i_3 = Bounds(bound.args, bound.p, bound.eps,

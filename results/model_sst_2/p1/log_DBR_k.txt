@@ -1,0 +1,78 @@
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 1.04813 
+Position 2: everything 1.00000 
+Position 3: works 0.99375 
+Position 4: , 0.98000 
+Position 5: but 0.98250 
+Position 6: the 0.97500 
+Position 7: average 0.98563 
+Position 8: is 0.97375 
+Position 9: higher 0.98125 
+Position 10: than 0.97125 
+Time elapsed 36.97669196128845 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 2.45875 
+Position 2: me 2.49625 
+Position 3: , 2.47000 
+Position 4: this 2.48500 
+Position 5: opera 2.52625 
+Position 6: is 2.50250 
+Position 7: n 2.53375 
+Position 8: ' 2.49875 
+Position 9: t 2.52875 
+Position 10: a 2.47875 
+Time elapsed 40.758453130722046 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+Position 1: almost 1.10500 
+Position 2: everything 1.10438 
+Position 3: else 1.13563 
+Position 4: is 1.10563 
+Position 5: wan 1.12812 
+Position 6: . 1.10500 
+Time elapsed 22.61553382873535 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 2.35875 
+Position 2: , 2.26250 
+Position 3: it 2.28875 
+Position 4: ' 2.29750 
+Position 5: s 2.26875 
+Position 6: not 2.35500 
+Position 7: nearly 2.31250 
+Position 8: as 2.29625 
+Position 9: good 2.24750 
+Position 10: as 2.30125 
+Time elapsed 40.81088829040527 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 0.96250 
+Position 2: , 0.95938 
+Position 3: mesmerizing 0.98375 
+Position 4: and 0.95063 
+Position 7: hard 0.93625 
+Position 8: to 0.94375 
+Position 9: forget 0.95438 
+Position 10: . 0.94125 
+Time elapsed 31.846738815307617 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 3.30250 
+Position 2: watched 3.29750 
+Position 3: the 3.31500 
+Position 6: insanity 3.36750 
+Position 7: of 3.33750 

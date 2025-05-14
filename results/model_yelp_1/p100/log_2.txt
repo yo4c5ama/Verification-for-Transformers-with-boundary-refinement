@@ -1,0 +1,1460 @@
+Sample 0 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1 7: do . 0.03684 
+Position 1 4: do here 0.03170 
+Position 3 4: eat here 0.02693 
+Position 2 4: not here 0.01602 
+Position 2 3: not eat 0.01549 
+Position 5 6: . terrible 0.01720 
+Position 4 5: here . 0.03352 
+Position 4 7: here . 0.03381 
+Position 2 5: not . 0.01673 
+Position 2 7: not . 0.01677 
+Time elapsed 39.43999695777893 
+Sample 1 
+tokens: [CLS] great anniversary dinner . just ##if ##ia ##bly recommended by our friends . lovely and decadent . we loved it [SEP] 
+length: 22 
+label: 1 
+Position 13 17: . . 0.04543 
+Position 3 4: dinner . 0.02793 
+Position 1 17: great . 0.01914 
+Position 13 19: . loved 0.02551 
+Position 4 16: . decadent 0.02336 
+Position 13 20: . it 0.04020 
+Position 12 14: friends lovely 0.02244 
+Position 10 19: by loved 0.02389 
+Time elapsed 76.50398349761963 
+Sample 2 
+tokens: [CLS] diner food done at a typical diner level . [SEP] 
+length: 11 
+label: 0 
+Position 2 4: food at 0.01043 
+Position 1 5: diner a 0.00886 
+Position 2 5: food a 0.01166 
+Position 1 8: diner level 0.00679 
+Position 2 7: food diner 0.00916 
+Position 6 7: typical diner 0.00853 
+Position 2 6: food typical 0.00860 
+Position 5 6: a typical 0.01047 
+Position 7 8: diner level 0.00809 
+Position 1 4: diner at 0.00824 
+Time elapsed 44.83333659172058 
+Sample 3 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 7 10: tea valley 0.01573 
+Position 5 6: best boba 0.01213 
+Position 5 11: best . 0.01454 
+Position 9 11: the . 0.02857 
+Position 3 7: serves tea 0.01415 
+Position 4 10: the valley 0.01756 
+Position 2 10: place valley 0.01938 
+Position 10 11: valley . 0.01794 
+Position 5 8: best in 0.01506 
+Position 1 6: this boba 0.01688 
+Time elapsed 49.19246244430542 
+Sample 4 
+tokens: [CLS] best torta i ' ve ever had . [SEP] 
+length: 10 
+label: 1 
+Position 5 6: ve ever 0.02109 
+Position 3 7: i had 0.02596 
+Position 7 8: had . 0.03182 
+Position 2 6: torta ever 0.01594 
+Position 3 6: i ever 0.02289 
+Position 1 8: best . 0.01536 
+Position 5 8: ve . 0.02365 
+Position 1 3: best i 0.01437 
+Position 4 8: ' . 0.02715 
+Position 2 4: torta ' 0.01578 
+Time elapsed 38.888710737228394 
+Sample 5 
+tokens: [CLS] good food and good service . indoor was a bit dark [SEP] 
+length: 13 
+label: 1 
+Position 1 8: good was 0.01209 
+Position 1 3: good and 0.01240 
+Position 2 7: food indoor 0.01313 
+Position 7 10: indoor bit 0.01177 
+Position 4 10: good bit 0.01114 
+Position 1 6: good . 0.01276 
+Position 2 9: food a 0.01792 
+Position 1 10: good bit 0.00984 
+Position 3 10: and bit 0.01442 
+Position 4 6: good . 0.01526 
+Time elapsed 50.05070638656616 
+Sample 6 
+tokens: [CLS] service is slow , food is one star , place looks like a dump , please ##ee ##e buy some new chairs on the patio [SEP] 
+length: 27 
+label: 0 
+Position 5 19: food buy 0.02617 
+Position 6 13: is a 0.03051 
+Position 6 25: is patio 0.02701 
+Position 15 22: , chairs 0.02816 
+Position 9 10: , place 0.03566 
+Position 19 22: buy chairs 0.02676 
+Position 5 23: food on 0.03115 
+Position 1 2: service is 0.02232 
+Time elapsed 89.17200040817261 
+Sample 7 
+tokens: [CLS] great food , good atmosphere . [SEP] 
+length: 8 
+label: 1 
+Position 1 5: great atmosphere 0.00955 
+Position 4 6: good . 0.01515 
+Position 3 4: , good 0.01334 
+Position 2 3: food , 0.01479 
+Position 2 5: food atmosphere 0.01302 
+Position 3 6: , . 0.02016 
+Position 4 5: good atmosphere 0.01195 
+Position 2 6: food . 0.01739 
+Position 1 6: great . 0.01170 
+Position 5 6: atmosphere . 0.01664 
+Time elapsed 33.109986305236816 
+Sample 8 
+tokens: [CLS] love this suns ##hin ##y spot ! the omelette & coffee were perfect . [SEP] 
+length: 16 
+label: 1 
+Position 10 11: & coffee 0.03301 
+Position 9 11: omelette coffee 0.02959 
+Position 12 13: were perfect 0.02096 
+Position 9 14: omelette . 0.03191 
+Position 7 9: ! omelette 0.02805 
+Time elapsed 30.577858686447144 
+Sample 9 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 7 10: tea valley 0.01573 
+Position 5 6: best boba 0.01213 
+Position 5 11: best . 0.01454 
+Position 9 11: the . 0.02857 
+Position 3 7: serves tea 0.01415 
+Position 4 10: the valley 0.01756 
+Position 2 10: place valley 0.01938 
+Position 10 11: valley . 0.01794 
+Position 5 8: best in 0.01506 
+Position 1 6: this boba 0.01688 
+Time elapsed 48.02980947494507 
+Sample 10 
+tokens: [CLS] i was hoping for a good mexican meal but instead went to los ol ##ivo ##s ! the ambience was ok ; the food bad . [SEP] 
+length: 28 
+label: 0 
+Position 10 13: instead los 0.02104 
+Position 9 10: but instead 0.01607 
+Position 3 18: hoping the 0.01453 
+Position 4 7: for mexican 0.03504 
+Position 8 13: meal los 0.02385 
+Position 5 6: a good 0.01982 
+Position 12 17: to ! 0.02949 
+Position 2 4: was for 0.02771 
+Position 10 22: instead ; 0.02162 
+Time elapsed 109.94490313529968 
+Sample 11 
+tokens: [CLS] this place has the best lunch food in town . definitely worth a visit , and very affordable . [SEP] 
+length: 21 
+label: 1 
+Position 12 16: worth and 0.03047 
+Position 4 17: the very 0.03432 
+Position 12 15: worth , 0.02689 
+Position 10 12: . worth 0.03057 
+Position 7 19: food . 0.03035 
+Position 10 19: . . 0.04187 
+Position 1 2: this place 0.03906 
+Position 3 10: has . 0.02764 
+Position 2 12: place worth 0.03369 
+Position 5 11: best definitely 0.01838 
+Time elapsed 87.28230285644531 
+Sample 12 
+tokens: [CLS] not worth it . . . [SEP] 
+length: 8 
+label: 0 
+Position 1 4: not . 0.00986 
+Position 1 2: not worth 0.00701 
+Position 3 6: it . 0.01963 
+Position 2 6: worth . 0.01149 
+Position 2 3: worth it 0.01057 
+Position 2 5: worth . 0.01142 
+Position 5 6: . . 0.02439 
+Position 3 4: it . 0.01914 
+Position 3 5: it . 0.01935 
+Position 2 4: worth . 0.01136 
+Time elapsed 33.50991225242615 
+Sample 13 
+tokens: [CLS] fantastic sushi and great service and convenient location ! great parking too always busy but always a seat [SEP] 
+length: 20 
+label: 1 
+Position 1 7: fantastic convenient 0.01694 
+Position 12 17: too a 0.04199 
+Position 5 15: service but 0.02395 
+Position 12 18: too seat 0.03912 
+Position 5 18: service seat 0.04152 
+Position 2 16: sushi always 0.03055 
+Position 2 3: sushi and 0.03766 
+Position 9 10: ! great 0.02887 
+Position 1 11: fantastic parking 0.01630 
+Position 2 15: sushi but 0.02342 
+Time elapsed 83.93915104866028 
+Sample 14 
+tokens: [CLS] there is nothing like a walk in massage . . . a relaxing surprise . i love it that i did n ' t need an appointment . [SEP] 
+length: 30 
+label: 1 
+Position 16 24: i t 0.00974 
+Position 4 25: like need 0.00828 
+Position 1 2: there is 0.00707 
+Position 11 21: . did 0.01215 
+Position 10 25: . need 0.01019 
+Position 15 28: . . 0.01536 
+Position 3 13: nothing relaxing 0.00295 
+Position 12 27: a appointment 0.01089 
+Position 3 12: nothing a 0.00390 
+Position 8 11: massage . 0.01076 
+Time elapsed 135.15399718284607 
+Sample 15 
+tokens: [CLS] easy to navigate . plenty of food options . careful about the distance between terminals though . . [SEP] 
+length: 20 
+label: 1 
+Position 5 10: plenty careful 0.01305 
+Position 5 12: plenty the 0.01496 
+Position 9 11: . about 0.01829 
+Position 5 11: plenty about 0.01243 
+Position 5 17: plenty . 0.01483 
+Position 2 11: to about 0.01423 
+Position 6 14: of between 0.01818 
+Position 7 17: food . 0.02002 
+Position 5 13: plenty distance 0.01132 
+Position 1 12: easy the 0.00972 
+Time elapsed 83.65492939949036 
+Sample 16 
+tokens: [CLS] drove by today and noticed that it ' s a grind has been replaced with dunkin donuts : ) ( sigh ) [SEP] 
+length: 24 
+label: 0 
+Position 2 18: by : 0.01095 
+Position 7 8: it ' 0.01791 
+Position 12 17: has donuts 0.01724 
+Position 2 21: by sigh 0.01036 
+Position 7 21: it sigh 0.01215 
+Position 3 17: today donuts 0.01673 
+Position 4 18: and : 0.01290 
+Position 9 16: s dunkin 0.01094 
+Position 10 11: a grind 0.01885 
+Position 3 8: today ' 0.01693 
+Time elapsed 102.54665946960449 
+Sample 17 
+tokens: [CLS] awful food with very slow service . [SEP] 
+length: 9 
+label: 0 
+Position 1 6: awful service 0.01518 
+Position 3 4: with very 0.03295 
+Position 1 7: awful . 0.01536 
+Position 3 6: with service 0.03988 
+Position 5 7: slow . 0.02508 
+Position 3 7: with . 0.04277 
+Position 5 6: slow service 0.02447 
+Position 1 4: awful very 0.01444 
+Position 2 4: food very 0.02838 
+Position 1 2: awful food 0.01428 
+Time elapsed 35.058852434158325 
+Sample 18 
+tokens: [CLS] one of the best ha ##bach ##i and sushi restaurant in vegas ! ! excellent food and great customer service . [SEP] 
+length: 23 
+label: 1 
+Position 15 19: excellent customer 0.01881 
+Position 2 14: of ! 0.03002 
+Position 2 11: of in 0.03611 
+Position 8 11: and in 0.04281 
+Position 10 12: restaurant vegas 0.02121 
+Position 13 21: ! . 0.03598 
+Position 17 18: and great 0.02570 
+Time elapsed 64.9662537574768 
+Sample 19 
+tokens: [CLS] horrible service . did not help whatsoever in setting up my new phone . all they were interested in was selling cases and accessories . [SEP] 
+length: 27 
+label: 0 
+Position 15 20: all was 0.05328 
+Position 14 24: . accessories 0.03875 
+Position 8 12: in new 0.04137 
+Position 6 7: help whatsoever 0.02361 
+Position 7 8: whatsoever in 0.02580 
+Position 4 24: did accessories 0.03158 
+Position 11 14: my . 0.06125 
+Position 19 22: in cases 0.03727 
+Position 9 13: setting phone 0.03639 
+Position 21 25: selling . 0.03660 
+Time elapsed 117.67393922805786 
+Sample 20 
+tokens: [CLS] great quality food reasonable prices . low ambience waiters dress very casual ? ? ? very crowded around lunch and dinner it is a def ##inate must [SEP] 
+length: 29 
+label: 1 
+Position 20 23: and is 0.03596 
+Position 1 14: great ? 0.01476 
+Position 1 19: great lunch 0.01688 
+Position 9 15: waiters ? 0.01923 
+Position 10 11: dress very 0.02684 
+Position 11 15: very ? 0.02258 
+Position 17 21: crowded dinner 0.02512 
+Position 5 20: prices and 0.03721 
+Position 3 12: food casual 0.02357 
+Position 7 9: low waiters 0.01891 
+Time elapsed 129.32309222221375 
+Sample 21 
+tokens: [CLS] the view was great . not a huge selection on menu . food was just okay , nothing to rave about . [SEP] 
+length: 24 
+label: 0 
+Position 2 22: view . 0.01512 
+Position 11 20: menu rave 0.01727 
+Position 6 20: not rave 0.01391 
+Position 11 22: menu . 0.02660 
+Position 13 14: food was 0.02596 
+Position 3 18: was nothing 0.01747 
+Position 2 7: view a 0.01502 
+Position 10 14: on was 0.02912 
+Position 1 4: the great 0.01679 
+Position 10 16: on okay 0.01634 
+Time elapsed 101.29074478149414 
+Sample 22 
+tokens: [CLS] we were in the area and managed to get a table as a walk - in . glad we did , it was a wonderful meal with excellent service . [SEP] 
+length: 32 
+label: 1 
+Position 1 15: we - 0.03020 
+Position 1 14: we walk 0.03426 
+Position 5 28: area excellent 0.01747 
+Position 9 26: get meal 0.03941 
+Position 8 27: to with 0.03445 
+Position 16 27: in with 0.04719 
+Position 5 18: area glad 0.01756 
+Position 8 9: to get 0.03645 
+Position 15 23: - was 0.03027 
+Position 8 16: to in 0.03748 
+Time elapsed 150.46729588508606 
+Sample 23 
+tokens: [CLS] nu ##mmy . love 5 guys . best burgers . fries are pretty good . [SEP] 
+length: 17 
+label: 1 
+Position 4 8: love best 0.01691 
+Position 5 9: 5 burgers 0.01845 
+Position 7 9: . burgers 0.02658 
+Position 5 14: 5 good 0.01750 
+Position 5 12: 5 are 0.02039 
+Position 6 7: guys . 0.02758 
+Position 8 11: best fries 0.02070 
+Position 4 7: love . 0.02184 
+Position 3 10: . . 0.03707 
+Time elapsed 63.89439392089844 
+Sample 24 
+tokens: [CLS] stopped by after being persuaded by a promoter on the street . did n ' t stay for long . older crowd . sausage - fest . [SEP] 
+length: 29 
+label: 0 
+Position 10 27: the . 0.03691 
+Position 7 19: a long 0.02410 
+Position 4 18: being for 0.01814 
+Position 14 25: n - 0.02236 
+Position 6 11: by street 0.02133 
+Position 7 9: a on 0.02879 
+Position 11 13: street did 0.02168 
+Position 8 16: promoter t 0.01913 
+Position 1 2: stopped by 0.01788 
+Position 11 21: street older 0.01805 
+Time elapsed 129.26280546188354 
+Sample 25 
+tokens: [CLS] food is average . the nile and middle eastern cafe are much better . [SEP] 
+length: 16 
+label: 0 
+Position 10 13: cafe better 0.01980 
+Position 12 13: much better 0.01834 
+Position 1 8: food middle 0.01633 
+Position 4 9: . eastern 0.02318 
+Position 2 10: is cafe 0.01974 
+Position 4 11: . are 0.02916 
+Position 1 7: food and 0.02098 
+Position 5 11: the are 0.03062 
+Position 6 8: nile middle 0.01510 
+Position 3 10: average cafe 0.01387 
+Time elapsed 63.57625961303711 
+Sample 26 
+tokens: [CLS] one of the best sm ##ook ##ed meet sandwiches i have ever had . i would like to request to have it opened in toronto one day . [SEP] 
+length: 30 
+label: 1 
+Position 9 20: sandwiches to 0.01902 
+Position 10 22: i it 0.02301 
+Position 9 17: sandwiches like 0.01858 
+Position 19 27: request day 0.01704 
+Position 1 17: one like 0.02232 
+Position 13 24: had in 0.03076 
+Position 26 27: one day 0.01997 
+Position 14 25: . toronto 0.02043 
+Position 11 26: have one 0.02521 
+Position 2 23: of opened 0.01607 
+Time elapsed 133.49235463142395 
+Sample 27 
+tokens: [CLS] maybe an off day , but the cooks need to learn how to cook . french fries are stale , burger undercooked . [SEP] 
+length: 25 
+label: 0 
+Position 1 13: maybe to 0.02102 
+Position 7 13: the to 0.04332 
+Position 2 4: an day 0.02406 
+Position 4 7: day the 0.02654 
+Position 9 12: need how 0.03018 
+Position 2 15: an . 0.03848 
+Position 14 15: cook . 0.03314 
+Position 5 20: , , 0.03129 
+Position 1 3: maybe off 0.01952 
+Position 8 20: cooks , 0.02824 
+Time elapsed 111.30881190299988 
+Sample 28 
+tokens: [CLS] i change mind , this place is the bomb bay ! the steak special is cheap and delicious ! [SEP] 
+length: 21 
+label: 1 
+Position 7 16: is cheap 0.02695 
+Position 7 10: is bay 0.02312 
+Position 14 17: special and 0.03494 
+Position 9 19: bomb ! 0.01914 
+Position 2 11: change ! 0.02232 
+Position 5 19: this ! 0.03350 
+Position 12 18: the delicious 0.02164 
+Position 3 12: mind the 0.01940 
+Position 3 8: mind the 0.01919 
+Position 5 6: this place 0.04590 
+Time elapsed 88.56301712989807 
+Sample 29 
+tokens: [CLS] service sucks ! waited 10 min just to order water . waiter was rude and rushed us . [SEP] 
+length: 20 
+label: 0 
+Position 5 17: 10 us 0.04211 
+Position 1 14: service rude 0.02541 
+Position 2 4: sucks waited 0.01643 
+Position 7 14: just rude 0.02572 
+Position 10 12: water waiter 0.03090 
+Position 3 17: ! us 0.03824 
+Position 3 9: ! order 0.03594 
+Position 4 10: waited water 0.02701 
+Position 6 12: min waiter 0.02840 
+Position 3 5: ! 10 0.03666 
+Time elapsed 83.86841988563538 
+Sample 30 
+tokens: [CLS] not even going to write anything . . . . . . . . . miserable [SEP] 
+length: 18 
+label: 0 
+Position 5 6: write anything 0.02176 
+Position 4 15: to . 0.03541 
+Position 2 6: even anything 0.02830 
+Position 2 14: even . 0.03330 
+Position 13 15: . . 0.04594 
+Position 1 16: not miserable 0.01387 
+Position 3 6: going anything 0.02648 
+Position 12 16: . miserable 0.02189 
+Position 4 11: to . 0.03512 
+Position 2 7: even . 0.03266 
+Time elapsed 75.80507373809814 
+Sample 31 
+tokens: [CLS] food was delicious , restaurant was dirty ca n ' t imagine what the kitchen looks like . if they clean up their act i ' ll be back . [SEP] 
+length: 32 
+label: 0 
+Position 8 19: ca if 0.01294 
+Position 7 20: dirty they 0.00927 
+Position 24 29: act back 0.01802 
+Position 20 30: they . 0.03369 
+Position 20 29: they back 0.03752 
+Position 13 20: what they 0.02619 
+Position 2 14: was the 0.01958 
+Position 18 24: . act 0.01753 
+Position 12 14: imagine the 0.01619 
+Position 7 19: dirty if 0.00793 
+Time elapsed 151.70646333694458 
+Sample 32 
+tokens: [CLS] food is average . the nile and middle eastern cafe are much better . [SEP] 
+length: 16 
+label: 0 
+Position 10 13: cafe better 0.01980 
+Position 12 13: much better 0.01834 
+Position 1 8: food middle 0.01633 
+Position 4 9: . eastern 0.02318 
+Position 2 10: is cafe 0.01974 
+Position 4 11: . are 0.02916 
+Position 1 7: food and 0.02098 
+Position 5 11: the are 0.03062 
+Position 6 8: nile middle 0.01510 
+Position 3 10: average cafe 0.01387 
+Time elapsed 64.87226414680481 
+Sample 33 
+tokens: [CLS] slow service , not always the most pleasant staff but my drink has never been messed up . [SEP] 
+length: 20 
+label: 0 
+Position 5 6: always the 0.01805 
+Position 7 13: most has 0.01896 
+Position 1 14: slow never 0.01198 
+Position 9 11: staff my 0.02916 
+Position 10 15: but been 0.01646 
+Position 7 14: most never 0.01856 
+Position 2 13: service has 0.02275 
+Position 5 10: always but 0.01273 
+Position 11 15: my been 0.03197 
+Position 6 11: the my 0.03822 
+Time elapsed 85.3729841709137 
+Sample 34 
+tokens: [CLS] everything here was good . the burgers and shakes were great . [SEP] 
+length: 14 
+label: 1 
+Position 3 12: was . 0.02451 
+Position 2 11: here great 0.01750 
+Position 2 9: here shakes 0.02332 
+Position 1 10: everything were 0.01568 
+Position 9 12: shakes . 0.02861 
+Position 5 11: . great 0.01885 
+Position 11 12: great . 0.01952 
+Position 3 10: was were 0.02131 
+Position 7 8: burgers and 0.02098 
+Position 6 12: the . 0.03406 
+Time elapsed 52.712207078933716 
+Sample 35 
+tokens: [CLS] i use to find good stuff here now and again , but now this place seriously sucks . prices are way to high , and the place is small . [SEP] 
+length: 32 
+label: 0 
+Position 3 30: to . 0.02775 
+Position 5 13: good now 0.01446 
+Position 24 25: , and 0.02697 
+Position 16 20: seriously are 0.02617 
+Position 1 20: i are 0.02172 
+Position 7 9: here and 0.02760 
+Position 8 23: now high 0.01735 
+Position 15 22: place to 0.03680 
+Position 13 20: now are 0.02178 
+Position 7 28: here is 0.02520 
+Time elapsed 131.2145299911499 
+Sample 36 
+tokens: [CLS] love this place ! italian is the best i have ever had . [SEP] 
+length: 15 
+label: 1 
+Position 1 12: love had 0.01750 
+Position 6 12: is had 0.02881 
+Position 1 2: love this 0.01659 
+Position 2 6: this is 0.02586 
+Position 6 7: is the 0.02906 
+Position 2 13: this . 0.03189 
+Position 7 13: the . 0.03854 
+Position 8 11: best ever 0.02014 
+Position 3 5: place italian 0.02590 
+Position 6 8: is best 0.01953 
+Time elapsed 55.17839813232422 
+Sample 37 
+tokens: [CLS] love this place for pizza ! usually come for lunch since they have great lunch specials . the slices are a decent size and tastes delicious ! [SEP] 
+length: 29 
+label: 1 
+Position 8 21: come a 0.04086 
+Position 11 20: since are 0.02926 
+Position 8 10: come lunch 0.03232 
+Position 11 27: since ! 0.02908 
+Position 6 19: ! slices 0.03420 
+Position 16 25: specials tastes 0.02670 
+Position 7 10: usually lunch 0.02645 
+Position 8 18: come the 0.04184 
+Position 4 25: for tastes 0.03043 
+Position 3 13: place have 0.04586 
+Time elapsed 118.23651695251465 
+Sample 38 
+tokens: [CLS] best . coffee . ever . love the people , love the art on the walls , love that it ' s organic . [SEP] 
+length: 26 
+label: 1 
+Position 22 23: s organic 0.02445 
+Position 3 5: coffee ever 0.02924 
+Position 4 7: . love 0.02643 
+Position 11 21: love ' 0.02783 
+Position 5 7: ever love 0.02432 
+Position 3 10: coffee , 0.03041 
+Position 1 4: best . 0.01976 
+Position 1 3: best coffee 0.01888 
+Position 9 21: people ' 0.02957 
+Position 3 6: coffee . 0.03463 
+Time elapsed 108.81786370277405 
+Sample 39 
+tokens: [CLS] this place has the best lunch food in town . definitely worth a visit , and very affordable . [SEP] 
+length: 21 
+label: 1 
+Position 12 16: worth and 0.03047 
+Position 4 17: the very 0.03432 
+Position 12 15: worth , 0.02689 
+Position 10 12: . worth 0.03057 
+Position 7 19: food . 0.03035 
+Position 10 19: . . 0.04187 
+Position 1 2: this place 0.03906 
+Position 3 10: has . 0.02764 
+Position 2 12: place worth 0.03369 
+Position 5 11: best definitely 0.01838 
+Time elapsed 84.1971743106842 
+Sample 40 
+tokens: [CLS] this place was shit . dry meatloaf and glue for gravy and a side of plastic mash . veggies were bland and the whole dish was a complete mess . [SEP] 
+length: 32 
+label: 0 
+Position 19 24: veggies whole 0.03709 
+Position 19 29: veggies mess 0.02617 
+Position 7 26: meatloaf was 0.02752 
+Position 6 13: dry a 0.02590 
+Position 6 17: dry mash 0.02439 
+Position 3 12: was and 0.04125 
+Position 1 3: this was 0.03904 
+Position 26 29: was mess 0.02865 
+Position 17 29: mash mess 0.02730 
+Position 1 20: this were 0.04160 
+Time elapsed 134.87542271614075 
+Sample 41 
+tokens: [CLS] lost our stuff in the bag check . they are inc ##omp ##eta ##nt [SEP] 
+length: 16 
+label: 0 
+Position 1 9: lost they 0.01211 
+Position 2 10: our are 0.02371 
+Position 4 5: in the 0.02895 
+Position 2 7: our check 0.02004 
+Position 4 7: in check 0.02057 
+Position 6 10: bag are 0.01644 
+Position 2 9: our they 0.03283 
+Position 2 4: our in 0.02842 
+Time elapsed 47.52287745475769 
+Sample 42 
+tokens: [CLS] we had a great experience , food was really tasty different than pei wei . i will be back to try other things of the menu [SEP] 
+length: 28 
+label: 1 
+Position 10 20: tasty to 0.01914 
+Position 11 21: different try 0.02158 
+Position 2 11: had different 0.02285 
+Position 10 18: tasty be 0.01779 
+Position 2 9: had really 0.02375 
+Position 16 19: i back 0.03414 
+Position 4 9: great really 0.01601 
+Position 2 20: had to 0.02508 
+Position 6 19: , back 0.02723 
+Position 6 18: , be 0.02119 
+Time elapsed 117.19520664215088 
+Sample 43 
+tokens: [CLS] the drive through guy in the morning is so rude ! ! [SEP] 
+length: 14 
+label: 0 
+Position 4 8: guy is 0.01416 
+Position 1 12: the ! 0.01895 
+Position 5 6: in the 0.02844 
+Position 5 12: in ! 0.02121 
+Position 4 10: guy rude 0.00906 
+Position 2 5: drive in 0.02230 
+Position 3 7: through morning 0.01367 
+Position 1 9: the so 0.01915 
+Position 2 12: drive ! 0.01798 
+Position 6 7: the morning 0.01909 
+Time elapsed 52.114216566085815 
+Sample 44 
+tokens: [CLS] love quick ##trip to start off with but the staff here at this location are great and really seem to like being at work [SEP] 
+length: 26 
+label: 1 
+Position 7 18: with really 0.02422 
+Position 16 24: great work 0.01760 
+Position 15 20: are to 0.02439 
+Position 5 6: start off 0.01184 
+Position 1 4: love to 0.01249 
+Position 1 5: love start 0.00925 
+Position 7 10: with staff 0.02289 
+Position 6 8: off but 0.01208 
+Position 19 23: seem at 0.01890 
+Time elapsed 99.70656728744507 
+Sample 45 
+tokens: [CLS] all i have to say is chicken super nachos and steak and egg breakfast burrito ! ! ! ! ! ! pap ##ow ! ! ! [SEP] 
+length: 28 
+label: 1 
+Position 1 19: all ! 0.02660 
+Position 12 21: and ! 0.02850 
+Position 2 9: i nachos 0.01952 
+Position 2 3: i have 0.01924 
+Position 5 26: say ! 0.02160 
+Position 7 21: chicken ! 0.02764 
+Position 8 16: super ! 0.01977 
+Position 4 16: to ! 0.02221 
+Position 10 20: and ! 0.02803 
+Time elapsed 103.38210988044739 
+Sample 46 
+tokens: [CLS] this place was shit . dry meatloaf and glue for gravy and a side of plastic mash . veggies were bland and the whole dish was a complete mess . [SEP] 
+length: 32 
+label: 0 
+Position 19 24: veggies whole 0.03709 
+Position 19 29: veggies mess 0.02617 
+Position 7 26: meatloaf was 0.02752 
+Position 6 13: dry a 0.02590 
+Position 6 17: dry mash 0.02439 
+Position 3 12: was and 0.04125 
+Position 1 3: this was 0.03904 
+Position 26 29: was mess 0.02865 
+Position 17 29: mash mess 0.02730 
+Position 1 20: this were 0.04160 
+Time elapsed 136.28794193267822 
+Sample 47 
+tokens: [CLS] i change mind , this place is the bomb bay ! the steak special is cheap and delicious ! [SEP] 
+length: 21 
+label: 1 
+Position 7 16: is cheap 0.02695 
+Position 7 10: is bay 0.02312 
+Position 14 17: special and 0.03494 
+Position 9 19: bomb ! 0.01914 
+Position 2 11: change ! 0.02232 
+Position 5 19: this ! 0.03350 
+Position 12 18: the delicious 0.02164 
+Position 3 12: mind the 0.01940 
+Position 3 8: mind the 0.01919 
+Position 5 6: this place 0.04590 
+Time elapsed 87.327565908432 
+Sample 48 
+tokens: [CLS] best torta i ' ve ever had . [SEP] 
+length: 10 
+label: 1 
+Position 5 6: ve ever 0.02109 
+Position 3 7: i had 0.02596 
+Position 7 8: had . 0.03182 
+Position 2 6: torta ever 0.01594 
+Position 3 6: i ever 0.02289 
+Position 1 8: best . 0.01536 
+Position 5 8: ve . 0.02365 
+Position 1 3: best i 0.01437 
+Position 4 8: ' . 0.02715 
+Position 2 4: torta ' 0.01578 
+Time elapsed 37.93266272544861 
+Sample 49 
+tokens: [CLS] this location has closed - see their new raul & theresa ' s on lit ##chfield road , just north of i - 10 [SEP] 
+length: 26 
+label: 0 
+Position 2 8: location new 0.01264 
+Position 12 19: ' just 0.02404 
+Position 4 21: closed of 0.01071 
+Position 1 7: this their 0.02633 
+Position 17 23: road - 0.01938 
+Position 19 22: just i 0.02311 
+Position 5 8: - new 0.01525 
+Position 2 9: location raul 0.01312 
+Position 9 22: raul i 0.01843 
+Time elapsed 92.04515600204468 
+Sample 50 
+tokens: [CLS] outstanding food quality and customer service by the waiter . [SEP] 
+length: 12 
+label: 1 
+Position 4 10: and . 0.02449 
+Position 5 6: customer service 0.01531 
+Position 3 4: quality and 0.01796 
+Position 4 9: and waiter 0.01446 
+Position 4 6: and service 0.02180 
+Position 1 10: outstanding . 0.00797 
+Position 1 6: outstanding service 0.00770 
+Position 9 10: waiter . 0.01498 
+Position 1 8: outstanding the 0.00799 
+Position 3 9: quality waiter 0.01269 
+Time elapsed 46.25617742538452 
+Sample 51 
+tokens: [CLS] not even going to write anything . . . . . . . . . miserable [SEP] 
+length: 18 
+label: 0 
+Position 5 6: write anything 0.02176 
+Position 4 15: to . 0.03541 
+Position 2 6: even anything 0.02830 
+Position 2 14: even . 0.03330 
+Position 13 15: . . 0.04594 
+Position 1 16: not miserable 0.01387 
+Position 3 6: going anything 0.02648 
+Position 12 16: . miserable 0.02189 
+Position 4 11: to . 0.03512 
+Position 2 7: even . 0.03266 
+Time elapsed 66.7050929069519 
+Sample 52 
+tokens: [CLS] there is nothing like a walk in massage . . . a relaxing surprise . i love it that i did n ' t need an appointment . [SEP] 
+length: 30 
+label: 1 
+Position 16 24: i t 0.00974 
+Position 4 25: like need 0.00828 
+Position 1 2: there is 0.00707 
+Position 11 21: . did 0.01215 
+Position 10 25: . need 0.01019 
+Position 15 28: . . 0.01536 
+Position 3 13: nothing relaxing 0.00295 
+Position 12 27: a appointment 0.01089 
+Position 3 12: nothing a 0.00390 
+Position 8 11: massage . 0.01076 
+Time elapsed 124.78672742843628 
+Sample 53 
+tokens: [CLS] great quality . . . . the best all you can eat sushi place i ' ve ever been to : ) [SEP] 
+length: 24 
+label: 1 
+Position 9 12: all eat 0.03502 
+Position 11 20: can to 0.02770 
+Position 15 21: i : 0.02250 
+Position 4 7: . the 0.03686 
+Position 5 6: . . 0.03590 
+Position 2 10: quality you 0.02102 
+Position 14 20: place to 0.04066 
+Position 3 21: . : 0.02254 
+Position 1 12: great eat 0.01624 
+Position 6 17: . ve 0.03012 
+Time elapsed 93.69435501098633 
+Sample 54 
+tokens: [CLS] aj ##o als on 16th street es no bueno , my girlfriend and her brother got food poisoning from here yesterday ! that ' s just gross ! [SEP] 
+length: 30 
+label: 0 
+Position 17 21: food yesterday 0.04234 
+Position 3 22: als ! 0.03117 
+Position 14 25: her s 0.03479 
+Position 15 20: brother here 0.03955 
+Position 6 12: street girlfriend 0.03609 
+Position 19 28: from ! 0.04516 
+Position 12 25: girlfriend s 0.03156 
+Position 21 27: yesterday gross 0.03021 
+Time elapsed 96.98552083969116 
+Sample 55 
+tokens: [CLS] love the lunch buffets . the goat biryani is very good . would definitely recommend this to a friend ! [SEP] 
+length: 22 
+label: 1 
+Position 4 8: buffets biryani 0.01819 
+Position 9 20: is ! 0.02979 
+Position 2 17: the to 0.03205 
+Position 9 17: is to 0.02982 
+Position 8 20: biryani ! 0.02719 
+Position 3 20: lunch ! 0.02500 
+Position 14 15: definitely recommend 0.02260 
+Position 1 9: love is 0.01796 
+Position 8 19: biryani friend 0.02467 
+Position 9 13: is would 0.02420 
+Time elapsed 85.35197758674622 
+Sample 56 
+tokens: [CLS] good late night japanese food . fair prices and nice decor . will definitely come back because it ' s better than most of the other japanese restaurants out there [SEP] 
+length: 32 
+label: 1 
+Position 13 26: will other 0.02506 
+Position 21 24: better of 0.02070 
+Position 14 19: definitely ' 0.02029 
+Position 10 14: nice definitely 0.01608 
+Position 9 22: and than 0.02203 
+Position 6 30: . there 0.02861 
+Position 2 15: late come 0.01599 
+Position 6 22: . than 0.02236 
+Position 16 19: back ' 0.03463 
+Position 18 23: it most 0.02371 
+Time elapsed 128.9049220085144 
+Sample 57 
+tokens: [CLS] horrible service . drinks were made incorrectly and the food was n ' t that good . walk across the street and go to hi fi or whiskey row [SEP] 
+length: 31 
+label: 0 
+Position 3 12: . n 0.04258 
+Position 4 22: drinks and 0.03484 
+Position 20 29: the row 0.03410 
+Position 23 29: go row 0.03170 
+Position 20 25: the hi 0.04098 
+Position 14 17: t . 0.04211 
+Position 11 22: was and 0.04398 
+Position 13 20: ' the 0.04938 
+Position 2 25: service hi 0.03391 
+Position 1 5: horrible were 0.01626 
+Time elapsed 126.33002948760986 
+Sample 58 
+tokens: [CLS] great food ! great service ! [SEP] 
+length: 8 
+label: 1 
+Position 1 6: great ! 0.01402 
+Position 3 6: ! ! 0.02268 
+Position 1 5: great service 0.01416 
+Position 3 4: ! great 0.01611 
+Position 4 5: great service 0.01678 
+Position 1 4: great great 0.01130 
+Position 2 6: food ! 0.01907 
+Position 5 6: service ! 0.02475 
+Position 2 4: food great 0.01415 
+Position 2 5: food service 0.01970 
+Time elapsed 33.0318169593811 
+Sample 59 
+tokens: [CLS] i recently had them assigned to my house by my home warranty . they are a customer oriented business that is interested in your satisfaction . [SEP] 
+length: 28 
+label: 1 
+Position 16 26: a . 0.01971 
+Position 8 10: house my 0.01152 
+Position 15 17: are customer 0.01006 
+Position 10 14: my they 0.02684 
+Position 14 18: they oriented 0.01230 
+Position 9 25: by satisfaction 0.00793 
+Position 24 25: your satisfaction 0.00821 
+Position 13 25: . satisfaction 0.00868 
+Position 5 18: assigned oriented 0.00650 
+Position 13 15: . are 0.01622 
+Time elapsed 114.3862533569336 
+Sample 60 
+tokens: [CLS] service crew is very slow . [SEP] 
+length: 8 
+label: 0 
+Position 1 4: service very 0.01128 
+Position 4 5: very slow 0.00679 
+Position 3 6: is . 0.01422 
+Position 1 3: service is 0.01181 
+Position 2 6: crew . 0.00822 
+Position 2 3: crew is 0.00702 
+Position 1 6: service . 0.01504 
+Position 5 6: slow . 0.00763 
+Position 2 4: crew very 0.00679 
+Position 1 5: service slow 0.00697 
+Time elapsed 35.86218070983887 
+Sample 61 
+tokens: [CLS] alway a very good lunch . . . make sure to try the chicken lemon rice soup that is complimentary with every meal ! op ##a ! [SEP] 
+length: 29 
+label: 1 
+Position 22 23: every meal 0.02693 
+Position 1 7: alway . 0.01983 
+Position 13 14: the chicken 0.03574 
+Position 12 24: try ! 0.02354 
+Position 1 19: alway is 0.01897 
+Position 8 18: . that 0.02260 
+Position 15 17: lemon soup 0.02600 
+Position 7 11: . to 0.02814 
+Position 13 20: the complimentary 0.02178 
+Position 4 24: good ! 0.01722 
+Time elapsed 114.19110989570618 
+Sample 62 
+tokens: [CLS] good company . fair prices and quality work . enough said ! [SEP] 
+length: 14 
+label: 1 
+Position 6 7: and quality 0.01617 
+Position 5 9: prices . 0.02059 
+Position 4 5: fair prices 0.01236 
+Position 9 11: . said 0.01299 
+Position 1 7: good quality 0.00855 
+Position 9 12: . ! 0.01946 
+Position 2 11: company said 0.01084 
+Position 4 9: fair . 0.01287 
+Position 5 11: prices said 0.01242 
+Position 4 11: fair said 0.00953 
+Time elapsed 52.36721730232239 
+Sample 63 
+tokens: [CLS] yawn . enough said . [SEP] 
+length: 7 
+label: 0 
+Position 2 4: . said 0.02682 
+Position 3 5: enough . 0.03061 
+Position 4 5: said . 0.02781 
+Position 2 5: . . 0.04211 
+Position 1 3: yawn enough 0.01161 
+Position 2 3: . enough 0.02922 
+Position 3 4: enough said 0.02281 
+Position 1 5: yawn . 0.01247 
+Position 1 4: yawn said 0.01129 
+Position 1 2: yawn . 0.01232 
+Time elapsed 29.663620710372925 
+Sample 64 
+tokens: [CLS] nice selection of books and an awsome local history section . helpful staff know their way around the stacks . [SEP] 
+length: 22 
+label: 1 
+Position 17 20: around . 0.03451 
+Position 2 10: selection section 0.02342 
+Position 4 14: books know 0.02201 
+Position 9 13: history staff 0.02273 
+Position 5 7: and awsome 0.01909 
+Position 3 18: of the 0.03979 
+Position 1 13: nice staff 0.01828 
+Position 6 10: an section 0.02750 
+Position 7 15: awsome their 0.01977 
+Position 14 16: know way 0.02635 
+Time elapsed 83.13955664634705 
+Sample 65 
+tokens: [CLS] great service and clean establishment ! [SEP] 
+length: 8 
+label: 1 
+Position 4 6: clean ! 0.01532 
+Position 1 5: great establishment 0.01073 
+Position 3 4: and clean 0.01588 
+Position 2 5: service establishment 0.01616 
+Position 1 4: great clean 0.01021 
+Position 1 3: great and 0.01277 
+Position 4 5: clean establishment 0.01317 
+Position 2 6: service ! 0.02051 
+Position 2 4: service clean 0.01488 
+Position 1 6: great ! 0.01242 
+Time elapsed 32.90633845329285 
+Sample 66 
+tokens: [CLS] a great place in the m resort to grab a quick bite for breakfast or lunch ask for a comp cause its always better when its free ! [SEP] 
+length: 30 
+label: 1 
+Position 6 25: m when 0.02219 
+Position 12 16: bite lunch 0.02412 
+Position 8 19: to a 0.02900 
+Position 16 24: lunch better 0.01854 
+Position 10 17: a ask 0.03656 
+Position 14 28: breakfast ! 0.02695 
+Position 16 25: lunch when 0.02361 
+Position 15 26: or its 0.02312 
+Position 3 9: place grab 0.02928 
+Position 12 27: bite free 0.02088 
+Time elapsed 117.65971660614014 
+Sample 67 
+tokens: [CLS] tastiest food poisoning ever [SEP] 
+length: 6 
+label: 0 
+Position 1 2: tastiest food 0.00748 
+Position 2 4: food ever 0.01502 
+Position 3 4: poisoning ever 0.00545 
+Position 2 3: food poisoning 0.00548 
+Position 1 3: tastiest poisoning 0.00356 
+Position 1 4: tastiest ever 0.00735 
+Time elapsed 17.92412781715393 
+Sample 68 
+tokens: [CLS] this west location is now closed . owner would like to reopen in the future . [SEP] 
+length: 18 
+label: 0 
+Position 1 3: this location 0.01446 
+Position 11 16: to . 0.02355 
+Position 4 7: is . 0.01832 
+Position 5 6: now closed 0.00840 
+Position 2 7: west . 0.01285 
+Position 7 15: . future 0.01360 
+Position 6 14: closed the 0.00996 
+Position 3 6: location closed 0.00818 
+Position 7 16: . . 0.02697 
+Position 2 8: west owner 0.01237 
+Time elapsed 67.7210853099823 
+Sample 69 
+tokens: [CLS] people who work there are full of attitude . food is tasteless ice tea has no flavor no point to the place [SEP] 
+length: 24 
+label: 0 
+Position 8 22: attitude place 0.02541 
+Position 12 21: tasteless the 0.02123 
+Position 12 22: tasteless place 0.02172 
+Position 19 22: point place 0.04426 
+Position 4 18: there no 0.02867 
+Position 10 19: food point 0.03434 
+Position 3 19: work point 0.03336 
+Position 2 5: who are 0.02557 
+Position 6 16: full no 0.02350 
+Position 8 11: attitude is 0.02254 
+Time elapsed 92.52244520187378 
+Sample 70 
+tokens: [CLS] i do n ' t think this place even deserved a single star , lousy service and disrespectful ! ! [SEP] 
+length: 22 
+label: 0 
+Position 18 20: disrespectful ! 0.01759 
+Position 13 15: star lousy 0.01972 
+Position 7 16: this service 0.05250 
+Position 2 3: do n 0.04090 
+Position 12 14: single , 0.03684 
+Position 7 8: this place 0.06590 
+Position 13 17: star and 0.03217 
+Position 11 18: a disrespectful 0.01813 
+Position 4 8: ' place 0.05199 
+Position 5 12: t single 0.03506 
+Time elapsed 86.35243725776672 
+Sample 71 
+tokens: [CLS] thicker / richer curry than other places around town . a great place to swing by in the cold of winter . [SEP] 
+length: 24 
+label: 1 
+Position 1 14: thicker to 0.01628 
+Position 6 20: other of 0.02238 
+Position 6 7: other places 0.01813 
+Position 16 18: by the 0.02934 
+Position 10 12: . great 0.01988 
+Position 1 4: thicker curry 0.01383 
+Position 10 17: . in 0.03807 
+Position 1 10: thicker . 0.01722 
+Position 16 20: by of 0.02811 
+Position 3 16: richer by 0.01583 
+Time elapsed 91.7830445766449 
+Sample 72 
+tokens: [CLS] nothing great about the food . too oily . decor is nice though . [SEP] 
+length: 16 
+label: 0 
+Position 6 7: . too 0.02209 
+Position 13 14: though . 0.01271 
+Position 6 14: . . 0.03014 
+Position 2 9: great . 0.01031 
+Position 5 9: food . 0.02191 
+Position 5 12: food nice 0.01444 
+Position 3 9: about . 0.01901 
+Position 5 10: food decor 0.01564 
+Position 1 13: nothing though 0.00831 
+Position 5 14: food . 0.02205 
+Time elapsed 60.44920325279236 
+Sample 73 
+tokens: [CLS] sure nice staff ! coffee was great and the breakfasts we ordered where very , very good . they were super nice to our canine friends , too ! [SEP] 
+length: 31 
+label: 1 
+Position 18 26: . friends 0.02883 
+Position 3 9: staff the 0.02809 
+Position 14 18: very . 0.03357 
+Position 20 22: were nice 0.02357 
+Position 14 27: very , 0.02900 
+Position 13 21: where super 0.02182 
+Position 5 17: coffee good 0.02330 
+Position 3 24: staff our 0.02932 
+Position 7 11: great we 0.02213 
+Position 8 15: and , 0.03078 
+Time elapsed 122.08877897262573 
+Sample 74 
+tokens: [CLS] my shower surround is gorgeous ! ! ! [SEP] 
+length: 10 
+label: 1 
+Position 7 8: ! ! 0.01828 
+Position 3 7: surround ! 0.01364 
+Position 1 5: my gorgeous 0.01168 
+Position 4 8: is ! 0.01668 
+Position 1 3: my surround 0.01505 
+Position 4 6: is ! 0.01647 
+Position 5 7: gorgeous ! 0.01098 
+Position 6 7: ! ! 0.01793 
+Position 2 5: shower gorgeous 0.00909 
+Position 4 7: is ! 0.01658 
+Time elapsed 37.88943362236023 
+Sample 75 
+tokens: [CLS] love everything about baby stacks , they are awesome ! ! ! great service & food ! must visit anytime in vegas ! ! ! [SEP] 
+length: 27 
+label: 1 
+Position 7 20: they anytime 0.03352 
+Position 3 15: about & 0.02844 
+Position 4 19: baby visit 0.02600 
+Position 12 21: ! in 0.04711 
+Position 20 23: anytime ! 0.02990 
+Position 5 18: stacks must 0.02641 
+Position 10 21: ! in 0.04559 
+Position 20 21: anytime in 0.03295 
+Position 23 25: ! ! 0.04070 
+Position 20 24: anytime ! 0.02975 
+Time elapsed 106.23685503005981 
+Sample 76 
+tokens: [CLS] the shrimp and grits were great . . . great atmosphere [SEP] 
+length: 13 
+label: 1 
+Position 5 10: were great 0.01580 
+Position 1 4: the grits 0.01517 
+Position 2 5: shrimp were 0.01875 
+Position 1 9: the . 0.02764 
+Position 8 11: . atmosphere 0.01954 
+Position 1 8: the . 0.02734 
+Position 6 7: great . 0.01656 
+Position 5 8: were . 0.02299 
+Position 10 11: great atmosphere 0.01437 
+Position 7 10: . great 0.01795 
+Time elapsed 47.66360306739807 
+Sample 77 
+tokens: [CLS] very good food , fair prices and portions . will definitely be back . on the down side , they never provide enough rice on to - go orders . [SEP] 
+length: 32 
+label: 1 
+Position 10 17: will down 0.01849 
+Position 23 26: enough to 0.02027 
+Position 8 25: portions on 0.02197 
+Position 5 16: fair the 0.01692 
+Position 4 6: , prices 0.01912 
+Position 3 25: food on 0.01906 
+Position 1 4: very , 0.01525 
+Position 21 22: never provide 0.01756 
+Position 8 17: portions down 0.01675 
+Position 12 29: be orders 0.01628 
+Time elapsed 129.63616704940796 
+Sample 78 
+tokens: [CLS] good food , very reasonably priced , great service ! and they have prosecco for a great early dinner drink . [SEP] 
+length: 23 
+label: 1 
+Position 4 8: very great 0.02189 
+Position 11 19: and dinner 0.03344 
+Position 1 8: good great 0.01616 
+Position 5 13: reasonably have 0.02092 
+Position 1 18: good early 0.01778 
+Position 19 20: dinner drink 0.02930 
+Position 4 11: very and 0.03160 
+Position 14 17: prosecco great 0.02107 
+Position 16 19: a dinner 0.03441 
+Position 4 6: very priced 0.02049 
+Time elapsed 86.17533683776855 
+Sample 79 
+tokens: [CLS] very friendly bunch . great service ! [SEP] 
+length: 9 
+label: 1 
+Position 1 3: very bunch 0.01831 
+Position 2 6: friendly service 0.01418 
+Position 3 5: bunch great 0.01548 
+Position 6 7: service ! 0.02479 
+Position 5 6: great service 0.01725 
+Position 1 6: very service 0.02111 
+Position 4 7: . ! 0.02586 
+Position 3 7: bunch ! 0.02074 
+Position 3 6: bunch service 0.02137 
+Position 3 4: bunch . 0.02236 
+Time elapsed 35.36586833000183 
+Sample 80 
+tokens: [CLS] they treat people very bad . this is everything i hate about a night club ? you have to work very hard to do this bad . [SEP] 
+length: 29 
+label: 0 
+Position 24 25: do this 0.03402 
+Position 13 18: a have 0.02369 
+Position 1 25: they this 0.03480 
+Position 10 25: i this 0.02572 
+Position 12 15: about club 0.01641 
+Position 14 27: night . 0.02352 
+Position 7 14: this night 0.02273 
+Position 14 17: night you 0.01754 
+Position 16 19: ? to 0.01738 
+Position 13 17: a you 0.02016 
+Time elapsed 113.84302186965942 
+Sample 81 
+tokens: [CLS] love this place ! italian is the best i have ever had . [SEP] 
+length: 15 
+label: 1 
+Position 1 12: love had 0.01750 
+Position 6 12: is had 0.02881 
+Position 1 2: love this 0.01659 
+Position 2 6: this is 0.02586 
+Position 6 7: is the 0.02906 
+Position 2 13: this . 0.03189 
+Position 7 13: the . 0.03854 
+Position 8 11: best ever 0.02014 
+Position 3 5: place italian 0.02590 
+Position 6 8: is best 0.01953 
+Time elapsed 55.253336668014526 
+Sample 82 
+tokens: [CLS] awesome church full of the spirit of god ! [SEP] 
+length: 11 
+label: 1 
+Position 3 8: full god 0.01697 
+Position 4 7: of of 0.03008 
+Position 6 8: spirit god 0.01502 
+Position 1 7: awesome of 0.01321 
+Position 3 4: full of 0.01989 
+Position 1 2: awesome church 0.00972 
+Position 3 6: full spirit 0.01426 
+Position 4 9: of ! 0.02705 
+Position 2 6: church spirit 0.01190 
+Position 1 8: awesome god 0.01168 
+Time elapsed 42.67239236831665 
+Sample 83 
+tokens: [CLS] there is nothing like a walk in massage . . . a relaxing surprise . i love it that i did n ' t need an appointment . [SEP] 
+length: 30 
+label: 1 
+Position 16 24: i t 0.00974 
+Position 4 25: like need 0.00828 
+Position 1 2: there is 0.00707 
+Position 11 21: . did 0.01215 
+Position 10 25: . need 0.01019 
+Position 15 28: . . 0.01536 
+Position 3 13: nothing relaxing 0.00295 
+Position 12 27: a appointment 0.01089 
+Position 3 12: nothing a 0.00390 
+Position 8 11: massage . 0.01076 
+Time elapsed 124.1317367553711 
+Sample 84 
+tokens: [CLS] would give zero stars if i could . place does not give two craps about the customer . go somewhere else and be treated with respect . [SEP] 
+length: 29 
+label: 0 
+Position 17 21: customer else 0.03510 
+Position 12 16: give the 0.03863 
+Position 3 14: zero craps 0.02113 
+Position 1 27: would . 0.03000 
+Position 3 5: zero if 0.02127 
+Position 7 21: could else 0.03523 
+Position 15 27: about . 0.03906 
+Position 11 27: not . 0.03197 
+Position 14 22: craps and 0.03596 
+Position 9 27: place . 0.06965 
+Time elapsed 113.688143491745 
+Sample 85 
+tokens: [CLS] friendly staff , but the slowest pharmacy i have ever experienced . [SEP] 
+length: 14 
+label: 0 
+Position 1 6: friendly slowest 0.00638 
+Position 7 10: pharmacy ever 0.02137 
+Position 3 8: , i 0.02223 
+Position 2 3: staff , 0.01905 
+Position 5 12: the . 0.03578 
+Position 4 11: but experienced 0.01189 
+Position 6 10: slowest ever 0.00867 
+Position 10 12: ever . 0.02559 
+Position 1 12: friendly . 0.01372 
+Position 3 4: , but 0.01320 
+Time elapsed 52.496500730514526 
+Sample 86 
+tokens: [CLS] we were in the area and managed to get a table as a walk - in . glad we did , it was a wonderful meal with excellent service . [SEP] 
+length: 32 
+label: 1 
+Position 1 15: we - 0.03020 
+Position 1 14: we walk 0.03426 
+Position 5 28: area excellent 0.01747 
+Position 9 26: get meal 0.03941 
+Position 8 27: to with 0.03445 
+Position 16 27: in with 0.04719 
+Position 5 18: area glad 0.01756 
+Position 8 9: to get 0.03645 
+Position 15 23: - was 0.03027 
+Position 8 16: to in 0.03748 
+Time elapsed 130.23677563667297 
+Sample 87 
+tokens: [CLS] food was great ! mahi mahi is great and wife loves spicy prawn basil . [SEP] 
+length: 17 
+label: 1 
+Position 9 12: and spicy 0.02574 
+Position 9 15: and . 0.03742 
+Position 10 12: wife spicy 0.02496 
+Position 6 9: mahi and 0.02363 
+Position 3 13: great prawn 0.01625 
+Position 4 14: ! basil 0.02311 
+Position 3 5: great mahi 0.01623 
+Position 2 7: was is 0.02242 
+Position 3 14: great basil 0.01735 
+Position 9 14: and basil 0.02635 
+Time elapsed 66.03418898582458 
+Sample 88 
+tokens: [CLS] premium price for a standard sandwich . would have been an enjoyable visit had the deli guy been at least welcoming . [SEP] 
+length: 24 
+label: 0 
+Position 6 16: sandwich deli 0.01251 
+Position 9 20: have least 0.00951 
+Position 10 16: been deli 0.01387 
+Position 13 20: visit least 0.00818 
+Position 4 19: a at 0.01579 
+Position 6 14: sandwich had 0.01380 
+Position 3 7: for . 0.01998 
+Position 4 22: a . 0.01858 
+Position 3 12: for enjoyable 0.01044 
+Position 2 21: price welcoming 0.00955 
+Time elapsed 95.99548840522766 
+Sample 89 
+tokens: [CLS] always worth the drive [SEP] 
+length: 6 
+label: 1 
+Position 1 3: always the 0.01171 
+Position 1 2: always worth 0.00899 
+Position 2 4: worth drive 0.01363 
+Position 1 4: always drive 0.01157 
+Position 2 3: worth the 0.01398 
+Position 3 4: the drive 0.02309 
+Time elapsed 16.921663761138916 
+Sample 90 
+tokens: [CLS] the worse bun bo hue . com bo luc lac not good , rice is dried , tasteless . not recommended . [SEP] 
+length: 24 
+label: 0 
+Position 12 18: good tasteless 0.02117 
+Position 15 16: is dried 0.02941 
+Position 2 4: worse bo 0.01621 
+Position 14 20: rice not 0.03289 
+Position 12 20: good not 0.02586 
+Position 14 16: rice dried 0.03031 
+Position 8 9: bo luc 0.03354 
+Position 8 14: bo rice 0.03699 
+Position 4 5: bo hue 0.02143 
+Position 11 14: not rice 0.03158 
+Time elapsed 94.22481060028076 
+Sample 91 
+tokens: [CLS] super greasy . sadly i prefer dominoes . over priced in my opinion as well . [SEP] 
+length: 18 
+label: 0 
+Position 1 4: super sadly 0.00895 
+Position 3 9: . over 0.02633 
+Position 1 5: super i 0.01461 
+Position 3 16: . . 0.03799 
+Position 2 12: greasy my 0.01611 
+Position 1 9: super over 0.01385 
+Position 6 13: prefer opinion 0.01759 
+Position 9 15: over well 0.02328 
+Position 12 15: my well 0.03129 
+Position 5 16: i . 0.03074 
+Time elapsed 72.2581639289856 
+Sample 92 
+tokens: [CLS] nothing great about the food . too oily . decor is nice though . [SEP] 
+length: 16 
+label: 0 
+Position 6 7: . too 0.02209 
+Position 13 14: though . 0.01271 
+Position 6 14: . . 0.03014 
+Position 2 9: great . 0.01031 
+Position 5 9: food . 0.02191 
+Position 5 12: food nice 0.01444 
+Position 3 9: about . 0.01901 
+Position 5 10: food decor 0.01564 
+Position 1 13: nothing though 0.00831 
+Position 5 14: food . 0.02205 
+Time elapsed 60.41992425918579 
+Sample 93 
+tokens: [CLS] really nice outdoor patio . sunday drink special on whiskey was really good . very reasonable price for uptown . nice variations on irish cuisine . worth checking out ! [SEP] 
+length: 32 
+label: 1 
+Position 20 25: . cuisine 0.02920 
+Position 17 29: price out 0.03252 
+Position 20 22: . variations 0.02969 
+Position 22 24: variations irish 0.02738 
+Position 23 26: on . 0.03869 
+Position 25 28: cuisine checking 0.02406 
+Position 1 25: really cuisine 0.02148 
+Position 1 15: really very 0.02318 
+Position 15 17: very price 0.02984 
+Position 9 16: on reasonable 0.02086 
+Time elapsed 135.82191920280457 
+Sample 94 
+tokens: [CLS] love this suns ##hin ##y spot ! the omelette & coffee were perfect . [SEP] 
+length: 16 
+label: 1 
+Position 10 11: & coffee 0.03301 
+Position 9 11: omelette coffee 0.02959 
+Position 12 13: were perfect 0.02096 
+Position 9 14: omelette . 0.03191 
+Position 7 9: ! omelette 0.02805 
+Time elapsed 29.876335382461548 
+Sample 95 
+tokens: [CLS] the food is good , but the service is n ' t . weekend mornings are a nightmare here , also they frequently run out of things . [SEP] 
+length: 30 
+label: 0 
+Position 9 26: is of 0.02109 
+Position 6 27: but things 0.00968 
+Position 7 8: the service 0.02520 
+Position 5 10: , n 0.01730 
+Position 8 28: service . 0.02537 
+Position 13 18: . nightmare 0.01162 
+Position 5 15: , mornings 0.01186 
+Position 8 23: service frequently 0.02123 
+Position 14 20: weekend , 0.01315 
+Position 20 24: , run 0.01762 
+Time elapsed 124.65849494934082 
+Sample 96 
+tokens: [CLS] i just called these guys talk about customer service , they were excellent [SEP] 
+length: 15 
+label: 1 
+Position 1 5: i guys 0.01399 
+Position 10 12: , were 0.01767 
+Position 3 11: called they 0.01618 
+Position 4 11: these they 0.01873 
+Position 2 9: just service 0.01472 
+Position 11 13: they excellent 0.01155 
+Position 2 10: just , 0.01365 
+Position 3 10: called , 0.01335 
+Position 1 7: i about 0.01337 
+Position 1 2: i just 0.01279 
+Time elapsed 55.16694617271423 
+Sample 97 
+tokens: [CLS] jeff is amazing with a very reasonable price . if you need a locksmith i gu ##rant ##ee you jeff wont let you down ! ! ! excellent service . [SEP] 
+length: 32 
+label: 1 
+Position 3 28: amazing excellent 0.01880 
+Position 15 28: i excellent 0.02596 
+Position 20 26: jeff ! 0.03328 
+Position 1 21: jeff wont 0.01872 
+Position 19 27: you ! 0.03568 
+Position 12 27: need ! 0.03262 
+Position 14 29: locksmith service 0.02781 
+Position 15 25: i ! 0.04090 
+Time elapsed 109.96532464027405 
+Sample 98 
+tokens: [CLS] overpriced hawaiian food [SEP] 
+length: 5 
+label: 0 
+Position 1 3: overpriced food 0.01054 
+Position 2 3: hawaiian food 0.01188 
+Position 1 2: overpriced hawaiian 0.00764 
+Time elapsed 7.19574236869812 
+Sample 99 
+tokens: [CLS] slow food delivery . . . would have eaten somewhere else . [SEP] 
+length: 14 
+label: 0 
+Position 4 7: . would 0.02535 
+Position 7 12: would . 0.02629 
+Position 1 5: slow . 0.01469 
+Position 3 6: delivery . 0.03334 
+Position 1 9: slow eaten 0.01280 
+Position 1 2: slow food 0.01325 
+Position 3 8: delivery have 0.02744 
+Position 4 12: . . 0.03775 
+Position 4 11: . else 0.02660 
+Position 2 3: food delivery 0.02400 
+Time elapsed 52.47550940513611 
+100 valid examples 
+Minimum: 0.01441 
+Average: 0.02260 

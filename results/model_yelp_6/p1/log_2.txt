@@ -1,0 +1,144 @@
+Sample 0 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1 7: do . 0.00007 
+Position 1 4: do here 0.00006 
+Position 3 4: eat here 0.00008 
+Position 2 4: not here 0.00006 
+Position 2 3: not eat 0.00007 
+Position 5 6: . terrible 0.00005 
+Position 4 5: here . 0.00010 
+Position 4 7: here . 0.00009 
+Position 2 5: not . 0.00008 
+Position 2 7: not . 0.00008 
+Time elapsed 510.1387062072754 
+Sample 1 
+tokens: [CLS] great anniversary dinner . just ##if ##ia ##bly recommended by our friends . lovely and decadent . we loved it [SEP] 
+length: 22 
+label: 1 
+Position 13 17: . . 0.00098 
+Position 3 4: dinner . 0.00068 
+Position 1 17: great . 0.00041 
+Position 13 19: . loved 0.00051 
+Position 4 16: . decadent 0.00050 
+Position 13 20: . it 0.00086 
+Position 12 14: friends lovely 0.00050 
+Position 10 19: by loved 0.00048 
+Time elapsed 1331.5626204013824 
+Sample 2 
+tokens: [CLS] diner food done at a typical diner level . [SEP] 
+length: 11 
+label: 0 
+Position 2 4: food at 0.00390 
+Position 1 5: diner a 0.00377 
+Position 2 5: food a 0.00436 
+Position 1 8: diner level 0.00312 
+Position 2 7: food diner 0.00375 
+Position 6 7: typical diner 0.00333 
+Position 2 6: food typical 0.00299 
+Position 5 6: a typical 0.00380 
+Position 7 8: diner level 0.00400 
+Position 1 4: diner at 0.00342 
+Time elapsed 926.6801035404205 
+Sample 3 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 7 10: tea valley 0.00185 
+Position 5 6: best boba 0.00107 
+Position 5 11: best . 0.00125 
+Position 9 11: the . 0.00290 
+Position 3 7: serves tea 0.00170 
+Position 4 10: the valley 0.00188 
+Position 2 10: place valley 0.00178 
+Position 10 11: valley . 0.00230 
+Position 5 8: best in 0.00121 
+Position 1 6: this boba 0.00181 
+Time elapsed 1027.4943504333496 
+Sample 4 
+tokens: [CLS] best torta i ' ve ever had . [SEP] 
+length: 10 
+label: 1 
+Position 5 6: ve ever 0.00042 
+Position 3 7: i had 0.00051 
+Position 7 8: had . 0.00062 
+Position 2 6: torta ever 0.00033 
+Position 3 6: i ever 0.00042 
+Position 1 8: best . 0.00033 
+Position 5 8: ve . 0.00055 
+Position 1 3: best i 0.00030 
+Position 4 8: ' . 0.00056 
+Position 2 4: torta ' 0.00036 
+Time elapsed 625.9165799617767 
+Sample 5 
+tokens: [CLS] good food and good service . indoor was a bit dark [SEP] 
+length: 13 
+label: 1 
+Position 1 8: good was 0.00235 
+Position 1 3: good and 0.00240 
+Position 2 7: food indoor 0.00242 
+Position 7 10: indoor bit 0.00267 
+Position 4 10: good bit 0.00248 
+Position 1 6: good . 0.00260 
+Position 2 9: food a 0.00313 
+Position 1 10: good bit 0.00207 
+Position 3 10: and bit 0.00313 
+Position 4 6: good . 0.00327 
+Time elapsed 1070.421987771988 
+Sample 6 
+tokens: [CLS] service is slow , food is one star , place looks like a dump , please ##ee ##e buy some new chairs on the patio [SEP] 
+length: 27 
+label: 0 
+Position 5 19: food buy 0.00361 
+Position 6 13: is a 0.00490 
+Position 6 25: is patio 0.00335 
+Position 15 22: , chairs 0.00400 
+Position 9 10: , place 0.00468 
+Position 19 22: buy chairs 0.00379 
+Position 5 23: food on 0.00389 
+Position 1 2: service is 0.00235 
+Time elapsed 1878.0884671211243 
+Sample 7 
+tokens: [CLS] great food , good atmosphere . [SEP] 
+length: 8 
+label: 1 
+Position 1 5: great atmosphere 0.00104 
+Position 4 6: good . 0.00186 
+Position 3 4: , good 0.00163 
+Position 2 3: food , 0.00150 
+Position 2 5: food atmosphere 0.00133 
+Position 3 6: , . 0.00213 
+Position 4 5: good atmosphere 0.00144 
+Position 2 6: food . 0.00169 
+Position 1 6: great . 0.00125 
+Position 5 6: atmosphere . 0.00181 
+Time elapsed 576.3227829933167 
+Sample 8 
+tokens: [CLS] love this suns ##hin ##y spot ! the omelette & coffee were perfect . [SEP] 
+length: 16 
+label: 1 
+Position 10 11: & coffee 0.00054 
+Position 9 11: omelette coffee 0.00049 
+Position 12 13: were perfect 0.00028 
+Position 9 14: omelette . 0.00058 
+Position 7 9: ! omelette 0.00051 
+Time elapsed 550.2066509723663 
+Sample 9 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 7 10: tea valley 0.00185 
+Position 5 6: best boba 0.00107 
+Position 5 11: best . 0.00125 
+Position 9 11: the . 0.00290 
+Position 3 7: serves tea 0.00170 
+Position 4 10: the valley 0.00188 
+Position 2 10: place valley 0.00178 
+Position 10 11: valley . 0.00230 
+Position 5 8: best in 0.00121 
+Position 1 6: this boba 0.00181 
+Time elapsed 1022.6339871883392 
+10 valid examples 
+Minimum: 0.00116 
+Average: 0.00168 

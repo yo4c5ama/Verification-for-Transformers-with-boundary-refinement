@@ -28,6 +28,7 @@ class Verifier:
         self.debug_pos = args.debug_pos
         self.perturbed_words = args.perturbed_words
         self.warmed = False
+        self.k = args.k
 
         self.embeddings = target.model.bert.embeddings
         self.encoding_layers = target.model.bert.encoder.layer
